@@ -17,6 +17,7 @@ soup = bs4.BeautifulSoup(sauce.text, 'html.parser')
 positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DST']
 #Player Format
 player = ['Name', 'Position', 'Team']
+database('Fantasy-Pros-Database')
 
 #Pulls Table Data
 for player in soup.find_all('td'):
