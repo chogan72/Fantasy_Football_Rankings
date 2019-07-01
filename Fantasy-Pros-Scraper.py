@@ -2,12 +2,18 @@ import bs4
 import requests
 import re
 import csv
+import os
+
+#Change Databse Directory
+dirpath = os.getcwd()
+dirpath = dirpath + '/Database/'
+os.chdir(dirpath)
 
 #Writes Players to CSV file
-def database(path):
-    with open(path + ".csv", 'a', newline='') as file:
+def database(path, item_list):
+    with open(path + '.csv', 'a', newline='') as file:
         wr = csv.writer(file, dialect='excel')
-        wr.writerow(player)
+        wr.writerow(item_list)
 
 #beautifulsoup4 link
 link = 'https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php'
@@ -17,7 +23,7 @@ soup = bs4.BeautifulSoup(sauce.text, 'html.parser')
 positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DST']
 #Player Format
 player = ['Name', 'Position', 'Team']
-database('Fantasy-Pros-Database')
+database('Fantasy-Pros-Database', player)
 
 #Pulls Table Data
 for player in soup.find_all('td'):
@@ -45,7 +51,7 @@ for player in soup.find_all('td'):
                         #Player Information
                         player = [current, position, last_line[item]]
                         print(player)
-                        database('Fantasy-Pros-Database')
+                        database('Fantasy-Pros-Database', player)
             
             #DST
             if position == 'DST':
@@ -61,7 +67,7 @@ for player in soup.find_all('td'):
                 else:
                     player[2] = player[2][4:]
                 print(player)
-                database('Fantasy-Pros-Database')
+                database('Fantasy-Pros-Database', player)
             
             #QB, RB, WR, TE
             elif position == 'QB' or position == 'RB' or position == 'WR' or position == 'TE':
@@ -77,7 +83,7 @@ for player in soup.find_all('td'):
                 #Confirms Player
                 if len(player[2]) <= 3 and '.' not in player[2]:
                     print(player)
-                    database('Fantasy-Pros-Database')
+                    database('Fantasy-Pros-Database', player)
             
     #Saves player info from last line
     last_line = gdata
