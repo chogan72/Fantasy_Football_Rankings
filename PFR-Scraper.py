@@ -6,7 +6,7 @@ import os
 
 #Change Databse Directory
 dirpath = os.getcwd()
-dirpath = dirpath + '/Database/'
+dirpath = dirpath + '/Database/Position/'
 os.chdir(dirpath)
 
 #Writes Players to CSV file

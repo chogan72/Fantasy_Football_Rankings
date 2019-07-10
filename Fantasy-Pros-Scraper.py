@@ -4,26 +4,33 @@ import re
 import csv
 import os
 
-#Change Databse Directory
-dirpath = os.getcwd()
-dirpath = dirpath + '/Database/'
-os.chdir(dirpath)
 
-#Writes Players to CSV file
+def change_directory(folder):
+    #Change Databse Directory
+    dirpath = os.getcwd()
+    dirpath = dirpath + folder
+    os.chdir(dirpath)
+
+
 def database(path, item_list):
+    #Writes Players to CSV file
     with open(path + '.csv', 'a', newline='') as file:
         wr = csv.writer(file, dialect='excel')
         wr.writerow(item_list)
 
-#beautifulsoup4 link
-link = 'https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php'
-sauce = requests.get(link)
-soup = bs4.BeautifulSoup(sauce.text, 'html.parser')
+
+change_directory('\\Database\\')
+
 #Fantasy Positions
 positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DST']
 #Player Format
 player = ['Name', 'Position', 'Team']
 database('Fantasy-Pros-Database', player)
+
+#beautifulsoup4 link
+BS_link = 'https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php'
+sauce = requests.get(BS_link)
+soup = bs4.BeautifulSoup(sauce.text, 'html.parser')
 
 #Pulls Table Data
 for player in soup.find_all('td'):
@@ -54,7 +61,7 @@ for player in soup.find_all('td'):
                         database('Fantasy-Pros-Database', player)
             
             #DST
-            if position == 'DST':
+            elif position == 'DST':
                 last_line = re.split(' ', last_line)
                 #Defense Information
                 if len(last_line) == 4:
@@ -84,6 +91,7 @@ for player in soup.find_all('td'):
                 if len(player[2]) <= 3 and '.' not in player[2]:
                     print(player)
                     database('Fantasy-Pros-Database', player)
+
             
     #Saves player info from last line
     last_line = gdata
