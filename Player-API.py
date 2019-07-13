@@ -56,8 +56,8 @@ first = '2016'
 last = '2018'
 
 #Players to Skip
-#Shaun Wilson, David Grinnage, David Williams, Keith Ford
-id_skip = ['00-0034621','00-0032634','00-0034427','00-0034509']
+#Shaun Wilson, David Grinnage, David Williams, Keith Ford, David Johnson(FB)
+id_skip = ['00-0034621','00-0032634','00-0034427','00-0034509','00-0026957']
            
 #Change directory to Players Database
 next_directory('/Database/Players/')
@@ -114,6 +114,5 @@ for year in range(int(first), int(last)+1):
                             #Writes Data
                             row = dict_list(statistics, 1)
                             database(new_file, row)
-                                
-                   
 
+                                
