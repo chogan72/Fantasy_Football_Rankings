@@ -64,7 +64,7 @@ next_directory('/Database/Players/')
 
 for year in range(int(first), int(last)+1):
     for week in range(1, 18):
-        games = nflgame.games(year=2018, week=week)
+        games = nflgame.games(year=year, week=week)
         players = nflgame.combine_game_stats(games)
         for player in players:
             statistics = {}
