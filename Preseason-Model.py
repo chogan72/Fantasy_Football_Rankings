@@ -37,6 +37,19 @@ def stat():
         index += 1
     return(mid/mid_len)
 
+#Creates Yearly Score
+def year_proj(year):
+    score = 0
+    high = item[year][3] * .3
+    mid = item[year][2] * .2
+    low = item[year][1] * .3
+    ceiling = (item[year][4] - item[year][1]) * .1
+    floor = (item[year][0] - item[year][1]) * .1
+    score = high + mid + low + ceiling + floor
+    for weight in games_weight:
+        if weight == item[year][5]:
+            return(score * games_weight[weight])
+
 
 
 #Fantasy Scorring Breakdown
@@ -67,18 +80,14 @@ next_directory('/Database/')
 fp_heading = ['Name', 'Position', 'Team']
 #Imports Fantasy Pros Database
 FPD = database_reader('Fantasy-Pros-Database.csv', fp_heading)
-FPD.append(['Test','Test','Test'])
 
 #Change to Player Directory
 next_directory('/Database/Players/')
 #List of all Players
 all_players = []
-#Player Info
-player_list = ['Name', '2016', '2017', '2018']
 
 #Players inside Fantasy Pros Database
 for player_name in FPD:
-    all_players.append(player_list)
     player_list = [player_name, [], [], []]
     for file_name in os.listdir():
         #Checks player names with file names
@@ -123,6 +132,7 @@ for player_name in FPD:
                 mid_len = (weeks_played-(top_len*2))
                 #Mid Stat
                 five_point[2] = stat()
+                
                 #Half Mid Length
                 mid_len = mid_len/2
                 if mid_len % 2 == 0:
@@ -140,7 +150,9 @@ for player_name in FPD:
                 low = min(points_list)
                 mid = sum(points_list)/len(points_list)
                 high = max(points_list)
-                five_point = [low,(mid/2)+(low/2)/len(points_list),mid,(high/2)+(low/2)/len(points_list),high]
+                five_point = [low,(mid/2)+(low/2),mid,(high/2)+(low/2),high]
+
+            five_point.append(weeks_played)
 
             #Write player data to player list
             if week[0] == '2016':
@@ -149,8 +161,61 @@ for player_name in FPD:
                 player_list[2] = five_point
             elif week[0] == '2018':
                 player_list[3] = five_point
-                
-#Testing All Players Database
+
+    #Add Players to List
+    all_players.append(player_list)
+
+
+#Creates Ranking Dictionary    
+rankings = {}
 for item in all_players:
-    print(item)
-            
+    finals = [0,0,0]
+
+    #Finds score for each year
+    #Weight for games played
+    games_weight = {int(16):float(1.1), int(15):float(1.08), int(14):float(1.06), int(13):float(1.04),
+                    int(12):float(1.02), int(11):float(1), int(10):float(.98), int(9):float(.96),
+                    int(8):float(.94), int(7):float(.92), int(6):float(.9), int(5):float(.88),
+                    int(4):float(.86), int(3):float(.84), int(2):float(.82), int(1):float(.8)}
+    #2018
+    if len(item[3]) >= 5:
+        finals[2] = year_proj(3)
+    #2017
+    if len(item[2]) >= 5:
+        finals[1] = year_proj(2)
+    #2016
+    if len(item[1]) >= 5:
+        finals[0] = year_proj(1)
+
+    #Didn't Play
+    if finals[0] == 0 and finals[1] == 0 and finals[2] == 0:
+        final = 0
+    #Played in 2016 only
+    elif finals[1] == 0 and finals[2] == 0:
+        final = (float(finals[0])*.7) + (float(finals[1])*.1) + (float(finals[2])*.2)
+    #Played in 2017 only
+    elif finals[0] == 0 and finals[2] == 0:
+        final = (float(finals[1])*.8) + (float(finals[2])*.2)
+    #Played in 2018 only
+    elif finals[0] == 0 and finals[1] == 0:
+        final = (float(finals[2]))
+    #Played in 2016, 2017 only
+    elif finals[2] == 0:
+        final = (float(finals[0])*.35) + (float(finals[1])*.45) + (float(finals[2])*.2)
+    #Played in 2016, 2018 only
+    elif finals[1] == 0:
+        final = (float(finals[0])*.25) + (float(finals[2])*.75)
+    #Played in 2017, 2018 only
+    elif finals[0] == 0:
+        final = (float(finals[1])*.3) + (float(finals[2])*.7)
+    #Played in 2016, 2017 and 2018
+    else:
+        final = (float(finals[0])*.15) + (float(finals[1])*.25) + (float(finals[2])*.6)
+
+    
+    #Adds Name and Score to Rankings Dictionary
+    rankings[item[0][0]] = final
+
+#Sorts Players in Order
+rankings_sorted = {key: value for key, value in sorted(rankings.items(), key=lambda x: x[1], reverse=True)}
+print(rankings_sorted)
