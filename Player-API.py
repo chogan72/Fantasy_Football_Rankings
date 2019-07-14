@@ -44,7 +44,7 @@ def dict_list(dic, position):
 first_directory = os.getcwd()
 next_directory('/Database/')
 #Sets Fantasy Pros Heading
-fp_heading = ['Name', 'Position', 'Team']
+fp_heading = ['Name', 'Position', 'Team', 'Bye']
 #Imports Fantasy Pros Database
 FPD = database_reader('Fantasy-Pros-Database.csv', fp_heading)
 #Returns to original directory
