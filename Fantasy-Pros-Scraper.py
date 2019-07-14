@@ -93,6 +93,9 @@ for player in soup.find_all('td'):
                     current = last_line[0] + ' ' + last_line[1] + ' ' + last_line[2][:-2]
                 #Player Information
                 players = [current, position, last_line[item]]
+                #Odell Beckham Jr. Fix
+                if players[0] == 'Odell Beckham Jr.':
+                    players[0] = 'Odell Beckham'
                 #Confirms Player
                 if len(players[2]) <= 3 and '.' not in players[2]:
                     bye_week = 1
