@@ -1,5 +1,6 @@
 import csv
 import os
+import re
 
 
 def next_directory(folder):
@@ -77,7 +78,7 @@ first_directory = os.getcwd()
 next_directory('/Database/')
 
 #Sets Fantasy Pros Heading
-fp_heading = ['Name', 'Position', 'Team']
+fp_heading = ['Name', 'Position', 'Team', 'Bye']
 #Imports Fantasy Pros Database
 FPD = database_reader('Fantasy-Pros-Database.csv', fp_heading)
 
@@ -169,6 +170,7 @@ for player_name in FPD:
 #Creates Ranking Dictionary    
 rankings = {}
 for item in all_players:
+    final_pass = 0
     finals = [0,0,0]
 
     #Finds score for each year
@@ -212,6 +214,25 @@ for item in all_players:
     else:
         final = (float(finals[0])*.15) + (float(finals[1])*.25) + (float(finals[2])*.6)
 
+    #Injury Report
+    next_directory('/Database/')
+    header = ['Player', 'Position', 'Updated', 'Injury', 'Status']
+    IR = database_reader('Injury-Report.csv', header)
+    #Scans people on Injury Report
+    for injury in IR:
+        if item[0][0] == injury[0] and injury[4] != 'Questionable for the start of training camp':
+            if 'IR.' in injury[4] or 'indefinitely' in injury[4]:
+                final = 0
+
+            elif any(char.isdigit() for char in injury[4]):
+                week = int(re.sub("[^0-9]", "", injury[4]))
+                if week > int(item[0][3]):
+                    week -= 1
+                    final = final * week
+                    final_pass = 1
+
+    if final_pass == 0:
+        final = final * 16
     
     #Adds Name and Score to Rankings Dictionary
     rankings[item[0][0]] = final
