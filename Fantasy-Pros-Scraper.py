@@ -24,13 +24,16 @@ change_directory('\\Database\\')
 #Fantasy Positions
 positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DST']
 #Player Format
-player = ['Name', 'Position', 'Team']
-database('Fantasy-Pros-Database', player)
+players = ['Name', 'Position', 'Team', 'Bye']
+database('Fantasy-Pros-Database', players)
 
 #beautifulsoup4 link
 BS_link = 'https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php'
 sauce = requests.get(BS_link)
 soup = bs4.BeautifulSoup(sauce.text, 'html.parser')
+
+#Bye week Variable
+bye_week = 0
 
 #Pulls Table Data
 for player in soup.find_all('td'):
@@ -38,8 +41,13 @@ for player in soup.find_all('td'):
     gdata = (player.text)
     gdata = re.split('>|<', gdata)
     gdata = gdata[0]
+    #Bye Week Check
+    if bye_week == 1:
+        players.append(gdata)
+        database('Fantasy-Pros-Database', players)
+        bye_week = 0
     #Pulls out player data
-    for position in positions:
+    for position in positions:            
         if str(gdata).startswith(position):
             
             #K
@@ -56,25 +64,23 @@ for player in soup.find_all('td'):
                         else:
                             current = last_line[0] + ' ' + last_line[1] + ' ' + last_line[2][:-2]
                         #Player Information
-                        player = [current, position, last_line[item]]
-                        print(player)
-                        database('Fantasy-Pros-Database', player)
+                        players = [current, position, last_line[item]]
+                        bye_week = 1
             
             #DST
             elif position == 'DST':
                 last_line = re.split(' ', last_line)
                 #Defense Information
                 if len(last_line) == 4:
-                    player = [last_line[0], position, last_line[1]]
+                    players = [last_line[0], position, last_line[1]]
                 else:
-                    player = [last_line[0] + ' ' + last_line[1], position, last_line[2]]
+                    players = [last_line[0] + ' ' + last_line[1], position, last_line[2]]
                 #Defense Team
-                if len(player[2]) > 7:
-                    player[2] = player[2][5:]
+                if len(players[2]) > 7:
+                    players[2] = players[2][5:]
                 else:
-                    player[2] = player[2][4:]
-                print(player)
-                database('Fantasy-Pros-Database', player)
+                    players[2] = players[2][4:]
+                bye_week = 1
             
             #QB, RB, WR, TE
             elif position == 'QB' or position == 'RB' or position == 'WR' or position == 'TE':
@@ -86,12 +92,10 @@ for player in soup.find_all('td'):
                 else:
                     current = last_line[0] + ' ' + last_line[1] + ' ' + last_line[2][:-2]
                 #Player Information
-                player = [current, position, last_line[item]]
+                players = [current, position, last_line[item]]
                 #Confirms Player
-                if len(player[2]) <= 3 and '.' not in player[2]:
-                    print(player)
-                    database('Fantasy-Pros-Database', player)
-
-            
+                if len(players[2]) <= 3 and '.' not in players[2]:
+                    bye_week = 1
+           
     #Saves player info from last line
     last_line = gdata
