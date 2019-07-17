@@ -3,16 +3,16 @@ import os
 import re
 
 
+#Change Databse Directory
 def next_directory(folder):
-    #Change Databse Directory
     os.chdir(first_directory)
     dirpath = os.getcwd()
     dirpath = dirpath + folder
     os.chdir(dirpath)
 
+#Read Database Files
 def database_reader(current_file, head_list):
     database_players = []
-    #Read Database Files
     with open(current_file) as csvfile:
         reader = csv.DictReader(csvfile)
         #Reads rows of CSV file
@@ -167,8 +167,14 @@ for player_name in FPD:
     all_players.append(player_list)
 
 
-#Creates Ranking Dictionary    
+#Creates Ranking Dictionary
 rankings = {}
+QB_rankings = {}
+RB_rankings = {}
+WR_rankings = {}
+TE_rankings = {}
+NO_QB_rankings = {}
+
 for item in all_players:
     final_pass = 0
     finals = [0,0,0]
@@ -194,25 +200,25 @@ for item in all_players:
         final = 0
     #Played in 2016 only
     elif finals[1] == 0 and finals[2] == 0:
-        final = (float(finals[0])*.7) + (float(finals[1])*.1) + (float(finals[2])*.2)
+        final = (float(finals[0])*.7)
     #Played in 2017 only
     elif finals[0] == 0 and finals[2] == 0:
-        final = (float(finals[1])*.8) + (float(finals[2])*.2)
+        final = (float(finals[1])*.8)
     #Played in 2018 only
     elif finals[0] == 0 and finals[1] == 0:
-        final = (float(finals[2]))
+        final = (float(finals[2])*1.1)
     #Played in 2016, 2017 only
     elif finals[2] == 0:
-        final = (float(finals[0])*.35) + (float(finals[1])*.45) + (float(finals[2])*.2)
+        final = (float(finals[0])*.3) + (float(finals[1])*.6)
     #Played in 2016, 2018 only
     elif finals[1] == 0:
         final = (float(finals[0])*.25) + (float(finals[2])*.75)
     #Played in 2017, 2018 only
     elif finals[0] == 0:
-        final = (float(finals[1])*.3) + (float(finals[2])*.7)
+        final = (float(finals[1])*.35) + (float(finals[2])*.75)
     #Played in 2016, 2017 and 2018
     else:
-        final = (float(finals[0])*.15) + (float(finals[1])*.25) + (float(finals[2])*.6)
+        final = (float(finals[0])*.15) + (float(finals[1])*.2) + (float(finals[2])*.75)
 
     #Injury Report
     next_directory('/Database/')
@@ -235,9 +241,29 @@ for item in all_players:
 
     if final_pass == 0:
         final = final * 16
-    
+
+    #Position Weight
+    if item[0][1] == 'QB':
+        final = final * .55
+    elif item[0][1] == 'RB':
+        final = final * 1.1
+    elif item[0][1] == 'WR':
+        final = final * 1.05
+    elif item[0][1] == 'TE':
+        final = final * 1.2
+
     #Adds Name and Score to Rankings Dictionary
     rankings[item[0][0]] = final
+    if item[0][1] == 'QB':
+        QB_rankings[item[0][0]] = final
+    else:
+        NO_QB_rankings[item[0][0]] = final
+        if item[0][1] == 'RB':
+            RB_rankings[item[0][0]] = final
+        elif item[0][1] == 'WR':
+            WR_rankings[item[0][0]] = final
+        elif item[0][1] == 'TE':
+            TE_rankings[item[0][0]] = final
 
 #Sorts Players in Order
 rankings_sorted = {key: value for key, value in sorted(rankings.items(), key=lambda x: x[1], reverse=True)}
