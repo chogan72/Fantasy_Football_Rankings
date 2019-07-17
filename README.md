@@ -5,7 +5,7 @@ This project pulls data from multiple sources and creates fantasy football ranki
 
 ## Current Status
 
-I have just recently finished collecting all the data I need for making my models. The next step is to finalize the preseason fantasy football model. I plan to keep this updated through out the season with mid-season rankings.
+I have just recently finished creating the preseson model. There are some slight tweeks that can still be made to improve accuracy. I plan to keep this updated through out the season with mid-season rankings.
 
 
 ## Database Files
