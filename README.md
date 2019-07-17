@@ -29,8 +29,12 @@ I have just recently finished collecting all the data I need for making my model
 
 ### Preseason Model
 
+#### Scoring
+
+* The first step to creating the model is determining players yearly fantasy points. This is done by using the player game logs to determine there scores.
+
 #### Five Point
-* The first step is creating the 5 point analisis. This includes the Ceiling, High, Mid, Low and Floor. Depending on how many games a player played in a given season will determine the weighting of these catagories. The below image illistrates how those averages are determined.
+* Next, the 5 point analysis is created. This includes the Ceiling, High, Mid, Low and Floor. Depending on how many games a player played in a given season will determine the weighting of these catagories. The below image illistrates how those averages are determined.
 
 <img align="center" src="https://raw.githubusercontent.com/chogan72/Fantasy_Football_Rankings/master/RM-Files/Five-Point.JPG"></img>
 
@@ -61,13 +65,13 @@ I have just recently finished collecting all the data I need for making my model
  </thead>
  <tbody>
   <tr align="center">
-   <td>2018</td><td>.6</td><td>.7</td><td>.75</td><td>.2</td><td>1</td><td>.2</td><td>.2</td>
+   <td>2018</td><td>.75</td><td>.75</td><td>.75</td><td>-</td><td>1.1</td><td>-</td><td>-</td>
   </tr>
   <tr align="center">
-   <td>2017</td><td>.25</td><td>.3</td><td>0</td><td>.45</td><td>0</td><td>.8</td><td>.1</td>
+   <td>2017</td><td>.2</td><td>.35</td><td>-</td><td>.6</td><td>-</td><td>.8</td><td>-</td>
   </tr>
   <tr align="center">
-   <td>2016</td><td>.15</td><td>0</td><td>.25</td><td>.35</td><td>0</td><td>0</td><td>.7</td>
+   <td>2016</td><td>.15</td><td>-</td><td>.25</td><td>.3</td><td>-</td><td>-</td><td>.7</td>
   </tr>
  </tbody></table>
  
@@ -78,13 +82,27 @@ I have just recently finished collecting all the data I need for making my model
   
 <h3 align="center"><b>This final number is the players total point projection for the year.</b></h3>
 
-#### Problems
-* This does not include Kickers or Defence
-* This does not include any Rookies
-* If players names are inconsistant between databases they are not ranked
-* While this does a good job at point prediction, this is not a great overall ranking of players. However, when the players are broken down by postions the ranking are pretty good
+* This number is then added to the Point-Prediction.csv file
+
+#### Rankings
+
+* Each position is weighted to get an accurate overall ranking.
+
+<table align="center"><thead>
+  <th>QB</th><th>RB</th><th>WR</th><th>TE</th>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td>
+  </tr>
+ </tbody></table>
+ 
+* This number is the used to create the ranking csv files.
 
 ## Issues
 
-* In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updateing the players file multiple times but the problem is still there. If anyone knows a fix for this please let me know.
-* I intially tried to use the SportsReference API (https://sportsreference.readthedocs.io/en/stable/) to pull data, but there were multiple issues pulling data.
+* Preseason Model
+  * This does not include Kickers or Defence
+  * This does not include any Rookies
+  * If players names are inconsistant between databases they are not ranked
+* In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updateing the players file multiple times but the problem is still there. 
