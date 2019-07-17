@@ -51,6 +51,22 @@ def year_proj(year):
         if weight == item[year][5]:
             return(score * games_weight[weight])
 
+#Writes Players to CSV file
+def database(path, item_list):
+    with open(path + '.csv', 'a', newline='') as file:
+        wr = csv.writer(file, dialect='excel')
+        wr.writerow(item_list)
+
+#Sort Rankings and Create CSV Name
+def sort_rank(begining,now_list):
+    sorted_list = {key: value for key, value in sorted(now_list.items(), key=lambda x: x[1], reverse=True)}
+    csv_name = begining + '-Rankings'
+    for thing in sorted_list:
+        db_list = []
+        db_list.append(thing)
+        db_list.append(sorted_list[thing])
+        database(csv_name, db_list)
+
 
 
 #Fantasy Scorring Breakdown
@@ -168,12 +184,12 @@ for player_name in FPD:
 
 
 #Creates Ranking Dictionary
-rankings = {}
+ALL_rankings = {}
 QB_rankings = {}
 RB_rankings = {}
 WR_rankings = {}
 TE_rankings = {}
-NO_QB_rankings = {}
+NOQB_rankings = {}
 
 for item in all_players:
     final_pass = 0
@@ -239,8 +255,16 @@ for item in all_players:
                 final = final * week
                 final_pass = 1
 
+    #Played full season
     if final_pass == 0:
         final = final * 16
+
+    #Write Point Prediction CSV
+    next_directory('/Rankings/Preseason-Model')
+    db_list = []
+    db_list.append(item[0][0])
+    db_list.append(final)
+    database('Point-Prediction', db_list)
 
     #Position Weight
     if item[0][1] == 'QB':
@@ -253,11 +277,11 @@ for item in all_players:
         final = final * 1.2
 
     #Adds Name and Score to Rankings Dictionary
-    rankings[item[0][0]] = final
+    ALL_rankings[item[0][0]] = final
     if item[0][1] == 'QB':
         QB_rankings[item[0][0]] = final
     else:
-        NO_QB_rankings[item[0][0]] = final
+        NOQB_rankings[item[0][0]] = final
         if item[0][1] == 'RB':
             RB_rankings[item[0][0]] = final
         elif item[0][1] == 'WR':
@@ -265,6 +289,23 @@ for item in all_players:
         elif item[0][1] == 'TE':
             TE_rankings[item[0][0]] = final
 
-#Sorts Players in Order
-rankings_sorted = {key: value for key, value in sorted(rankings.items(), key=lambda x: x[1], reverse=True)}
-print(rankings_sorted)
+
+#Sorts Players in Order and Creates CSV Files
+next_directory('/Rankings/Preseason-Model')
+csv_names = ['ALL','QB','RB','WR','TE','NOQB']
+index = 1
+for name in csv_names:
+    if index == 1:
+        sort_rank(name,ALL_rankings)
+    elif index == 2:
+        sort_rank(name,QB_rankings)
+    elif index == 3:
+        sort_rank(name,RB_rankings)
+    elif index == 4:
+        sort_rank(name,WR_rankings)
+    elif index == 5:
+        sort_rank(name,TE_rankings)
+    elif index == 6:
+        sort_rank(name,NOQB_rankings)
+    index += 1
+
