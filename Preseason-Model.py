@@ -68,7 +68,6 @@ def sort_rank(begining,now_list):
         database(csv_name, db_list)
 
 
-
 #Fantasy Scorring Breakdown
 scoring = [('Passing Yards', 0.04),
            ('Passing Touchdowns', 4),
@@ -82,12 +81,20 @@ scoring = [('Passing Yards', 0.04),
            ('Receiving Two Point Made', 2),
            ('Fumbles', -2)]
 
+K_scoring = [('PAT', 1),
+           ('PATM', -1),
+           ('FGM', -1),
+           ('<39', 3),
+           ('40-49', 4),
+           ('>50', 5)]
+
 #Player CSV Headings
 player_heading = ['Year','Week','Player Name',
               'Passing Attempts','Passing Yards','Passing Touchdowns','Passing Interceptions','Passing Two Point Attempts','Passing Two Point Made',
               'Rushing Attempts','Rushing Yards','Rushing Touchdowns','Rushing Two Point Attempts','Rushing Two Point Made',
               'Receiving Attempts','Receiving Yards','Receiving Touchdowns','Receiving Two Point Attempts','Receiving Two Point Made', 'Fumbles'
               ]
+K_head = ['Player','Tm','Age','Pos','G','GS','0-19 FGA','0-19 FGM','20-29 FGA','20-29 FGM','30-39 FGA','30-39 FGM','40-49 FGA','40-49 FGM','50+ FGA','50+ FGM','FGA','FGM','FG%','XPA','XPM','XP%','Pnt','Yds','Lng','Blck ','Y/P']
 
 #Stores old directory and changes current
 first_directory = os.getcwd()
@@ -105,83 +112,115 @@ all_players = []
 
 #Players inside Fantasy Pros Database
 for player_name in FPD:
-    player_list = [player_name, [], [], []]
-    for file_name in os.listdir():
-        #Checks player names with file names
-        if player_name[0] in file_name:
-            #Reads Player Databases
-            player_stats = database_reader(file_name,player_heading)
+    
+    #Kickers
+    if player_name[1] == 'K':
+        player_list = [player_name, 0, 0, 0]
+        next_directory('/Database/Position/')
+        #Year Range
+        for year in range(2016,2019):
+            year_score = 0
+            #Set CSV file
+            csv_file = 'Stats-Kicking-' + str(year) + '.csv'
+            kicker_stats = database_reader(csv_file, K_head)
+            for row in kicker_stats:
+                if player_name[0] == row[0]:
+                    for x in range(len(row)):
+                        if row[x] == '':
+                            row[x] = float(0)
+                        elif x > 3 and '%' not in row[x]:
+                            row[x] = float(row[x])
+                    yards = ((row[7]+row[9]+row[11]) * 3) + (row[13] * 4) + (row[15] * 5) + row[17]
+                    miss = (row[6]+row[8]+row[10]+row[12]+row[14]+row[16]) - (row[7]+row[9]+row[11]+row[13]+row[15]+row[17])
+                    year_score = (yards - miss)/row[4]
+                    #Adds year scores
+                    if year == 2016:
+                        player_list[1] = year_score
+                    elif year == 2017:
+                        player_list[2] = year_score
+                    elif year == 2018:
+                        player_list[3] = year_score
+        next_directory('/Database/Players/')
 
-            #Set Variables
-            weeks_played = len(player_stats)
-            points_list = []
-            five_point = [0,0,0,0,0]
-            fp_2016 =[]
-            fp_2017 =[]
-            for week in player_stats:
-                #Calculates weekly fantasy points
-                passing_points = (int(week[4])*float(scoring[0][1])) + (int(week[5])*int(scoring[1][1])) + (int(week[6])*int(scoring[2][1])) + (int(week[8])*int(scoring[3][1]))
-                rushing_points = (int(week[10])*float(scoring[4][1])) + (int(week[11])*int(scoring[5][1])) + (int(week[13])*int(scoring[6][1])) + (int(week[19])*int(scoring[10][1]))
-                receiving_points = (int(week[15])*float(scoring[7][1])) + (int(week[16])*int(scoring[8][1])) + (int(week[18])*int(scoring[9][1]))
-                fantasy_points = passing_points + rushing_points + receiving_points
-                points_list.append(fantasy_points)
-                
-            #sorts list form Low to High
-            points_list.sort()
-            
-            #Find range for spread and Sets Floor and Ceiling
-            if weeks_played >= 13:
-                top_len = 3
-                five_point[0] = (points_list[0]+points_list[1]+points_list[2])/top_len
-                five_point[4] = (points_list[weeks_played-1]+points_list[weeks_played-2]+points_list[weeks_played-3])/top_len
-            elif weeks_played >= 9 and weeks_played <= 12:
-                top_len = 2
-                five_point[0] = (points_list[0]+points_list[1])/top_len
-                five_point[4] = (points_list[weeks_played-1]+points_list[weeks_played-2])/top_len
-            elif weeks_played >= 6 and weeks_played <= 8:
-                top_len = 1
-                five_point[0] = points_list[0]
-                five_point[4] = points_list[weeks_played-1]
+    #Skill Players
+    else:
+        player_list = [player_name, [], [], []]
+        for file_name in os.listdir():
+            #Checks player names with file names
+            if player_name[0] in file_name:
+                #Reads Player Databases
+                player_stats = database_reader(file_name,player_heading)
 
-            #Stas for Players who played 6 games or more
-            if weeks_played >=6:
-                #Mid length
-                mid_len = (weeks_played-(top_len*2))
-                #Mid Stat
-                five_point[2] = stat()
+                #Set Variables
+                weeks_played = len(player_stats)
+                points_list = []
+                five_point = [0,0,0,0,0]
+                fp_2016 =[]
+                fp_2017 =[]
+                for week in player_stats:
+                    #Calculates weekly fantasy points
+                    passing_points = (int(week[4])*float(scoring[0][1])) + (int(week[5])*int(scoring[1][1])) + (int(week[6])*int(scoring[2][1])) + (int(week[8])*int(scoring[3][1]))
+                    rushing_points = (int(week[10])*float(scoring[4][1])) + (int(week[11])*int(scoring[5][1])) + (int(week[13])*int(scoring[6][1])) + (int(week[19])*int(scoring[10][1]))
+                    receiving_points = (int(week[15])*float(scoring[7][1])) + (int(week[16])*int(scoring[8][1])) + (int(week[18])*int(scoring[9][1]))
+                    fantasy_points = passing_points + rushing_points + receiving_points
+                    points_list.append(fantasy_points)
+                    
+                #sorts list form Low to High
+                points_list.sort()
                 
-                #Half Mid Length
-                mid_len = mid_len/2
-                if mid_len % 2 == 0:
-                    pass
+                #Find range for spread and Sets Floor and Ceiling
+                if weeks_played >= 13:
+                    top_len = 3
+                    five_point[0] = (points_list[0]+points_list[1]+points_list[2])/top_len
+                    five_point[4] = (points_list[weeks_played-1]+points_list[weeks_played-2]+points_list[weeks_played-3])/top_len
+                elif weeks_played >= 9 and weeks_played <= 12:
+                    top_len = 2
+                    five_point[0] = (points_list[0]+points_list[1])/top_len
+                    five_point[4] = (points_list[weeks_played-1]+points_list[weeks_played-2])/top_len
+                elif weeks_played >= 6 and weeks_played <= 8:
+                    top_len = 1
+                    five_point[0] = points_list[0]
+                    five_point[4] = points_list[weeks_played-1]
+
+                #Stas for Players who played 6 games or more
+                if weeks_played >=6:
+                    #Mid length
+                    mid_len = (weeks_played-(top_len*2))
+                    #Mid Stat
+                    five_point[2] = stat()
+                    
+                    #Half Mid Length
+                    mid_len = mid_len/2
+                    if mid_len % 2 == 0:
+                        pass
+                    else:
+                        mid_len - .5
+                    #Low Stat
+                    five_point[1] = stat()
+                    #High Stat
+                    top_len = -top_len-1
+                    five_point[3] = stat()
+                    
+                #Stas for Players who played 5 games or less
                 else:
-                    mid_len - .5
-                #Low Stat
-                five_point[1] = stat()
-                #High Stat
-                top_len = -top_len-1
-                five_point[3] = stat()
-                
-            #Stas for Players who played 5 games or less
-            else:
-                low = min(points_list)
-                mid = sum(points_list)/len(points_list)
-                high = max(points_list)
-                five_point = [low,(mid/2)+(low/2),mid,(high/2)+(low/2),high]
+                    low = min(points_list)
+                    mid = sum(points_list)/len(points_list)
+                    high = max(points_list)
+                    five_point = [low,(mid/2)+(low/2),mid,(high/2)+(low/2),high]
 
-            five_point.append(weeks_played)
+                five_point.append(weeks_played)
 
-            #Write player data to player list
-            if week[0] == '2016':
-                player_list[1] = five_point
-            elif week[0] == '2017':
-                player_list[2] = five_point
-            elif week[0] == '2018':
-                player_list[3] = five_point
-
+                #Write player data to player list
+                if week[0] == '2016':
+                    player_list[1] = five_point
+                elif week[0] == '2017':
+                    player_list[2] = five_point
+                elif week[0] == '2018':
+                    player_list[3] = five_point
+        
     #Add Players to List
     all_players.append(player_list)
-
+    
 
 #Creates Ranking Dictionary
 ALL_rankings = {}
@@ -190,6 +229,7 @@ RB_rankings = {}
 WR_rankings = {}
 TE_rankings = {}
 NOQB_rankings = {}
+K_rankings = {}
 
 for item in all_players:
     final_pass = 0
@@ -201,15 +241,21 @@ for item in all_players:
                     int(12):float(1.02), int(11):float(1), int(10):float(.98), int(9):float(.96),
                     int(8):float(.94), int(7):float(.92), int(6):float(.9), int(5):float(.88),
                     int(4):float(.86), int(3):float(.84), int(2):float(.82), int(1):float(.8)}
-    #2018
-    if len(item[3]) >= 5:
-        finals[2] = year_proj(3)
-    #2017
-    if len(item[2]) >= 5:
-        finals[1] = year_proj(2)
-    #2016
-    if len(item[1]) >= 5:
-        finals[0] = year_proj(1)
+
+    #Creates Kicker Year Scores
+    if item[0][1] == 'K':
+        finals = [item[1],item[2],item[3]]
+        
+    else:
+        #2018
+        if len(item[3]) >= 5:
+            finals[2] = year_proj(3)
+        #2017
+        if len(item[2]) >= 5:
+            finals[1] = year_proj(2)
+        #2016
+        if len(item[1]) >= 5:
+            finals[0] = year_proj(1)
 
     #Didn't Play
     if finals[0] == 0 and finals[1] == 0 and finals[2] == 0:
@@ -255,7 +301,7 @@ for item in all_players:
                 final = final * week
                 final_pass = 1
 
-    #Played full season
+    #Play full season
     if final_pass == 0:
         final = final * 16
 
@@ -275,11 +321,15 @@ for item in all_players:
         final = final * 1.05
     elif item[0][1] == 'TE':
         final = final * 1.2
+    elif item[0][1] == 'K':
+        final = final * .6
 
     #Adds Name and Score to Rankings Dictionary
     ALL_rankings[item[0][0]] = final
     if item[0][1] == 'QB':
         QB_rankings[item[0][0]] = final
+    elif item[0][1] == 'K':
+        K_rankings[item[0][0]] = final
     else:
         NOQB_rankings[item[0][0]] = final
         if item[0][1] == 'RB':
@@ -292,7 +342,7 @@ for item in all_players:
 
 #Sorts Players in Order and Creates CSV Files
 next_directory('/Rankings/Preseason-Model')
-csv_names = ['ALL','QB','RB','WR','TE','NOQB']
+csv_names = ['ALL','QB','RB','WR','TE','NOQB','K']
 index = 1
 for name in csv_names:
     if index == 1:
@@ -307,5 +357,7 @@ for name in csv_names:
         sort_rank(name,TE_rankings)
     elif index == 6:
         sort_rank(name,NOQB_rankings)
+    elif index == 7:
+        sort_rank(name,K_rankings)
     index += 1
 
