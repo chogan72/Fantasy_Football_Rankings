@@ -5,7 +5,7 @@ This project pulls data from multiple sources and creates fantasy football ranki
 
 ## Current Status
 
-I have just recently finished creating the preseson model. There are some slight tweeks that can still be made to improve accuracy. I plan to keep this updated through out the season with mid-season rankings.
+I have just recently finished creating the preseson model. There are some slight tweaks that can still be made to improve accuracy. I plan to keep this updated through out the season with mid-season rankings.
 
 
 ## Database Files
@@ -34,7 +34,7 @@ I have just recently finished creating the preseson model. There are some slight
 * The first step to creating the model is determining players yearly fantasy points. This is done by using the player game logs to determine there scores.
 
 #### Five Point
-* Next, the 5 point analysis is created. This includes the Ceiling, High, Mid, Low and Floor. Depending on how many games a player played in a given season will determine the weighting of these catagories. The below image illistrates how those averages are determined.
+* Next, the 5 point analysis is created. This includes the Ceiling, High, Mid, Low and Floor. Depending on how many games a player played in a given season will determine the weighting of these categories. The below image illustrates how those averages are determined.
 
 <img align="center" src="https://raw.githubusercontent.com/chogan72/Fantasy_Football_Rankings/master/RM-Files/Five-Point.JPG"></img>
 
@@ -58,7 +58,7 @@ I have just recently finished creating the preseson model. There are some slight
 #### Weight for years played
 * Once this number is determined for the previous 3 years, those 3 numbers are weighted depending on how many seasons they played. The weightings below are for the 2019 preseason. 
   * The Heading years represent the years played. 
-  * The Collum years represent the year weights.
+  * The Column years represent the year weights.
 
 <table align="center"><thead>
   <th></th><th>18, 17, 16</th><th>18, 17</th><th>18, 16</th><th>17, 16</th><th>18</th><th>17</th><th>16</th>
@@ -75,10 +75,10 @@ I have just recently finished creating the preseson model. There are some slight
   </tr>
  </tbody></table>
  
-#### Injuries and Suspentions
-* Finally any Injuries and Suspentions are factored in. For example:
-  * If someone has a 4 game suspention there current score would be multiplied by 12
-  * Someone with no suspention would have there current score multiplied by 16
+#### Injuries and Suspensions
+* Finally any Injuries and Suspensions are factored in. For example:
+  * If someone has a 4 game suspension there current score would be multiplied by 12
+  * Someone with no suspension would have there current score multiplied by 16
   
 <h3 align="center"><b>This final number is the players total point projection for the year.</b></h3>
 
@@ -89,11 +89,11 @@ I have just recently finished creating the preseson model. There are some slight
 * Each position is weighted to get an accurate overall ranking.
 
 <table align="center"><thead>
-  <th>QB</th><th>RB</th><th>WR</th><th>TE</th>
+  <th>QB</th><th>RB</th><th>WR</th><th>TE</th><th>K</th>
  </thead>
  <tbody>
   <tr align="center">
-   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td>
+   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td><td>0.60</td>
   </tr>
  </tbody></table>
  
@@ -102,7 +102,7 @@ I have just recently finished creating the preseson model. There are some slight
 ## Issues
 
 * Preseason Model
-  * This does not include Kickers or Defence
+  * This does not include Defense
   * This does not include any Rookies
-  * If players names are inconsistant between databases they are not ranked
-* In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updateing the players file multiple times but the problem is still there. 
+  * If players names are inconsistent between databases they are not ranked
+* In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updating the players file multiple times but the problem is still there. 
