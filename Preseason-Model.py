@@ -81,13 +81,6 @@ scoring = [('Passing Yards', 0.04),
            ('Receiving Two Point Made', 2),
            ('Fumbles', -2)]
 
-K_scoring = [('PAT', 1),
-           ('PATM', -1),
-           ('FGM', -1),
-           ('<39', 3),
-           ('40-49', 4),
-           ('>50', 5)]
-
 #Player CSV Headings
 player_heading = ['Year','Week','Player Name',
               'Passing Attempts','Passing Yards','Passing Touchdowns','Passing Interceptions','Passing Two Point Attempts','Passing Two Point Made',
@@ -95,6 +88,7 @@ player_heading = ['Year','Week','Player Name',
               'Receiving Attempts','Receiving Yards','Receiving Touchdowns','Receiving Two Point Attempts','Receiving Two Point Made', 'Fumbles'
               ]
 K_head = ['Player','Tm','Age','Pos','G','GS','0-19 FGA','0-19 FGM','20-29 FGA','20-29 FGM','30-39 FGA','30-39 FGM','40-49 FGA','40-49 FGM','50+ FGA','50+ FGM','FGA','FGM','FG%','XPA','XPM','XP%','Pnt','Yds','Lng','Blck ','Y/P']
+DST_head = ['Tm','G','PF','Total Yds','Ply','Y/P','TO','FL','1stD','Cmp','Pass Att','Pass Yds','Pass TD','Int','NY/A','Pass 1stD','Rush Att','Rush Yds','Rush TD','Y/A','Rush 1stD','Pen','Pen Yds','1stPy','Sc%','TO%','EXP']
 
 #Stores old directory and changes current
 first_directory = os.getcwd()
@@ -112,9 +106,80 @@ all_players = []
 
 #Players inside Fantasy Pros Database
 for player_name in FPD:
-    
+
+    #Defense
+    if player_name[1] == 'DST':
+        player_list = [player_name, 0, 0, 0]
+        next_directory('/Database/Position/')
+        if player_name[0] == 'Los Angeles' or player_name[0] == 'New York':
+            player_name[0] = player_name[0] + ' ' + player_name[2][2:]
+        #Year Range
+        for year in range(2016,2019):
+            year_score = 0
+            #Set CSV file
+            csv_file = 'Stats-Defense-' + str(year) + '.csv'
+            dst_stats = database_reader(csv_file, DST_head)
+            for row in dst_stats:
+                #print(row)
+                if player_name[0] in row[0]:
+                    for x in range(len(row)):
+                        if row[x] == '':
+                            row[x] = float(0)
+                        elif x > 1 and '%' not in row[x]:
+                            row[x] = float(row[x])
+
+                    year_score = 0
+                    
+                    #Yards
+                    if row[3]/16 > 0 and row[3]/16 < 100:
+                       year_score += 5
+                    elif row[3]/16 >= 100 and row[3]/16 <= 199:
+                       year_score += 3
+                    elif row[3]/16 >= 200 and row[3]/16 <= 299:
+                       year_score += 2
+                    elif row[3]/16 >= 350 and row[3]/16 <= 399:
+                       year_score -= 1
+                    elif row[3]/16 >= 400 and row[3]/16 <= 449:
+                       year_score -= 3
+                    elif row[3]/16 >= 450 and row[3]/16 <= 499:
+                       year_score -= 5
+                    elif row[3]/16 >= 500 and row[3]/16 <= 549:
+                       year_score -= 6
+                    elif row[3]/16 >= 550:
+                       year_score -= 7
+
+                    #Points
+                    if row[2]/16 == 0:
+                       year_score += 5
+                    elif row[2]/16 >= 1 and row[2]/16 <= 6:
+                       year_score += 4
+                    elif row[2]/16 >= 7 and row[2]/16 <= 13:
+                       year_score += 3
+                    elif row[2]/16 >= 14 and row[2]/16 <= 17:
+                       year_score += 1
+                    elif row[2]/16 >= 28 and row[2]/16 <= 34:
+                       year_score -= 1
+                    elif row[2]/16 >= 35 and row[2]/16 <= 45:
+                       year_score -= 3
+                    elif row[2]/16 >= 46:
+                       year_score -= 5
+
+                    #TO
+                    year_score += (row[6]/16) * 2
+                    #TD
+                    year_score += (row[6]/16) * .1 * 6
+                    
+                    #Adds year scores
+                    if year == 2016:
+                        player_list[1] = year_score
+                    elif year == 2017:
+                        player_list[2] = year_score
+                    elif year == 2018:
+                        player_list[3] = year_score
+        next_directory('/Database/Players/')
+
     #Kickers
-    if player_name[1] == 'K':
+    elif player_name[1] == 'K':
         player_list = [player_name, 0, 0, 0]
         next_directory('/Database/Position/')
         #Year Range
@@ -228,8 +293,9 @@ QB_rankings = {}
 RB_rankings = {}
 WR_rankings = {}
 TE_rankings = {}
-NOQB_rankings = {}
+FLEX_rankings = {}
 K_rankings = {}
+DST_rankings = {}
 
 for item in all_players:
     final_pass = 0
@@ -243,7 +309,7 @@ for item in all_players:
                     int(4):float(.86), int(3):float(.84), int(2):float(.82), int(1):float(.8)}
 
     #Creates Kicker Year Scores
-    if item[0][1] == 'K':
+    if item[0][1] == 'K' or item[0][1] == 'DST':
         finals = [item[1],item[2],item[3]]
         
     else:
@@ -323,6 +389,8 @@ for item in all_players:
         final = final * 1.2
     elif item[0][1] == 'K':
         final = final * .6
+    elif item[0][1] == 'DST':
+        final = final * 1
 
     #Adds Name and Score to Rankings Dictionary
     ALL_rankings[item[0][0]] = final
@@ -330,8 +398,10 @@ for item in all_players:
         QB_rankings[item[0][0]] = final
     elif item[0][1] == 'K':
         K_rankings[item[0][0]] = final
+    elif item[0][1] == 'DST':
+        DST_rankings[item[0][0]] = final
     else:
-        NOQB_rankings[item[0][0]] = final
+        FLEX_rankings[item[0][0]] = final
         if item[0][1] == 'RB':
             RB_rankings[item[0][0]] = final
         elif item[0][1] == 'WR':
@@ -342,7 +412,7 @@ for item in all_players:
 
 #Sorts Players in Order and Creates CSV Files
 next_directory('/Rankings/Preseason-Model')
-csv_names = ['ALL','QB','RB','WR','TE','NOQB','K']
+csv_names = ['ALL','QB','RB','WR','TE','FLEX','K','DST']
 index = 1
 for name in csv_names:
     if index == 1:
@@ -356,8 +426,10 @@ for name in csv_names:
     elif index == 5:
         sort_rank(name,TE_rankings)
     elif index == 6:
-        sort_rank(name,NOQB_rankings)
+        sort_rank(name,FLEX_rankings)
     elif index == 7:
         sort_rank(name,K_rankings)
+    elif index == 8:
+        sort_rank(name,DST_rankings)
     index += 1
 

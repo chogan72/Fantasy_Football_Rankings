@@ -180,6 +180,7 @@ Marquise Goodwin,92.158956
 Robbie Gould,91.926
 Chris Thompson,91.88369142857144
 Ryan Tannehill,91.15646361904763
+Buffalo,91.07000000000001
 Jason Myers,90.78999999999999
 Taylor Gabriel,90.571852
 Javorius Allen,90.54671161904761
@@ -197,6 +198,8 @@ Chris Ivory,87.07816228571428
 Harrison Butker,86.87076923076923
 Marquez Valdes-Scantling,86.32131200000002
 Delanie Walker,86.31612000000003
+Chicago,85.92999999999999
+Baltimore,85.75
 Tyrod Taylor,84.92761860000002
 Rex Burkhead,84.88800320000003
 Geronimo Allison,84.80192000000001
@@ -233,7 +236,6 @@ Stephen Gostkowski,76.64999999999999
 Corey Clement,76.64814928571428
 Lamar Jackson,76.11119413333334
 Giorgio Tavecchio,75.63
-Dallas,74.68032000000001
 Jordan Thomas,74.26697142857144
 Cameron Artis-Payne,73.635232
 Mason Crosby,73.38
@@ -244,6 +246,7 @@ Jake Elliott,73.234
 Breshad Perriman,72.453276
 Danny Amendola,71.94180000000001
 Ian Thomas,71.56842000000002
+Houston,71.5
 Blake Jarwin,71.4903552
 Torrey Smith,71.41558200000001
 Ed Dickson,71.3930057142857
@@ -257,10 +260,14 @@ C.J. Uzomah,70.3016832
 Ryan Succop,69.834375
 Vyncint Smith,69.44044800000002
 Jake Kumerow,69.43167000000001
+Los Angeles C,69.17
+Minnesota,69.01
 Michael Badgley,68.64
 Cameron Meredith,68.4815775
+Denver,68.37
 Cody Latimer,68.22668159999998
 Devontae Booker,68.13611200000001
+Los Angeles R,68.08
 Phillip Dorsett,68.0138088
 Seth Roberts,67.88857600000001
 Tim Patrick,67.34235199999999
@@ -270,22 +277,27 @@ Jermaine Kearse,66.11712800000001
 Daniel Carlson,66.0
 Jonnu Smith,65.552544
 Jordan Matthews,65.48183600000002
+Jacksonville,64.98000000000002
 Austin Seferian-Jenkins,63.56653942857143
 Nick O'Leary,63.49619519999999
 Gerald Everett,63.3408
 Graham Gano,63.24
+New Orleans,63.190000000000005
 Anthony Firkser,63.100224000000004
 Russell Shepard,62.987724
 Trent Sherfield,62.871916800000015
 Tajae Sharpe,62.687880000000014
 Tavon Austin,62.48781
+Indianapolis,62.129999999999995
 Jimmy Garoppolo,61.56661500000001
 Allen Hurns,61.526823750000005
 Corey Grant,60.85530880000002
 Chester Rogers,60.8178872
 Bruce Ellington,60.77385999999999
 Jeff Heuerman,60.477439999999994
+New England,60.129999999999995
 Sebastian Janikowski,59.4
+Seattle,59.11
 Jordan Wilkins,59.07049447619049
 Darrel Williams,59.05961600000001
 Cody Parkey,58.73571428571428
@@ -294,17 +306,21 @@ Dan Bailey,58.675714285714285
 John Ross,58.55052
 Chris Conley,58.07247600000001
 Brandon McManus,57.959999999999994
+Miami,57.74999999999999
+Dallas,57.72
 Cairo Santos,57.516
 Andre Ellington,57.24388937142859
 Brandon Powell,56.99555400000001
 Demarcus Robinson,56.75896800000001
 Travis Benjamin,56.70252
 Adam Shaheen,56.62406399999999
+Washington,56.45
 Raheem Mostert,56.22688500000001
 Seth DeValve,56.17876799999999
 Jeremy Hill,55.909004800000005
 Taywan Taylor,55.892511999999996
 Justin Hardy,55.54921600000002
+Cleveland,55.48
 Richie James,54.804288000000014
 James Washington,54.77718400000001
 Chandler Catanzaro,54.43846153846153
@@ -318,6 +334,7 @@ Wayne Gallman,52.68675657142857
 Zach Pascal,52.44360000000001
 Jakeem Grant,52.428810000000006
 Greg Joseph,52.04571428571429
+Carolina,51.9
 Marcell Ateman,51.392880000000005
 Matt LaCosse,51.29142857142857
 Dwayne Washington,51.20764628571429
@@ -330,31 +347,38 @@ Ryan Grant,50.379608000000005
 Brian Hill,50.31994
 Geoff Swaim,50.28683999999999
 Jarius Wright,49.768767000000004
+Pittsburgh,49.66
 Virgil Green,49.573631999999996
 Isaiah McKenzie,49.052136000000004
 Cody Core,48.81374400000001
 Bennie Fowler,48.795216
+Tennessee,48.69000000000001
 Josh Rosen,48.12657226666668
 Chris Boswell,48.072
 Trenton Cannon,47.43200000000001
+Philadelphia,47.41
 Rishard Matthews,47.07320800000001
 Nick Vannett,46.135084799999994
 Damion Ratley,46.02259200000002
 Malcolm Brown,45.973010285714295
-Washington,45.25380571428572
+New York G,45.38
 Zane Gonzalez,45.094285714285704
 Corey Coleman,44.560936
 Darren Waller,43.849920000000004
+Detroit,43.8
 Derek Carrier,42.3893184
 Josh Hill,42.225856
 Trent Taylor,41.82645600000001
 Marcus Murphy,41.251320000000014
+Arizona,41.040000000000006
 Stephen Anderson,40.9084416
 Luke Stocker,40.359624000000004
 Eli Rogers,40.19044799999999
 J.J. Nelson,39.965104000000004
 Josh Bellamy,39.783026400000004
 Chase Edmonds,39.76673066666668
+New York J,39.66
+Atlanta,39.55
 Ameer Abdullah,39.50287733333334
 Rod Smith,39.16755961904762
 Chad Williams,39.031692
@@ -363,9 +387,11 @@ Jordan Akins,38.378057142857145
 Kyle Juszczyk,38.344931428571435
 James Develin,38.114208000000005
 D.J. Chark,37.58832000000001
+Kansas City,37.44
 Jason Croom,37.362600000000015
 Kevin White,36.468684
 DeAndre Washington,36.43074285714286
+Green Bay,36.04
 Jake Butt,35.73108
 John Kelly,35.560448000000015
 Kalen Ballage,35.321029333333335
@@ -380,6 +406,7 @@ Nick Boyle,31.097170285714284
 Mack Hollins,30.881088
 Xavier Grimble,30.476736000000002
 Dalton Schultz,30.233702400000006
+Tampa Bay,28.380000000000003
 Mike Gesicki,28.328256000000003
 Andre Roberts,27.5058
 Dwayne Allen,27.456588
@@ -393,10 +420,12 @@ Alex Erickson,23.773932
 Chad Beebe,23.525964000000005
 Kenjon Barner,23.359793600000007
 Russell Gage,22.706838000000005
+Oakland,22.53
 Blake Bell,21.635064000000003
 J.D. McKissic,21.404592000000005
 Darius Jackson,19.824640000000002
 Derek Carr,19.428437600000002
+San Francisco,19.049999999999997
 Kenneth Farrow,18.895183999999997
 Benny Cunningham,18.464864000000002
 Taysom Hill,18.28587032380953
@@ -424,45 +453,22 @@ Mecole Hardman,0.0
 Parris Campbell,0.0
 Damien Harris,0.0
 T.J. Hockenson,0.0
-Chicago,0
-Jacksonville,0
 Devin Singletary,0.0
 Marquise Brown,0.0
 A.J. Brown,0.0
-Los Angeles,0
 Noah Fant,0.0
 Deebo Samuel,0.0
-Baltimore,0
-Minnesota,0
 Justice Hill,0.0
-Houston,0
-Cleveland,0
 Andy Isabella,0.0
-New Orleans,0
-Denver,0
 Equanimeous S,0.0
-Buffalo,0
-New England,0
 Alexander Mattison,0.0
-Seattle,0
-Philadelphia,0
 Dwayne Haskins,0.0
-Pittsburgh,0
-Tennessee,0
 Hakeem Butler,0.0
 J.J. Arcega-Whiteside,0.0
 Ryquell Armstead,0.0
-Kansas City,0
-Indianapolis,0
-Carolina,0
 Benny Snell Jr.,0.0
-Green Bay,0
-Atlanta,0
-Arizona,0
 Deon Cain,0.0
 Steven Hauschka,0.0
-Detroit,0
-New York,0
 Irv Smith Jr.,0.0
 Diontae Johnson,0.0
 Mike Weber,0.0
@@ -472,11 +478,8 @@ Tony Pollard,0.0
 Dexter Williams,0.0
 Miles Boykin,0.0
 Terry McLaurin,0.0
-Miami,0
 Jace Sternberger,0.0
-San Francisco,0
 Daniel Jones,0.0
-Tampa Bay,0
 Jalen Hurd,0.0
 Rodney Anderson,0.0
 Bruce Anderson,0.0
@@ -494,10 +497,8 @@ KeeSean Johnson,0.0
 Jordan Scarlett,0.0
 Travis Homer,0.0
 Gary Jennings,0.0
-Cincinnati,0
 Foster Moreau,0.0
 Alex Barnes,0.0
-Oakland,0
 James Williams,0.0
 Will Grier,0.0
 Preston Williams,0.0
@@ -531,3 +532,4 @@ Dylan Cantrell,0.0
 Travis Fulgham,0.0
 Daurice Fountain,0.0
 Juwann Winfree,0.0
+Cincinnati,-0.21999999999999886

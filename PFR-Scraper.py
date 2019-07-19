@@ -20,7 +20,7 @@ stats_headings = [['Player','Tm','Age','Pos','G','GS','QBrec','Cmp','Att','Cmp%'
                   ['Player','Tm','Age','Pos','G','GS','Att','Yds','TD','Lng','Y/A','Y/G','Fmb'],
                   ['Player','Tm','Age','Pos','G','GS','Tgt','Rec','Ctch%','Yds','Y/R','TD','Lng','Y/Tgt','R/G','Y/G','Fmb'],
                   ['Player','Tm','Age','Pos','G','GS','0-19 FGA','0-19 FGM','20-29 FGA','20-29 FGM','30-39 FGA','30-39 FGM','40-49 FGA','40-49 FGM','50+ FGA','50+ FGM','FGA','FGM','FG%','XPA','XPM','XP%','Pnt','Yds','Lng','Blck ','Y/P'],
-                  ['Tm','G','PF','Yds','Ply','Y/P','TO','FL','1stD','Cmp','Att','Yds','TD','Int','NY/A','1stD','Att','Yds','TD','Y/A','1stD','Pen','Yds','1stPy','Sc%','TO%','EXP'],
+                  ['Tm','G','PF','Total Yds','Ply','Y/P','TO','FL','1stD','Cmp','Pass Att','Pass Yds','Pass TD','Int','NY/A','Pass 1stD','Rush Att','Rush Yds','Rush TD','Y/A','Rush 1stD','Pen','Pen Yds','1stPy','Sc%','TO%','EXP'],
                   ['Player','Tm','FantPos','Age','G','GS','Cmp','Att','Yds','TD','Int','Att','Yds','Y/A','TD','Tgt','Rec','Yds','Y/R','TD','Fmb','FL','TD','2PM','2PP','FantPt','PPR','DKPt','FDPt','VBD','PosRank','OvRank']]
 
 #Position: Column Length
@@ -60,7 +60,6 @@ for year in years:
                 stats.append(gdata)
                 #End of Column
                 if index == int(position[item]):
-                    print(stats)
                     database(current_path, stats)
                     index = 0
                     #Adds each defensive team
