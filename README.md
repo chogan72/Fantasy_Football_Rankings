@@ -5,7 +5,7 @@ This project pulls data from multiple sources and creates fantasy football ranki
 
 ## Current Status
 
-I have just recently finished creating the preseson model. There are some slight tweaks that can still be made to improve accuracy. I plan to keep this updated through out the season with mid-season rankings.
+I have just recently finished creating the preseson model. There are some slight tweaks that can still be made to improve accuracy. One of which includes creating rookie rankings. I plan to keep this updated through out the season with mid-season rankings.
 
 
 ## Database Files
@@ -89,20 +89,19 @@ I have just recently finished creating the preseson model. There are some slight
 * Each position is weighted to get an accurate overall ranking.
 
 <table align="center"><thead>
-  <th>QB</th><th>RB</th><th>WR</th><th>TE</th><th>K</th>
+  <th>QB</th><th>RB</th><th>WR</th><th>TE</th><th>K</th><th>DST</th>
  </thead>
  <tbody>
   <tr align="center">
-   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td><td>0.60</td>
+   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td><td>0.60</td><td>1.00</td>
   </tr>
  </tbody></table>
  
-* This number is the used to create the ranking csv files.
+* This number is the used to create the ranking csv files. This number is NOT there point prediction for the season. To get point predictions check out Point-Prediction.csv file.
 
 ## Issues
 
 * Preseason Model
-  * This does not include Defense
   * This does not include any Rookies
   * If players names are inconsistent between databases they are not ranked
 * In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updating the players file multiple times but the problem is still there. 
