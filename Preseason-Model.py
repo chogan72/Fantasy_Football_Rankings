@@ -49,11 +49,14 @@ def database(path, item_list):
 def sort_rank(begining,now_list):
     sorted_list = {key: value for key, value in sorted(now_list.items(), key=lambda x: x[1], reverse=True)}
     csv_name = begining + '-Rankings'
+    database(csv_name, rank_head)
+    index = 1
     for thing in sorted_list:
-        db_list = []
-        db_list.append(thing)
-        db_list.append(sorted_list[thing])
-        database(csv_name, db_list)
+        for ranks in ALL_print:
+            if thing == ranks[1]:
+                ranks[0] = index
+                database(csv_name, ranks)
+                index += 1
 
 #Read Five Point
 all_players = []
@@ -84,10 +87,14 @@ TE_rankings = {}
 FLEX_rankings = {}
 K_rankings = {}
 DST_rankings = {}
+ALL_print = []
+
+rank_head = ['Rank','Name','Team','Position','Bye','Point Prediction']
 
 for item in all_players:
     final_pass = 0
     finals = [0,0,0]
+    rank_print = ['',item[0][0],item[0][2],item[0][1],item[0][3],'']
 
     #Finds score for each year
     #Weight for games played
@@ -159,12 +166,8 @@ for item in all_players:
     if final_pass == 0:
         final = final * 16
 
-    #Write Point Prediction CSV
-    next_directory('/Rankings/Preseason-Model')
-    db_list = []
-    db_list.append(item[0][0])
-    db_list.append(final)
-    database('Point-Prediction', db_list)
+    #Write Point Prediction
+    rank_print[5] = final
 
     #Position Weight
     if item[0][1] == 'QB':
@@ -180,7 +183,9 @@ for item in all_players:
     elif item[0][1] == 'DST':
         final = final * 1
 
+
     #Adds Name and Score to Rankings Dictionary
+    ALL_print.append(rank_print)
     ALL_rankings[item[0][0]] = final
     if item[0][1] == 'QB':
         QB_rankings[item[0][0]] = final
@@ -220,3 +225,4 @@ for name in csv_names:
     elif index == 8:
         sort_rank(name,DST_rankings)
     index += 1
+    
