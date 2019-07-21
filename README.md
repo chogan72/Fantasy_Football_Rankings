@@ -27,7 +27,7 @@ I have just recently finished creating the preseson model. There are some slight
   
 ## Models
 
-### Preseason Model
+### Five Point Model
 
 #### Scoring
 
@@ -37,6 +37,10 @@ I have just recently finished creating the preseson model. There are some slight
 * Next, the 5 point analysis is created. This includes the Ceiling, High, Mid, Low and Floor. Depending on how many games a player played in a given season will determine the weighting of these categories. The below image illustrates how those averages are determined.
 
 <img align="center" src="https://raw.githubusercontent.com/chogan72/Fantasy_Football_Rankings/master/RM-Files/Five-Point.JPG"></img>
+
+* These numbers are added to the Five Point CSV files.
+
+### Preseason Model
 
 #### Formula
 * Next, I took those 5 stats to create a weekly average using the formula below.
