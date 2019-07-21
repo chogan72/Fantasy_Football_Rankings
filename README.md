@@ -65,17 +65,20 @@ I have just recently finished creating the preseson model. There are some slight
   * The Column years represent the year weights.
 
 <table align="center"><thead>
-  <th></th><th>18, 17, 16</th><th>18, 17</th><th>18, 16</th><th>17, 16</th><th>18</th><th>17</th><th>16</th>
+  <th></th><th>18, 17, 16</th><th>18, 17</th><th>18</th><th>18, 16</th><th>17, 16</th><th>17</th><th>16</th>
  </thead>
  <tbody>
   <tr align="center">
-   <td>2018</td><td>.75</td><td>.75</td><td>.75</td><td>-</td><td>1.1</td><td>-</td><td>-</td>
+   <td>2018</td><td>.75</td><td>.75</td><td>1.1</td><td>.75</td><td>-</td><td>-</td><td>-</td>
   </tr>
   <tr align="center">
-   <td>2017</td><td>.2</td><td>.35</td><td>-</td><td>.6</td><td>-</td><td>.8</td><td>-</td>
+   <td>2017</td><td>.2</td><td>.35</td><td>-</td><td>-</td><td>.6</td><td>.8</td><td>-</td>
   </tr>
   <tr align="center">
-   <td>2016</td><td>.15</td><td>-</td><td>.25</td><td>.3</td><td>-</td><td>-</td><td>.7</td>
+   <td>2016</td><td>.15</td><td>-</td><td>-</td><td>.25</td><td>.3</td><td>-</td><td>.7</td>
+  </tr>
+  <tr align="center">
+   <td>Total</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1</td><td>.9</td><td>.8</td><td>.7</td>
   </tr>
  </tbody></table>
  
