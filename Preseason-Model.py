@@ -143,9 +143,9 @@ for item in all_players:
     #Scans people on Injury Report
     for injury in IR:
         if item[0][0] == injury[0]:
-            if 'IR.' in injury[4] or 'indefinitely' in injury[4]:
+            if 'IR. Injured Reserve' in injury[4] or 'indefinitely' in injury[4] or 'Physically Unable to Perform' in injury[4]:
                 final = 0
-            elif 'Questionable' in injury[4]:
+            elif 'Questionable' in injury[4] or 'Out for the start of training camp' in injury[4]:
                 final = final * 15
                 final_pass = 1
             elif any(char.isdigit() for char in injury[4]):
