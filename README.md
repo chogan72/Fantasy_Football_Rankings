@@ -89,8 +89,6 @@ I have just recently finished creating the preseson model. There are some slight
   
 <h3 align="center"><b>This final number is the players total point projection for the year.</b></h3>
 
-* This number is then added to the Point-Prediction.csv file
-
 #### Rankings
 
 * Each position is weighted to get an accurate overall ranking.
@@ -104,7 +102,7 @@ I have just recently finished creating the preseson model. There are some slight
   </tr>
  </tbody></table>
  
-* This number is the used to create the ranking csv files. This number is NOT there point prediction for the season. To get point predictions check out Point-Prediction.csv file.
+* This number is the used to create the ranking csv files. This number is NOT there point prediction for the season.
 
 ## Issues
 
