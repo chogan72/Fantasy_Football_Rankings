@@ -1,9 +1,13 @@
 Player,Position,Updated,Injury,Status
+Robert Nkemdiche,DT,"Sat, Jul 20",Knee - ACL,Physically Unable to Perform
+Brooks Reed,LB,"Sat, Jul 20",Hip,Physically Unable to Perform
+Charles Clay,TE,"Sat, Jul 20",Knee,Physically Unable to Perform
+Brandon Williams,CB,"Sat, Jul 20",Back,Physically Unable to Perform
+Max Garcia,G,"Sat, Jul 20",Knee - ACL,Physically Unable to Perform
+Dante Booker,LB,"Thu, Jul 18",Undisclosed,Physically Unable to Perform
 D.J. Foster,RB,"Wed, May 29",Knee - ACL,Questionable for the start of training camp
 Patrick Peterson,CB,"Thu, May 16",Suspension,Suspended until Week 7 at N.Y. Giants
 D.J. Humphries,T,"Wed, Mar 27",Knee,Questionable for the start of training camp
-Robert Nkemdiche,DT,"Tue, Mar 5",Knee - ACL,Questionable for the start of training camp
-Max Garcia,G,"Thu, Feb 7",Knee - ACL,Questionable for the start of training camp
 Korey Cunningham,T,"Mon, Feb 4",Foot,Questionable for the start of training camp
 Jeremy Langford,RB,"Wed, Jun 26",Undisclosed,Questionable for the start of training camp
 Ra'Shede Hageman,DT,"Thu, Jun 20",Suspension,Suspended until Week 3 at Indianapolis
@@ -11,37 +15,42 @@ Deion Jones,LB,"Mon, Jun 10",Foot,Questionable for the start of training camp
 Julio Jones,WR,"Mon, Jun 10",Foot,Questionable for the start of training camp
 Austin Hooper,TE,"Thu, Jun 6",Ankle,Questionable for the start of training camp
 Steven Means,DE,"Thu, May 23",Achilles,IR. Injured Reserve
-Keanu Neal,SS,"Mon, Feb 4",Knee - ACL,Questionable for the start of training camp
 Ricardo Allen,FS,"Mon, Feb 4",Achilles,Questionable for the start of training camp
+Keanu Neal,SS,"Mon, Feb 4",Knee - ACL,Questionable for the start of training camp
 Wes Schweitzer,G,"Mon, Dec 31",Back,Questionable for the start of training camp
+Alex Lewis,G,"Sat, Jul 20",Shoulder,Physically Unable to Perform
+Michael Pierce,DT,"Fri, Jul 19",Undisclosed,Out for the start of training camp
+Daylon Mack,DT,"Thu, Jul 18",Undisclosed,Out for the start of training camp
+Marquise Brown,WR,"Thu, Jul 18",Foot,Out for the start of training camp
+Patrick Mekari,G,"Thu, Jul 18",Undisclosed,Physically Unable to Perform
+Jaylon Ferguson,LB,"Thu, Jul 18",Undisclosed,Out for the start of training camp
+Alex Collins,RB,"Mon, Jul 15",Leg,Out for the start of training camp
 Cyrus Jones,CB,"Tue, Jun 11",Illness,Questionable for the start of training camp
 Tony Jefferson,SS,"Thu, May 23",Ankle,Questionable for the start of training camp
-Marquise Brown,WR,"Thu, Apr 25",Foot,Questionable for the start of training camp
-Alex Collins,RB,"Tue, Feb 5",Foot,Questionable for the start of training camp
-Alex Lewis,G,"Mon, Jan 7",Shoulder,Questionable for the start of training camp
+Miles Boykin,WR,"Fri, May 17",Hamstring,Questionable for the start of training camp
 Jaelon Acklin,WR,"Wed, Sep 5",Undisclosed,Questionable for the start of training camp
+Daniel Henry,DB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Carrington Byndom,DB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Aaron Bailey,WR,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
-Daniel Henry,DB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Robert Foster,WR,"Tue, Jun 11",Foot,Questionable for the start of training camp
-Ty Nsekhe,T,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Zay Jones,WR,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
-Quinton Spain,G,"Tue, May 28",Thumb,Questionable for the start of training camp
+Ty Nsekhe,T,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Jason Croom,TE,"Tue, May 28",Hamstring,Questionable for the start of training camp
+Quinton Spain,G,"Tue, May 28",Thumb,Questionable for the start of training camp
 David Sills,WR,"Tue, May 21",Hamstring,Questionable for the start of training camp
 Cole Beasley,WR,"Tue, May 21",Abdomen,Questionable for the start of training camp
-Russell Bodine,C,"Tue, Feb 5",Lower Leg,Questionable for the start of training camp
-Marcus Murphy,RB,"Tue, Feb 5",Elbow,Questionable for the start of training camp
 Cory Carter,P,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
 Tyler Kroft,TE,"Tue, Feb 5",Foot,Questionable for the start of training camp
+Marcus Murphy,RB,"Tue, Feb 5",Elbow,Questionable for the start of training camp
+Russell Bodine,C,"Tue, Feb 5",Lower Leg,Questionable for the start of training camp
 Aaron Green,RB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Torrey Smith,WR,"Wed, Jun 19",Knee,Questionable for the start of training camp
-Mose Frazier,WR,"Wed, Jun 12",Arm,Questionable for the start of training camp
 Jermaine Carter,LB,"Wed, Jun 12",Hamstring,Questionable for the start of training camp
+Mose Frazier,WR,"Wed, Jun 12",Arm,Questionable for the start of training camp
 Aldrick Robinson,WR,"Wed, Jun 12",Hamstring,Questionable for the start of training camp
 Ian Thomas,TE,"Wed, May 22",Leg,Questionable for the start of training camp
-Daryl Williams,T,"Thu, Mar 14",Knee - MCL,Questionable for the start of training camp
 Matt Paradis,C,"Thu, Mar 14",Lower Leg,Questionable for the start of training camp
+Daryl Williams,T,"Thu, Mar 14",Knee - MCL,Questionable for the start of training camp
 Elijah Hood,RB,"Mon, Feb 25",Knee - ACL,Questionable for the start of training camp
 Cam Newton,QB,"Mon, Dec 31",Shoulder,Questionable for the start of training camp
 Jomon Dotson,DB,"Mon, Jul 1",Undisclosed,Questionable for the start of training camp
@@ -53,67 +62,68 @@ Alex Bars,T,"Mon, May 6",Knee - ACL + MCL,Questionable for the start of training
 Anthony Miller,WR,"Mon, Jan 14",Shoulder,Questionable for the start of training camp
 Shaq Roland,WR,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Jonah Williams,T,"Tue, Jun 25",Shoulder - Labrum,Out for the start of training camp
-Clint Boling,G,"Tue, Jun 25",Undisclosed,Questionable for the start of training camp
 Rodney Anderson,RB,"Wed, May 29",Knee - ACL,Questionable for the start of training camp
 Alex Redmond,G,"Tue, May 28",Suspension,Suspended until Week 5 vs. Arizona
 Darqueze Dennard,DB,"Wed, May 8",Knee,Questionable for the start of training camp
-A.J. Green,WR,"Tue, Feb 5",Toe,Questionable for the start of training camp
-Ryan Glasgow,DT,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
-Carl Lawson,DE,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
-Tyler Eifert,TE,"Tue, Feb 5",Ankle,Questionable for the start of training camp
 Dre Kirkpatrick,CB,"Tue, Feb 5",Shoulder,Questionable for the start of training camp
+Tyler Eifert,TE,"Tue, Feb 5",Ankle,Questionable for the start of training camp
+A.J. Green,WR,"Tue, Feb 5",Toe,Questionable for the start of training camp
+Carl Lawson,DE,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
+Ryan Glasgow,DT,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
 Geno Atkins,DT,"Sun, Jan 27",Undisclosed,Questionable for the start of training camp
 Brandon Wilson,DB,"Sun, Dec 30",Chest,Questionable for the start of training camp
 T.J. Carrie,DB,"Thu, Jun 6",Leg,Questionable for the start of training camp
 Kareem Hunt,RB,"Wed, Jun 5",Suspension,Suspended until Week 10 vs. Buffalo
 E.J. Gaines,CB,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
-Jarvis Landry,WR,"Fri, May 17",Undisclosed,Questionable for the start of training camp
 Donnie Lewis,CB,"Sat, Apr 27",Foot,Questionable for the start of training camp
-Derrick Willies,WR,"Tue, Feb 5",Collarbone,Questionable for the start of training camp
 Marcus Martin,C,"Tue, Feb 5",Toe,Questionable for the start of training camp
+Derrick Willies,WR,"Tue, Feb 5",Collarbone,Questionable for the start of training camp
 Rico Gathers,TE,"Sat, Jun 15",Suspension,Suspended until Week 2 at Washington
 Noah Brown,WR,"Thu, Jun 13",Knee,Questionable for the start of training camp
 Taco Charlton,DE,"Wed, Jun 12",Ankle,Questionable for the start of training camp
 Connor McGovern,G,"Tue, Jun 11",Pectoral,Questionable for the start of training camp
-Chidobe Awuzie,CB,"Wed, May 29",Hamstring,Questionable for the start of training camp
 Kavon Frazier,FS,"Wed, May 29",Knee,Questionable for the start of training camp
-Christian Covington,DE,"Thu, May 23",Calf,Questionable for the start of training camp
+Chidobe Awuzie,CB,"Wed, May 29",Hamstring,Questionable for the start of training camp
 Tavon Austin,WR,"Thu, May 23",Undisclosed,Questionable for the start of training camp
-Cameron Fleming,T,"Wed, May 22",Shin,Questionable for the start of training camp
+Christian Covington,DE,"Thu, May 23",Calf,Questionable for the start of training camp
 Leighton Vander Esch,OLB,"Wed, May 22",Pelvis,Questionable for the start of training camp
+Cameron Fleming,T,"Wed, May 22",Shin,Questionable for the start of training camp
 Travis Frederick,C,"Wed, May 15",Shoulder,Questionable for the start of training camp
 La'el Collins,T,"Thu, Apr 11",Shoulder,Questionable for the start of training camp
 Demarcus Lawrence,DE,"Wed, Apr 10",Shoulder - Labrum,Questionable for the start of training camp
 Byron Jones,CB,"Fri, Mar 29",Hip,Questionable for the start of training camp
-Allen Hurns,WR,"Tue, Feb 5",Ankle,Questionable for the start of training camp
 Jameill Showers,DB,"Tue, Feb 5",Knee - ACL,Questionable for the start of training camp
+Allen Hurns,WR,"Tue, Feb 5",Ankle,Questionable for the start of training camp
 Zack Martin,G,"Fri, Jan 18",Knee,Questionable for the start of training camp
 Antwaun Woods,DT,"Thu, Jan 17",Shoulder - Labrum,Questionable for the start of training camp
 Kasey Redfern,P,"Sat, Aug 25",Knee - ACL + MCL,Questionable for the start of training camp
-Ja'Wuan James,T,"Wed, May 29",Hip,Questionable for the start of training camp
+Troy Fumagalli,TE,"Sat, Jul 20",Hip,Questionable for the start of training camp
+River Cracraft,WR,"Sat, Jul 20",Oblique,Questionable for the start of training camp
+Todd Davis,ILB,"Fri, Jul 19",Calf,Questionable for the start of training camp
 Nico Falah,C,"Tue, May 14",Achilles,IR. Injured Reserve
-Jake Butt,TE,"Thu, Feb 7",Knee,Questionable for the start of training camp
-Phillip Lindsay,RB,"Thu, Feb 7",Wrist,Questionable for the start of training camp
 Emmanuel Sanders,WR,"Thu, Feb 7",Achilles,Questionable for the start of training camp
 Andre Holmes,WR,"Thu, Jan 24",Ankle,Questionable for the start of training camp
 Billy Winn,DT,"Sat, Aug 25",Knee - ACL,Questionable for the start of training camp
+John Atkins,DT,"Fri, Jul 19",Undisclosed,Out for the start of training camp
+Ryan Pope,T,"Fri, Jul 19",Undisclosed,Out for the start of training camp
+P.J. Johnson,DT,"Fri, Jul 19",Undisclosed,Out for the start of training camp
+Austin Bryant,DE,"Fri, Jul 19",Pectoral,Out for the start of training camp
+Chris Lacy,WR,"Fri, Jul 19",Lower Leg,Physically Unable to Perform
 Damon Harrison,DT,"Thu, Jul 11",Contract Dispute,Questionable for the start of training camp
 Isaac Nauta,TE,"Mon, Jun 17",Undisclosed,Questionable for the start of training camp
-Chris Lacy,WR,"Thu, Jun 13",Lower Leg,Questionable for the start of training camp
 Christian Jones,OLB,"Thu, Jun 13",Undisclosed,Questionable for the start of training camp
 Darius Slay,CB,"Thu, Jun 13",Contract Dispute,Questionable for the start of training camp
-Austin Bryant,DE,"Sat, Apr 27",Pectoral,Questionable for the start of training camp
 Trey Flowers,DE,"Sun, Mar 3",Shoulder,Questionable for the start of training camp
 Marvin Jones,WR,"Fri, Mar 1",Knee,Questionable for the start of training camp
-Steve Longa,LB,"Thu, Feb 7",Knee,Questionable for the start of training camp
 Nick Bawden,RB,"Thu, Feb 7",Knee - ACL,Questionable for the start of training camp
+Steve Longa,LB,"Thu, Feb 7",Knee,Questionable for the start of training camp
 Kenny Golladay,WR,"Mon, Dec 31",Chest,Questionable for the start of training camp
-Brandon Barnes,TE,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Stefan McClure,DB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
-Javien Hamilton,DB,"Wed, Jun 12",Undisclosed,Questionable for the start of training camp
-Greg Roberts,LB,"Wed, Jun 12",Undisclosed,Questionable for the start of training camp
+Brandon Barnes,TE,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Kevin King,CB,"Wed, Jun 12",Hamstring,Questionable for the start of training camp
+Greg Roberts,LB,"Wed, Jun 12",Undisclosed,Questionable for the start of training camp
 Jason Spriggs,T,"Wed, Jun 12",Elbow,Questionable for the start of training camp
+Javien Hamilton,DB,"Wed, Jun 12",Undisclosed,Questionable for the start of training camp
 Josh Jones,DB,"Tue, Jun 11",Hamstring,Questionable for the start of training camp
 Ty Summers,LB,"Wed, May 29",Hamstring,Questionable for the start of training camp
 Mike Daniels,DE,"Tue, May 28",Foot,Questionable for the start of training camp
@@ -132,18 +142,17 @@ Javon Patterson,C,"Tue, Jun 4",Knee - ACL,IR. Injured Reserve
 Chad Kelly,QB,"Mon, Jun 3",Suspension,Suspended until Week 3 vs. Atlanta
 Clayton Geathers,SS,"Wed, May 29",Knee,Questionable for the start of training camp
 Andrew Luck,QB,"Tue, May 21",Calf,Questionable for the start of training camp
-Eric Ebron,TE,"Tue, May 14",Groin,Questionable for the start of training camp
 Darius Leonard,OLB,"Tue, May 14",Ankle,Questionable for the start of training camp
+Eric Ebron,TE,"Tue, May 14",Groin,Questionable for the start of training camp
 Jack Doyle,TE,"Wed, Feb 27",Hip,Questionable for the start of training camp
 Ross Travis,TE,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
-Jihad Ward,DE,"Fri, Feb 8",Ankle,Questionable for the start of training camp
 Deon Cain,WR,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
-Tyquan Lewis,DE,"Mon, Jan 14",Knee,Questionable for the start of training camp
-T.Y. Hilton,WR,"Sat, Jan 12",Ankle,Questionable for the start of training camp
 Ryan Kelly,C,"Sat, Jan 12",Knee,Questionable for the start of training camp
-Kolby Listenbee,WR,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
+T.Y. Hilton,WR,"Sat, Jan 12",Ankle,Questionable for the start of training camp
 Harvey Binford,WR,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
+Kolby Listenbee,WR,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Michael Cirino,DB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
+Dredrick Snelson,WR,"Sun, Jul 14",Undisclosed,IR. Injured Reserve
 Andrew Norwell,G,"Thu, Jun 13",Undisclosed,Questionable for the start of training camp
 Ryquell Armstead,RB,"Thu, Jun 6",Hamstring,Questionable for the start of training camp
 Roderick Young,DT,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
@@ -152,10 +161,10 @@ Cody Brown,DB,"Tue, May 14",Undisclosed,IR. Injured Reserve
 Saivion Smith,DB,"Mon, May 13",Ankle,Questionable for the start of training camp
 Telvin Smith,OLB,"Thu, May 9",Personal,Out for the start of training camp
 Jawaan Taylor,T,"Fri, Apr 26",Knee - Meniscus,Questionable for the start of training camp
-Cam Robinson,T,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
-Jake Ryan,LB,"Fri, Feb 8",Knee,Questionable for the start of training camp
 Brandon Linder,C,"Fri, Feb 8",Knee,Questionable for the start of training camp
 Marqise Lee,WR,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
+Jake Ryan,LB,"Fri, Feb 8",Knee,Questionable for the start of training camp
+Cam Robinson,T,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Datone Jones,DE,"Tue, Feb 5",Hamstring,Questionable for the start of training camp
 A.J. Bouye,CB,"Mon, Dec 31",Toe,Questionable for the start of training camp
 Zach Conque,TE,"Wed, Nov 14",Undisclosed,Questionable for the start of training camp
@@ -163,19 +172,17 @@ Manase Hungalu,LB,"Thu, Sep 6",Undisclosed,Questionable for the start of trainin
 Bryan Walters,WR,"Sat, Aug 25",Foot,Questionable for the start of training camp
 Deon Yelder,TE,"Sun, Jul 14",Hamstring,Questionable for the start of training camp
 Juan Thornhill,CB,"Fri, Jul 12",Calf,Questionable for the start of training camp
-Tyreek Hill,WR,"Tue, Jun 25",Suspension,Suspended indefinitely
 James Murray,C,"Tue, Jun 11",Leg,Questionable for the start of training camp
 Cameron Erving,G,"Thu, May 23",Shoulder,Questionable for the start of training camp
 Jamire Jordan,WR,"Sat, May 18",Undisclosed,Questionable for the start of training camp
 Felton Davis,WR,"Mon, May 6",Achilles,Questionable for the start of training camp
 Travis Kelce,TE,"Sat, Mar 2",Ankle,Questionable for the start of training camp
 Armani Watts,DB,"Fri, Feb 8",Abdomen,Questionable for the start of training camp
-Dorian O'Daniel,LB,"Tue, Jan 22",Ankle,Questionable for the start of training camp
 Koda Martin,G,"Wed, Jul 3",Undisclosed,IR. Injured Reserve
 Russell Okung,T,"Tue, Jun 11",Undisclosed,Questionable for the start of training camp
 Trevion Thompson,WR,"Mon, Jun 10",Undisclosed,Questionable for the start of training camp
-Derek Watt,FB,"Mon, Jun 3",Shoulder,Questionable for the start of training camp
 Nasir Adderley,DB,"Mon, Jun 3",Undisclosed,Questionable for the start of training camp
+Derek Watt,FB,"Mon, Jun 3",Shoulder,Questionable for the start of training camp
 Jerry Tillery,DT,"Thu, Apr 25",Shoulder - Labrum,Questionable for the start of training camp
 Kyzir White,OLB,"Wed, Apr 3",Knee,Questionable for the start of training camp
 Jaylen Watkins,DB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
@@ -192,31 +199,29 @@ Cooper Kupp,WR,"Mon, Feb 4",Knee - ACL,Questionable for the start of training ca
 Connor Hilland,C,"Sat, Jul 6",Undisclosed,Questionable for the start of training camp
 Kendrick Norton,DT,"Fri, Jul 5",Arm,Out for the start of training camp
 Isaac Asiata,G,"Thu, Jun 6",Undisclosed,Questionable for the start of training camp
-Kenny Stills,WR,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Brice Butler,WR,"Tue, Jun 4",Leg,Questionable for the start of training camp
+Kenny Stills,WR,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Charles Harris,DE,"Sat, Jun 1",Wrist,Questionable for the start of training camp
 Dwayne Allen,TE,"Tue, May 21",Undisclosed,Questionable for the start of training camp
 Ricardo Louis,WR,"Sat, May 18",Knee,IR. Injured Reserve
 Chase Allen,OLB,"Tue, Apr 16",Undisclosed,Questionable for the start of training camp
 Albert Wilson,WR,"Sun, Mar 10",Hip - Labrum,Questionable for the start of training camp
-Jakeem Grant,WR,"Fri, Feb 8",Achilles,Questionable for the start of training camp
 Daniel Kilgore,C,"Fri, Feb 8",Triceps,Questionable for the start of training camp
+Jakeem Grant,WR,"Fri, Feb 8",Achilles,Questionable for the start of training camp
 Cordrea Tankersley,CB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
-Torry McTyer,CB,"Sun, Dec 30",Concussion,Questionable for the start of training camp
 Rashawn Scott,WR,"Thu, Sep 6",Ankle,Questionable for the start of training camp
+Roc Thomas,RB,"Wed, Jul 17",Suspension,Suspended until Week 4 at Chicago
 David Morgan,TE,"Fri, Jun 14",Knee,Questionable for the start of training camp
 Brandon Zylstra,WR,"Wed, Jun 12",Undisclosed,Questionable for the start of training camp
 Holton Hill,DB,"Wed, Jun 5",Suspension,Suspended until Week 5 at N.Y. Giants
-Brian O'Neill,T,"Wed, May 22",Undisclosed,Questionable for the start of training camp
 Linval Joseph,DT,"Wed, May 22",Undisclosed,Questionable for the start of training camp
+Brian O'Neill,T,"Wed, May 22",Undisclosed,Questionable for the start of training camp
 Jeff Badet,WR,"Sat, May 4",Groin,Questionable for the start of training camp
 Tashawn Bower,DE,"Tue, Apr 16",Foot,Questionable for the start of training camp
-Mike Hughes,CB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Ade Aruna,DE,"Fri, Feb 8",Knee,Questionable for the start of training camp
+Mike Hughes,CB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Johnny Stanton,RB,"Fri, Jan 25",Lower Leg,Questionable for the start of training camp
-Eric Kendricks,MLB,"Mon, Dec 31",Hamstring,Questionable for the start of training camp
 C.J. Ham,FB,"Mon, Dec 31",Elbow,Questionable for the start of training camp
-Xavier Rhodes,CB,"Mon, Dec 31",Groin,Questionable for the start of training camp
 Sony Michel,RB,"Wed, Jun 12",Knee,Questionable for the start of training camp
 Benjamin Watson,TE,"Tue, May 28",Suspension,Suspended until Week 5 at Washington
 Deatrich Wise,DE,"Mon, May 6",Ankle,Questionable for the start of training camp
@@ -225,13 +230,14 @@ Demaryius Thomas,WR,"Fri, Feb 8",Achilles,Questionable for the start of training
 Shilique Calhoun,LB,"Fri, Feb 8",Neck,Questionable for the start of training camp
 Patrick Chung,SS,"Wed, Feb 6",Forearm,Questionable for the start of training camp
 Isaiah Wynn,T,"Mon, Feb 4",Achilles,Questionable for the start of training camp
+Emmanuel Butler,WR,"Thu, Jul 18",Undisclosed,Out for the start of training camp
 David Onyemata,DT,"Sat, Jun 29",Suspension,Suspended until Week 2 at L.A. Rams
 Keith Kirkwood,WR,"Wed, Jun 19",Undisclosed,Questionable for the start of training camp
 Larry Warford,G,"Thu, May 30",Undisclosed,Questionable for the start of training camp
-Chris Banjo,DB,"Thu, May 23",Knee,Questionable for the start of training camp
 Marcus Davenport,DE,"Thu, May 23",Foot,Questionable for the start of training camp
-Cameron Meredith,WR,"Fri, Feb 8",Knee,Questionable for the start of training camp
+Chris Banjo,DB,"Thu, May 23",Knee,Questionable for the start of training camp
 Sheldon Rankins,DT,"Fri, Feb 8",Achilles,Questionable for the start of training camp
+Cameron Meredith,WR,"Fri, Feb 8",Knee,Questionable for the start of training camp
 Shane Vereen,RB,"Thu, Sep 6",Undisclosed,Questionable for the start of training camp
 Jacob Thieneman,DB,"Thu, Jun 13",Knee,Questionable for the start of training camp
 Evan Engram,TE,"Tue, Jun 11",Hamstring,Questionable for the start of training camp
@@ -241,7 +247,6 @@ Nate Solder,T,"Fri, May 17",Ankle,Questionable for the start of training camp
 Nate Harvey,DE,"Mon, May 6",Knee,IR. Injured Reserve
 Mike Remmers,G,"Wed, Apr 17",Back,Questionable for the start of training camp
 Kyle Lauletta,QB,"Mon, Mar 4",Knee,Questionable for the start of training camp
-Grant Haley,DB,"Sun, Dec 30",Concussion,Questionable for the start of training camp
 Nick Becton,T,"Wed, Sep 5",Ankle,Questionable for the start of training camp
 Uani' Unga,LB,"Sat, Aug 25",Undisclosed,Questionable for the start of training camp
 Chris Herndon,TE,"Sat, Jul 13",Suspension,Suspended until Week 6 vs. Dallas
@@ -249,35 +254,36 @@ Jordan Jenkins,OLB,"Thu, Jun 27",Shoulder,Questionable for the start of training
 Robby Anderson,WR,"Thu, Jun 13",Undisclosed,Questionable for the start of training camp
 Tom Compton,G,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Marcus Maye,FS,"Thu, May 23",Shoulder,Questionable for the start of training camp
-Blessuan Austin,DB,"Sat, May 11",Knee - ACL,Questionable for the start of training camp
 Jachai Polite,DE,"Fri, Apr 26",Hamstring,Questionable for the start of training camp
 Quinton Patton,WR,"Sat, Aug 25",Foot,Questionable for the start of training camp
 Richie Incognito,C,"Sat, Jul 13",Suspension,Suspended until Week 3 at Minnesota
 Ryan Yurachek,RB,"Thu, Jun 6",Undisclosed,Questionable for the start of training camp
 Isaiah Crowell,RB,"Fri, May 3",Achilles,IR. Injured Reserve
-Gabe Jackson,G,"Fri, Feb 8",Elbow,Questionable for the start of training camp
-Andrew DePaola,LS,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
+Jonathan Cooper,G,"Fri, Feb 8",Biceps,Questionable for the start of training camp
 Jordan Devey,G,"Fri, Feb 8",Pectoral,Questionable for the start of training camp
 Daryl Worley,CB,"Fri, Feb 8",Shoulder - Labrum,Questionable for the start of training camp
+Gabe Jackson,G,"Fri, Feb 8",Elbow,Questionable for the start of training camp
+Andrew DePaola,LS,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Maurice Hurst,DT,"Mon, Dec 31",Ankle,Questionable for the start of training camp
 Griff Whalen,WR,"Thu, Aug 30",Toe,Questionable for the start of training camp
+Devin Ross,CB,"Tue, Jul 16",Undisclosed,Questionable for the start of training camp
 Shelton Gibson,WR,"Sun, Jun 23",Undisclosed,Questionable for the start of training camp
 Nelson Agholor,WR,"Wed, Jun 12",Leg,Questionable for the start of training camp
 Miles Sanders,RB,"Wed, May 29",Hamstring,Questionable for the start of training camp
 Josh Adams,RB,"Mon, Apr 15",Shoulder,Questionable for the start of training camp
 Jalen Mills,CB,"Tue, Mar 26",Foot,Questionable for the start of training camp
 Ronald Darby,CB,"Tue, Mar 19",Knee - ACL,Questionable for the start of training camp
-Jordan Mailata,T,"Fri, Feb 8",Back,Questionable for the start of training camp
-Corey Clement,RB,"Fri, Feb 8",Knee,Questionable for the start of training camp
 Mack Hollins,WR,"Fri, Feb 8",Groin,Questionable for the start of training camp
 Paul Worrilow,LB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
+Corey Clement,RB,"Fri, Feb 8",Knee,Questionable for the start of training camp
+Jordan Mailata,T,"Fri, Feb 8",Back,Questionable for the start of training camp
 Rodney McLeod,FS,"Fri, Feb 8",Knee - ACL + MCL,Questionable for the start of training camp
 Brandon Brooks,G,"Fri, Feb 8",Achilles,Questionable for the start of training camp
 Derek Barnett,DE,"Thu, Feb 7",Shoulder,Questionable for the start of training camp
 Josh Sweat,DE,"Thu, Feb 7",Ankle,Questionable for the start of training camp
 Fletcher Cox,DT,"Tue, Jan 15",Foot,Questionable for the start of training camp
-Alshon Jeffery,WR,"Sun, Jan 13",Ribs,Questionable for the start of training camp
 Jason Peters,T,"Sun, Jan 13",Back,Questionable for the start of training camp
+Alshon Jeffery,WR,"Sun, Jan 13",Ribs,Questionable for the start of training camp
 Adam Zaruba,TE,"Tue, Sep 4",Undisclosed,Questionable for the start of training camp
 Ryan Shazier,LB,"Mon, Apr 29",Spine,Physically Unable to Perform
 David DeCastro,G,"Sun, Jan 27",Undisclosed,Questionable for the start of training camp
@@ -294,35 +300,37 @@ Azeez Al-Shaair,LB,"Mon, May 6",Knee - ACL,Questionable for the start of trainin
 Jalen Hurd,WR,"Fri, Apr 26",Knee,Questionable for the start of training camp
 Jason Verrett,DB,"Thu, Feb 28",Achilles,Questionable for the start of training camp
 David Mayo,OLB,"Wed, Feb 20",Sports Hernia,Questionable for the start of training camp
-Raheem Mostert,RB,"Fri, Feb 8",Forearm,Questionable for the start of training camp
-Kwon Alexander,MLB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Jimmy Garoppolo,QB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
+Kwon Alexander,MLB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
+Raheem Mostert,RB,"Fri, Feb 8",Forearm,Questionable for the start of training camp
 Jerick McKinnon,RB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 D.J. Reed,FS,"Thu, Jan 24",Shoulder - Labrum,Questionable for the start of training camp
 Weston Richburg,C,"Thu, Jan 24",Knee,Questionable for the start of training camp
 JP Flynn,G,"Thu, Jan 17",Knee,Questionable for the start of training camp
 Laken Tomlinson,G,"Sun, Dec 30",Knee,Questionable for the start of training camp
+Demetrius Knox,G,"Thu, Jul 18",Foot,Out for the start of training camp
+Marquise Blair,DB,"Wed, Jul 17",Hamstring,Physically Unable to Perform
+Demarcus Christmas,DT,"Wed, Jul 17",Undisclosed,Physically Unable to Perform
+Ben Burr-Kirven,LB,"Wed, Jul 17",Sports Hernia,Physically Unable to Perform
+Phil Haynes,G,"Wed, Jul 17",Undisclosed,Physically Unable to Perform
 C.J. Prosise,RB,"Thu, Jun 13",Hamstring,Questionable for the start of training camp
-Demetrius Knox,G,"Thu, Jun 13",Undisclosed,Questionable for the start of training camp
-Marquise Blair,DB,"Wed, Jun 12",Hamstring,Questionable for the start of training camp
 Mike Iupati,G,"Tue, Jun 11",Foot,Questionable for the start of training camp
-Ben Burr-Kirven,LB,"Tue, Jun 11",Sports Hernia,Questionable for the start of training camp
 Adam Choice,RB,"Thu, May 30",Undisclosed,IR. Injured Reserve
 Bradley McDougald,SS,"Wed, May 22",Knee,Questionable for the start of training camp
 Chris Carson,RB,"Tue, May 21",Knee,Questionable for the start of training camp
 Ezekiel Ansah,DE,"Thu, May 9",Shoulder - Labrum,Questionable for the start of training camp
 Simeon Thomas,DB,"Mon, May 6",Groin,Questionable for the start of training camp
+Delano Hill,DB,"Fri, Feb 8",Hip,Questionable for the start of training camp
 Mychal Kendricks,LB,"Fri, Feb 8",Lower Leg,Questionable for the start of training camp
 Will Dissly,TE,"Fri, Feb 8",Kneecap,Questionable for the start of training camp
 Jamarco Jones,T,"Fri, Feb 8",Ankle,Questionable for the start of training camp
-Delano Hill,DB,"Fri, Feb 8",Hip,Questionable for the start of training camp
 Erik Walden,LB,"Fri, Sep 7",Hip,Questionable for the start of training camp
 Ryan Smith,CB,"Thu, Jul 11",Suspension,Suspended until Week 5 at New Orleans
 Jason Pierre-Paul,DE,"Fri, Jun 7",Neck,Doubtful for the start of training camp
 Mike Evans,WR,"Thu, Jun 6",Hamstring,Questionable for the start of training camp
 Justin Evans,SS,"Wed, Jun 5",Heel,Questionable for the start of training camp
-Bobo Wilson,WR,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Ryan Jensen,C,"Tue, Jun 4",Back,Questionable for the start of training camp
+Bobo Wilson,WR,"Tue, Jun 4",Undisclosed,Questionable for the start of training camp
 Isaiah Searight,TE,"Wed, May 22",Hamstring,Questionable for the start of training camp
 Zack Bailey,G,"Mon, May 13",Lower Leg,Questionable for the start of training camp
 Jack Cichy,LB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
@@ -337,23 +345,23 @@ Adoree' Jackson,CB,"Tue, May 21",Foot,Questionable for the start of training cam
 Hamp Cheevers,DB,"Sat, May 18",Undisclosed,Questionable for the start of training camp
 D'Andre Walker,OLB,"Sat, Apr 27",Groin,Questionable for the start of training camp
 Jeffery Simmons,DT,"Thu, Apr 25",Knee - ACL,Questionable for the start of training camp
-Delanie Walker,TE,"Fri, Feb 8",Ankle,Questionable for the start of training camp
 Jonnu Smith,TE,"Fri, Feb 8",Knee - MCL,Questionable for the start of training camp
 Logan Ryan,CB,"Fri, Feb 8",Lower Leg,Questionable for the start of training camp
+Delanie Walker,TE,"Fri, Feb 8",Ankle,Questionable for the start of training camp
 Adonis Alexander,DB,"Thu, Jun 6",Groin,Questionable for the start of training camp
-Danny Johnson,DB,"Wed, May 29",Finger,Questionable for the start of training camp
-Geron Christian,T,"Wed, May 29",Knee - MCL,Questionable for the start of training camp
 Tyler Catalina,G,"Wed, May 29",Shoulder,Questionable for the start of training camp
+Geron Christian,T,"Wed, May 29",Knee - MCL,Questionable for the start of training camp
+Danny Johnson,DB,"Wed, May 29",Finger,Questionable for the start of training camp
 Reuben Foster,OLB,"Wed, May 22",Knee - ACL,IR. Injured Reserve
 Nick Sundberg,LS,"Tue, May 14",Lower Back,Questionable for the start of training camp
 Bryce Love,RB,"Sat, Apr 27",Knee - ACL,Questionable for the start of training camp
 Paul Richardson,WR,"Thu, Apr 18",Shoulder,Questionable for the start of training camp
 Trent Williams,T,"Mon, Apr 1",Head,Questionable for the start of training camp
 Colt McCoy,QB,"Mon, Mar 25",Lower Leg,Questionable for the start of training camp
-Alex Smith,QB,"Fri, Feb 8",Lower Leg,Out for the start of training camp
-Robert Davis,WR,"Fri, Feb 8",Knee,Questionable for the start of training camp
-Derrius Guice,RB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
-Cassanova McKinzy,LB,"Fri, Feb 8",Pectoral,Questionable for the start of training camp
 Brandon Scherff,G,"Fri, Feb 8",Pectoral,Questionable for the start of training camp
+Alex Smith,QB,"Fri, Feb 8",Lower Leg,Out for the start of training camp
+Derrius Guice,RB,"Fri, Feb 8",Knee - ACL,Questionable for the start of training camp
 Jordan Reed,TE,"Fri, Feb 8",Foot,Questionable for the start of training camp
+Robert Davis,WR,"Fri, Feb 8",Knee,Questionable for the start of training camp
+Cassanova McKinzy,LB,"Fri, Feb 8",Pectoral,Questionable for the start of training camp
 Zac Kerin,G,"Mon, Dec 31",Knee,Questionable for the start of training camp
