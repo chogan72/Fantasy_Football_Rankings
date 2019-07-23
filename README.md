@@ -84,8 +84,24 @@ I have just recently finished creating the preseson model. There are some slight
  
 #### Injuries and Suspensions
 * Finally any Injuries and Suspensions are factored in. For example:
-  * If someone has a 4 game suspension there current score would be multiplied by 12
-  * Someone with no suspension would have there current score multiplied by 16
+  
+ <table align="center"><thead>
+  <th>Injuries and Suspensions</th><th>Multiplier</th>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td>Injured Reserve, Physically Unable to Perform, or Suspended Indefinitely</td><td>0</td>
+  </tr>
+  <tr align="center">
+   <td>Questionable or Out for start of training camp</td><td>15</td>
+  </tr>
+  <tr align="center">
+   <td>Player with Return Week Prediction</td><td>16 - Return Week</td>
+  </tr>
+  <tr align="center">
+   <td>Full Season</td><td>16</td>
+  </tr>
+ </tbody></table>
   
 <h3 align="center"><b>This final number is the players total point projection for the year.</b></h3>
 
@@ -108,5 +124,5 @@ I have just recently finished creating the preseson model. There are some slight
 
 * Preseason Model
   * This does not include any Rookies
-  * If players names are inconsistent between databases they are not ranked
+  * If players names are inconsistent between databases they are not ranked. Most players should be fixed.
 * In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updating the players file multiple times but the problem is still there. 
