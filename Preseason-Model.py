@@ -152,16 +152,16 @@ for item in all_players:
         if item[0][0] == injury[0]:
             if 'IR. Injured Reserve' in injury[4] or 'indefinitely' in injury[4] or 'Physically Unable to Perform' in injury[4]:
                 final = 0
+            elif any(char.isdigit() for char in injury[4]):
+                week = int(re.sub("[^0-9]", "", injury[4]))
+                if item[0][2] != 'FA' and week > int(item[0][3]):
+                    week -= 1
+                final = final * (16 - week)
+                final_pass = 1
             elif 'Questionable' in injury[4] or 'Out for the start of training camp' in injury[4]:
                 final = final * 15
                 final_pass = 1
-            elif any(char.isdigit() for char in injury[4]):
-                week = int(re.sub("[^0-9]", "", injury[4]))
-                if week > int(item[0][3]):
-                    week -= 1
-                final = final * week
-                final_pass = 1
-
+           
     #Play full season
     if final_pass == 0:
         final = final * 16
