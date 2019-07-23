@@ -27,6 +27,18 @@ positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DST']
 players = ['Name', 'Position', 'Team', 'Bye']
 database('Fantasy-Pros-Database', players)
 
+#Player Name Fix
+players_skip ={
+        'Steven Hauschka':'Stephen Hauschka',
+        'Mitch Trubisky':'Mitchell Trubisky',
+        'Robert Griffin':'Robert Griffin III',
+        'Ronald Jones II':'Ronald Jones',
+        'Devante Parker':'DeVante Parker',
+        'Equanimeous S':'Equanimeous St. Brown',
+        'Odell Beckham Jr.':'Odell Beckham',
+        'Chris Herndon IV':'Chris Herndon'
+        }
+
 #beautifulsoup4 link
 BS_link = 'https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php'
 sauce = requests.get(BS_link)
@@ -93,12 +105,13 @@ for player in soup.find_all('td'):
                     current = last_line[0] + ' ' + last_line[1] + ' ' + last_line[2][:-2]
                 #Player Information
                 players = [current, position, last_line[item]]
-                #Odell Beckham Jr. Fix
-                if players[0] == 'Odell Beckham Jr.':
-                    players[0] = 'Odell Beckham'
                 #Confirms Player
                 if len(players[2]) <= 3 and '.' not in players[2]:
                     bye_week = 1
-           
+                    
+            #Name Fix
+            for skip in players_skip:
+                if players[0] == skip:
+                    players[0] = players_skip[skip]
     #Saves player info from last line
     last_line = gdata
