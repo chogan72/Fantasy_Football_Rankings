@@ -82,6 +82,9 @@ I have just recently finished creating the preseson model. There are some slight
   </tr>
  </tbody></table>
  
+#### Free Agent
+* If the player is a Free Agent there prediction is multiplied by 50%.
+ 
 #### Injuries and Suspensions
 * Finally any Injuries and Suspensions are factored in. For example:
   
@@ -114,7 +117,7 @@ I have just recently finished creating the preseson model. There are some slight
  </thead>
  <tbody>
   <tr align="center">
-   <td>0.55</td><td>1.10</td><td>1.05</td><td>1.20</td><td>0.60</td><td>1.00</td>
+   <td>0.58</td><td>1.10</td><td>1.08</td><td>1.30</td><td>0.63</td><td>1.00</td>
   </tr>
  </tbody></table>
  
