@@ -41,7 +41,10 @@ stats_headings = [['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','A
                   ['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]
 
 FP_head = ['Name','Position','Team','Bye']
+Rookie_head = ['Name','College']
 
+next_directory('/Database/')
+database('Rookies-Database', Rookie_head)
 next_directory('/Database/College/')
 #Position: Column Length
 position = {'passing':'17','rushing':'16','receiving':'16','kicking':'11'}
