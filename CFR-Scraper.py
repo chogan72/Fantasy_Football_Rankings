@@ -4,16 +4,35 @@ import re
 import csv
 import os
 
+first_directory = os.getcwd()
 #Change Databse Directory
-dirpath = os.getcwd()
-dirpath = dirpath + '/Database/College/'
-os.chdir(dirpath)
+def next_directory(folder):
+    os.chdir(first_directory)
+    dirpath = os.getcwd()
+    dirpath = dirpath + folder
+    os.chdir(dirpath)
 
 #Writes Players to CSV file
 def database(path, item_list):
     with open(path + '.csv', 'a', newline='') as file:
         wr = csv.writer(file, dialect='excel')
-        wr.writerow(item_list)  
+        wr.writerow(item_list)
+        
+#Read Database Files
+def database_reader(current_file, head_list):
+    database_players = []
+    with open(current_file) as csvfile:
+        reader = csv.DictReader(csvfile)
+        #Reads rows of CSV file
+        for row in reader:
+            index = 0
+            player_list = []
+            #Sets row to proper information
+            while index < len(row):
+                player_list.append(row[head_list[index]])
+                index += 1
+            database_players.append(player_list)
+    return(database_players)
 
 #Player Stats Header
 stats_headings = [['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Att','Yds','Avg','TD'],
@@ -21,6 +40,9 @@ stats_headings = [['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','A
                   ['Player','School','Conf','G','Rec','Yds','Avg','TD','Att','Yds','Avg','TD','Plays','Yds','Avg','TD'],
                   ['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]
 
+FP_head = ['Name','Position','Team','Bye']
+
+next_directory('/Database/College/')
 #Position: Column Length
 position = {'passing':'17','rushing':'16','receiving':'16','kicking':'11'}
 #Years to pull stats from
@@ -49,6 +71,13 @@ for year in range(2016,2019):
             stats.append(gdata)
             #End of Column
             if index == int(position[item]):
+                if year == 2018:
+                    next_directory('/Database/')
+                    FP_file = database_reader('Fantasy-Pros-Database.csv', FP_head)
+                    for row in FP_file:
+                        if row[0] == stats[0]:
+                            database('Rookies-Database', [stats[0],stats[1]])
+                next_directory('/Database/College/')         
                 database(current_path, stats)
                 index = 0
                 #Adds each defensive team
