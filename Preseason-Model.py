@@ -89,12 +89,12 @@ K_rankings = {}
 DST_rankings = {}
 ALL_print = []
 
-rank_head = ['Rank','Name','Team','Position','Bye','Point Prediction']
+rank_head = ['Rank','Name','Team','Position','Bye','Point Prediction','Injury Report']
 
 for item in all_players:
     final_pass = 0
     finals = [0,0,0]
-    rank_print = ['',item[0][0],item[0][2],item[0][1],item[0][3],'']
+    rank_print = ['',item[0][0],item[0][2],item[0][1],item[0][3],'','']
 
     #Finds score for each year
     #Weight for games played
@@ -143,6 +143,10 @@ for item in all_players:
     else:
         final = (float(finals[0])*.15) + (float(finals[1])*.2) + (float(finals[2])*.75)
 
+    #Free Agent
+    if item[0][2] == 'FA':
+        final = final * .5
+
     #Injury Report
     next_directory('/Database/')
     header = ['Player', 'Position', 'Updated', 'Injury', 'Status']
@@ -161,25 +165,30 @@ for item in all_players:
             elif 'Questionable' in injury[4] or 'Out for the start of training camp' in injury[4]:
                 final = final * 15
                 final_pass = 1
+            if 'vs. ' in injury[4] or 'at ' in injury[4]:
+                current_injury = re.split(' vs. | at ', injury[4])
+                rank_print[6] = injury[3] + ' | ' + current_injury[0]
+            else:
+                rank_print[6] = injury[3] + ' | ' + injury[4]
            
     #Play full season
     if final_pass == 0:
         final = final * 16
 
     #Write Point Prediction
-    rank_print[5] = final
+    rank_print[5] = round(final, 2)
 
     #Position Weight
     if item[0][1] == 'QB':
-        final = final * .55
+        final = final * .58
     elif item[0][1] == 'RB':
         final = final * 1.1
     elif item[0][1] == 'WR':
-        final = final * 1.05
+        final = final * 1.08
     elif item[0][1] == 'TE':
-        final = final * 1.2
+        final = final * 1.3
     elif item[0][1] == 'K':
-        final = final * .6
+        final = final * .63
     elif item[0][1] == 'DST':
         final = final * 1
 

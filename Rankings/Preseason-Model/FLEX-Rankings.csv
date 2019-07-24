@@ -1,460 +1,460 @@
-Rank,Name,Team,Position,Bye,Point Prediction
-1,Todd Gurley,LAR,RB,9,304.39342500000004
-2,Saquon Barkley,NYG,RB,11,296.5822933333334
-3,Melvin Gordon,LAC,RB,12,277.30208
-4,Alvin Kamara,NO,RB,9,277.18117333333333
-5,Ezekiel Elliott,DAL,RB,8,268.33717333333334
-6,Christian McCaffrey,CAR,RB,7,233.27274666666668
-7,Le'Veon Bell,NYJ,RB,4,232.55856
-8,Antonio Brown,OAK,WR,6,237.43850666666668
-9,Phillip Lindsay,DEN,RB,10,208.83456000000007
-10,Tyreek Hill,KC,WR,12,216.32256000000004
-11,Davante Adams,GB,WR,11,214.10325333333338
-12,Leonard Fournette,JAC,RB,10,201.04554666666667
-13,James Conner,PIT,RB,7,194.17765714285713
-14,Joe Mixon,CIN,RB,9,188.45669333333333
-15,David Johnson,ARI,RB,12,187.16288000000003
-16,Travis Kelce,KC,TE,12,168.77550000000005
-17,Julio Jones,ATL,WR,9,192.66165000000004
-18,Michael Thomas,NO,WR,9,187.15370666666666
-19,Nick Chubb,CLE,RB,7,177.15690666666669
-20,Adam Thielen,MIN,WR,12,182.52517333333333
-21,Odell Beckham,CLE,WR,7,182.404
-22,Jordan Howard,PHI,RB,10,172.07818666666668
-23,Mike Evans,TB,WR,7,179.43005000000002
-24,JuJu Smith-Schuster,PIT,WR,7,176.08458666666672
-25,Brandin Cooks,LAR,WR,9,175.44586666666666
-26,Mark Ingram,BAL,RB,8,167.44320000000005
-27,Zach Ertz,PHI,TE,10,152.56141333333335
-28,Marlon Mack,IND,RB,6,164.81831999999997
-29,Dalvin Cook,MIN,RB,12,161.3641485714286
-30,Tevin Coleman,SF,RB,4,160.07805714285718
-31,Chris Carson,SEA,RB,11,158.90645625000002
-32,Stefon Diggs,MIN,WR,12,166.46825142857145
-33,Lamar Miller,HOU,RB,10,158.56981333333334
-34,James White,NE,RB,10,157.82181333333335
-35,Aaron Jones,GB,RB,11,157.29589333333334
-36,Kerryon Johnson,DET,RB,5,154.62832000000003
-37,A.J. Green,CIN,WR,9,161.96352000000002
-38,Keenan Allen,LAC,WR,12,157.36405333333335
-39,Derrick Henry,TEN,RB,11,149.1186933333333
-40,Robert Woods,LAR,WR,9,155.9396342857143
-41,T.Y. Hilton,IND,WR,6,154.98877500000003
-42,LeSean McCoy,BUF,RB,6,144.97696000000002
-43,Calvin Ridley,ATL,WR,9,150.52224000000004
-44,Rob Gronkowski,FA,TE,,131.0770323809524
-45,Eric Ebron,IND,TE,6,127.898725
-46,Cooper Kupp,LAR,WR,9,145.75349999999997
-47,O.J. Howard,TB,TE,7,126.71824
-48,George Kittle,SF,TE,4,126.45555
-49,Tarik Cohen,CHI,RB,6,137.34488533333334
-50,Kenyan Drake,MIA,RB,5,135.043260952381
-51,Adrian Peterson,WAS,RB,10,131.78405333333336
-52,Alshon Jeffery,PHI,WR,10,137.48478214285717
-53,Tyler Lockett,SEA,WR,11,136.54357333333334
-54,Jarvis Landry,CLE,WR,7,136.53200000000004
-55,Will Fuller,HOU,WR,10,136.27707500000002
-56,Amari Cooper,DAL,WR,8,135.5651085714286
-57,Jay Ajayi,FA,RB,,128.74042666666668
-58,Dante Pettis,SF,WR,4,134.72330666666667
-59,Emmanuel Sanders,DEN,WR,10,134.602425
-60,Austin Ekeler,LAC,RB,12,128.04309333333336
-61,Julian Edelman,NE,WR,10,131.84097500000001
-62,Latavius Murray,NO,RB,9,125.47714666666667
-63,DeSean Jackson,PHI,WR,10,129.83809523809526
-64,Evan Engram,NYG,TE,11,112.41466785714285
-65,Larry Fitzgerald,ARI,WR,12,126.88896000000001
-66,Tyler Boyd,CIN,WR,9,126.69138666666669
-67,Carlos Hyde,KC,RB,12,120.90164952380955
-68,Kenny Golladay,DET,WR,5,125.4615
-69,Matt Breida,SF,RB,4,118.511
-70,Kareem Hunt,CLE,RB,7,118.26484
-71,Jared Cook,NO,TE,9,108.37322666666668
-72,Marvin Jones,DET,WR,5,123.44540000000003
-73,Robert Foster,BUF,WR,6,122.16709999999998
-74,Alex Collins,FA,RB,,114.84085499999999
-75,Albert Wilson,MIA,WR,5,118.99818000000002
-76,T.J. Yeldon,BUF,RB,6,113.32957333333334
-77,Peyton Barber,TB,RB,7,113.21088
-78,Sammy Watkins,KC,WR,12,117.24575999999999
-79,Sterling Shepard,NYG,WR,11,115.8562742857143
-80,Mohamed Sanu,ATL,WR,9,115.75580800000003
-81,Gus Edwards,BAL,RB,8,110.01349333333336
-82,C.J. Anderson,DET,RB,5,109.75859200000001
-83,Bilal Powell,NYJ,RB,4,109.40512000000001
-84,Golden Tate,NYG,WR,11,114.1213866666667
-85,Frank Gore,BUF,RB,6,108.91050000000001
-86,Dez Bryant,FA,WR,,112.79088000000002
-87,Josh Gordon,NE,WR,10,111.91136000000002
-88,Dion Lewis,TEN,RB,11,105.62007466666668
-89,Doug Martin,OAK,RB,6,105.06309333333334
-90,Jaylen Samuels,PIT,RB,7,105.059328
-91,Chris Godwin,TB,WR,7,107.55573333333335
-92,Tre'Quan Smith,NO,WR,9,106.546176
-93,Elijah McGuire,NYJ,RB,4,101.47776000000002
-94,Kyle Rudolph,MIN,TE,12,93.00896000000003
-95,Royce Freeman,DEN,RB,10,101.4575466666667
-96,Mike Williams,LAC,WR,12,106.05600000000003
-97,Jimmy Graham,GB,TE,11,92.53312000000003
-98,Robby Anderson,NYJ,WR,4,104.74973571428573
-99,Devonta Freeman,ATL,RB,9,99.6242
-100,Devin Funchess,IND,WR,6,103.82906666666669
-101,Christian Kirk,ARI,WR,12,103.31376000000002
-102,Hunter Henry,LAC,TE,12,90.10962285714285
-103,Michael Crabtree,FA,WR,,101.93888000000001
-104,Austin Hooper,ATL,TE,9,88.60450666666667
-105,Jamaal Williams,GB,RB,11,96.43477333333333
-106,Spencer Ware,IND,RB,6,96.30449523809526
-107,David Moore,SEA,WR,11,100.81028571428574
-108,D.J. Moore,CAR,WR,7,100.46549333333336
-109,Dede Westbrook,JAC,WR,10,100.11488000000001
-110,David Njoku,CLE,TE,7,87.45024000000001
-111,Anthony Miller,CHI,WR,6,99.57212571428573
-112,Damien Williams,KC,RB,12,94.69576
-113,Tyrell Williams,OAK,WR,6,99.17309333333336
-114,LeGarrette Blount,FA,RB,,94.16762666666668
-115,Chris Hogan,CAR,WR,7,98.503648
-116,John Brown,BUF,WR,6,98.41120000000001
-117,Antonio Callaway,CLE,WR,7,98.34821333333333
-118,Adam Humphries,TEN,WR,11,98.26800000000001
-119,Duke Johnson,CLE,RB,7,93.69712000000001
-120,Allen Robinson,CHI,WR,6,98.12717714285715
-121,Dontrelle Inman,NE,WR,10,97.975616
-122,Nyheim Hines,IND,RB,6,93.45717333333336
-123,Curtis Samuel,CAR,WR,7,97.475264
-124,Zach Zenner,DET,RB,5,92.9233782857143
-125,Mike Davis,CHI,RB,6,92.56320000000002
-126,Will Dissly,SEA,TE,11,84.71430000000001
-127,Darren Sproles,PHI,RB,10,92.27807999999999
-128,Kenny Stills,MIA,WR,5,96.65820000000001
-129,Greg Olsen,CAR,TE,7,84.08928
-130,Justin Jackson,LAC,RB,12,91.355264
-131,Trey Burton,CHI,TE,6,83.61634285714285
-132,Jerick McKinnon,SF,RB,4,90.95880000000002
-133,Nelson Agholor,PHI,WR,10,95.06020000000002
-134,Cameron Brate,TB,TE,7,83.11232000000001
-135,Courtland Sutton,DEN,WR,10,94.96725333333335
-136,Ted Ginn,NO,WR,9,94.66016
-137,Josh Adams,PHI,RB,10,90.20880000000001
-138,Kenneth Dixon,BAL,RB,8,88.422
-139,Wendell Smallwood,PHI,RB,10,88.22804190476191
-140,Jamison Crowder,NYJ,WR,4,91.25712
-141,Vance McDonald,PIT,TE,7,79.38624
-142,Marqise Lee,JAC,WR,10,90.6363
-143,Corey Davis,TEN,WR,11,90.51957333333334
-144,Donte Moncrief,PIT,WR,7,88.88348571428571
-145,Jordan Reed,WAS,TE,10,77.77215000000001
-146,Zay Jones,BUF,WR,6,88.18950000000001
-147,Giovani Bernard,CIN,RB,9,83.80930666666669
-148,Marquise Goodwin,SF,WR,4,87.77043428571429
-149,Delanie Walker,TEN,TE,11,76.72544000000002
-150,Chris Thompson,WAS,RB,10,83.53062857142858
-151,Terrelle Pryor,JAC,WR,10,87.39728
-152,Taylor Gabriel,CHI,WR,6,86.25890666666668
-153,Javorius Allen,NO,RB,9,82.31519238095237
-154,Ty Montgomery,NYJ,RB,4,82.08374095238096
-155,Josh Reynolds,LAR,WR,9,85.94879999999999
-156,Ito Smith,ATL,RB,9,81.87989333333333
-157,Dallas Goedert,PHI,TE,10,74.68032000000001
-158,Vernon Davis,WAS,TE,10,74.46820190476191
-159,Jack Doyle,IND,TE,6,74.44455
-160,Theo Riddick,DET,RB,5,80.84314666666668
-161,Keke Coutee,HOU,WR,10,84.11040000000003
-162,Jeremy Sprinkle,WAS,TE,10,73.38036000000001
-163,Jalen Richard,OAK,RB,6,79.82704000000001
-164,Chris Ivory,FA,RB,,79.16196571428571
-165,Marquez Valdes-Scantling,GB,WR,11,82.21077333333335
-166,Rex Burkhead,NE,RB,10,77.17091200000002
-167,Geronimo Allison,GB,WR,11,80.76373333333333
-168,Paul Richardson,WAS,WR,10,79.33512857142858
-169,DaeSean Hamilton,DEN,WR,10,78.85504
-170,DeVante Parker,MIA,WR,5,78.55743999999999
-171,D'Onta Foreman,HOU,RB,10,74.88998400000001
-172,Jason Witten,DAL,TE,8,68.592
-173,Rashaad Penny,SEA,RB,11,73.87248000000001
-174,Alfred Morris,FA,RB,,73.83784380952382
-175,Keelan Cole,JAC,WR,10,76.61876571428573
-176,Trey Quinn,WAS,WR,10,76.59784
-177,Demetrius Harris,CLE,TE,7,66.80592
-178,Rashard Higgins,CLE,WR,7,75.78015714285715
-179,Mark Andrews,BAL,TE,8,66.25989333333334
-180,Josh Doctson,WAS,WR,10,75.63061333333334
-181,Jaron Brown,SEA,WR,11,75.46005333333332
-182,Randall Cobb,DAL,WR,8,75.14229333333333
-183,Pierre Garcon,FA,WR,,75.06133333333334
-184,Tyler Eifert,CIN,TE,9,65.60008125000002
-185,Kelvin Benjamin,FA,WR,,74.93494857142858
-186,Garrett Celek,SF,TE,4,65.51179285714286
-187,Willie Snead,BAL,WR,8,74.43696
-188,Cole Beasley,BUF,WR,6,74.07630000000002
-189,Alfred Blue,JAC,RB,10,70.49445333333333
-190,Quincy Enunwa,NYJ,WR,4,73.54933333333334
-191,Corey Clement,PHI,RB,10,69.68013571428571
-192,Aldrick Robinson,CAR,WR,7,71.34389642857143
-193,Jordan Thomas,HOU,TE,10,61.88914285714287
-194,Cameron Artis-Payne,CAR,RB,7,66.94112
-195,Jeff Wilson,SF,RB,4,66.6864
-196,Kendrick Bourne,SF,WR,4,69.85059200000002
-197,Ricky Seals-Jones,ARI,TE,12,61.04968
-198,Breshad Perriman,TB,WR,7,69.00312
-199,Danny Amendola,DET,WR,5,68.516
-200,Ian Thomas,CAR,TE,7,59.64035000000001
-201,Blake Jarwin,DAL,TE,8,59.575296
-202,Torrey Smith,CAR,WR,7,68.01484
-203,Ed Dickson,SEA,TE,11,59.49417142857142
-204,Jesse James,DET,TE,5,59.145325714285725
-205,Cordarrelle Patterson,CHI,WR,6,67.58858666666667
-206,Michael Gallup,DAL,WR,8,67.58400000000002
-207,Mo Alie-Cox,IND,TE,6,59.083200000000005
-208,C.J. Uzomah,CIN,TE,9,58.584736
-209,Vyncint Smith,HOU,WR,10,66.13376000000001
-210,Jake Kumerow,GB,WR,11,66.12540000000001
-211,Cameron Meredith,NO,WR,9,65.22055
-212,Cody Latimer,NYG,WR,11,64.97779199999998
-213,Devontae Booker,DEN,RB,10,61.94192
-214,Phillip Dorsett,NE,WR,10,64.775056
-215,Seth Roberts,BAL,WR,8,64.65578666666667
-216,Tim Patrick,DEN,WR,10,64.13557333333333
-217,Keith Kirkwood,NO,WR,9,63.96852000000001
-218,Dan Arnold,NO,TE,9,55.369600000000005
-219,Jermaine Kearse,DET,WR,5,62.96869333333334
-220,Allen Hurns,DAL,WR,8,62.50344
-221,Jordan Matthews,SF,WR,4,62.36365333333334
-222,Jacquizz Rodgers,FA,RB,,58.644708571428566
-223,Chris Herndon,NYJ,TE,4,53.292030000000004
-224,Austin Seferian-Jenkins,FA,TE,,52.97211619047619
-225,Nick O'Leary,MIA,TE,5,52.913495999999995
-226,Gerald Everett,LAR,TE,9,52.784000000000006
-227,Anthony Firkser,TEN,TE,11,52.58352000000001
-228,Russell Shepard,NYG,WR,11,59.98830857142857
-229,Trent Sherfield,ARI,WR,12,59.87801600000001
-230,Tajae Sharpe,TEN,WR,11,59.702742857142866
-231,Tavon Austin,DAL,WR,8,59.5122
-232,Corey Grant,FA,RB,,55.32300800000001
-233,Chester Rogers,IND,WR,6,57.92179733333333
-234,Bruce Ellington,FA,WR,,57.87986666666666
-235,Jeff Heuerman,DEN,TE,10,50.397866666666665
-236,Darren Fells,HOU,TE,10,50.17755428571429
-237,Jordan Wilkins,IND,RB,6,53.70044952380953
-238,Darrel Williams,KC,RB,12,53.690560000000005
-239,Ryan Griffin,FA,TE,,48.89856000000001
-240,John Ross,CIN,WR,9,55.7624
-241,Chris Conley,JAC,WR,10,55.307120000000005
-242,Andre Ellington,TB,RB,7,52.03989942857144
-243,Brandon Powell,DET,WR,5,54.28148000000001
-244,Demarcus Robinson,KC,WR,12,54.056160000000006
-245,Travis Benjamin,LAC,WR,12,54.002399999999994
-246,Adam Shaheen,CHI,TE,6,47.186719999999994
-247,Raheem Mostert,SF,RB,4,51.11535000000001
-248,Seth DeValve,CLE,TE,7,46.815639999999995
-249,Jeremy Hill,FA,RB,,50.826368
-250,Taywan Taylor,TEN,WR,11,53.23096380952381
-251,Justin Hardy,ATL,WR,9,52.904015238095255
-252,Richie James,SF,WR,4,52.19456000000001
-253,James Washington,PIT,WR,7,52.16874666666668
-254,Lee Smith,BUF,TE,6,45.33888
-255,Brice Butler,MIA,WR,5,51.34779999999999
-256,Tyler Higbee,LAR,TE,9,44.079756190476196
-257,Rhett Ellison,NYG,TE,11,44.07478857142858
-258,Scott Simonson,NYG,TE,11,43.98592000000001
-259,Wayne Gallman,NYG,RB,11,47.89705142857142
-260,Benjamin Watson,NE,TE,10,43.73754
-261,Zach Pascal,IND,WR,6,49.94628571428572
-262,Jakeem Grant,MIA,WR,5,49.9322
-263,Marcell Ateman,OAK,WR,6,48.945600000000006
-264,Matt LaCosse,NE,TE,10,42.74285714285714
-265,Dwayne Washington,NO,RB,9,46.55240571428571
-266,Maurice Harris,NE,WR,10,48.64048
-267,Deontay Burnett,NYJ,WR,4,48.59008000000001
-268,Hayden Hurst,BAL,TE,8,42.325888
-269,Austin Carr,NO,WR,9,48.312000000000005
-270,Ryan Grant,OAK,WR,6,47.98057904761905
-271,Geoff Swaim,JAC,TE,10,41.905699999999996
-272,Jarius Wright,CAR,WR,7,47.398825714285714
-273,Virgil Green,LAC,TE,12,41.31136
-274,Isaiah McKenzie,BUF,WR,6,46.71632
-275,Cody Core,CIN,WR,9,46.48928000000001
-276,Bennie Fowler,NYG,WR,11,46.47163428571429
-277,Levine Toilolo,SF,TE,4,39.86368
-278,Equanimeous St. Brown,GB,WR,11,45.24725333333334
-279,Trenton Cannon,NYJ,RB,4,43.120000000000005
-280,Brian Hill,ATL,RB,9,42.886312499999995
-281,Rishard Matthews,NO,WR,9,44.83162666666667
-282,Nick Vannett,SEA,TE,11,38.445904
-283,Damion Ratley,CLE,WR,7,43.831040000000016
-284,Malcolm Brown,LAR,RB,9,41.79364571428572
-285,Samaje Perine,WAS,RB,10,41.70906000000001
-286,Derrick Willies,CLE,WR,7,43.296000000000014
-287,Corey Coleman,NYG,WR,11,42.438986666666665
-288,Darren Waller,OAK,TE,6,36.5416
-289,Derek Carrier,OAK,TE,6,35.324432
-290,Josh Hill,NO,TE,9,35.18821333333334
-291,Marvin Hall,CHI,WR,6,39.92384
-292,Trent Taylor,SF,WR,4,39.834720000000004
-293,Andy Jones,DET,WR,5,39.41696
-294,Marcus Murphy,BUF,RB,6,37.50120000000001
-295,Stephen Anderson,NE,TE,10,34.090368000000005
-296,Luke Stocker,ATL,TE,9,33.63302
-297,Eli Rogers,PIT,WR,7,38.276617142857134
-298,J.J. Nelson,OAK,WR,6,38.06200380952381
-299,Josh Bellamy,NYJ,WR,4,37.88859657142857
-300,Chase Edmonds,ARI,RB,12,36.151573333333346
-301,Ameer Abdullah,MIN,RB,12,35.91170666666667
-302,Rod Smith,NYG,RB,11,35.60687238095238
-303,Chad Williams,ARI,WR,12,37.17304
-304,Chris Moore,BAL,WR,8,37.034947047619056
-305,Jordan Akins,HOU,TE,10,31.98171428571429
-306,Kyle Juszczyk,SF,RB,4,34.859028571428574
-307,Paul Perkins,NYG,RB,11,34.67220114285715
-308,James Develin,NE,RB,10,34.649280000000005
-309,D.J. Chark,JAC,WR,10,35.79840000000001
-310,Jason Croom,BUF,TE,6,31.13550000000001
-311,Kevin White,ARI,WR,12,34.73208
-312,DeAndre Washington,OAK,RB,6,33.118857142857145
-313,Jake Butt,DEN,TE,10,29.7759
-314,John Kelly,LAR,RB,9,32.32768000000001
-315,Kalen Ballage,MIA,RB,5,32.11002666666666
-316,Laquon Treadwell,MIN,WR,12,33.428426666666674
-317,Maxx Williams,ARI,TE,12,29.033472000000003
-318,Anthony Sherman,KC,RB,12,30.810939999999995
-319,Zach Line,NO,RB,9,29.833180000000006
-320,Luke Willson,OAK,TE,6,26.854944000000003
-321,Ronald Jones,TB,RB,7,29.14560000000001
-322,James O'Shaughnessy,JAC,TE,10,26.370664
-323,Elijhaa Penny,NYG,RB,11,28.481568000000003
-324,Logan Thomas,DET,TE,5,25.9872
-325,Nick Boyle,BAL,TE,8,25.91430857142857
-326,Daniel Brown,NYJ,TE,4,25.792704
-327,Mack Hollins,PHI,WR,10,29.410559999999997
-328,Xavier Grimble,PIT,TE,7,25.397280000000002
-329,Dalton Schultz,DAL,TE,8,25.194752000000005
-330,Neal Sterling,KC,TE,12,25.108159999999998
-331,C.J. Prosise,SEA,RB,11,27.0643875
-332,Jordan Taylor,MIN,WR,12,28.014857142857146
-333,Mike Gesicki,MIA,TE,5,23.606880000000004
-334,Eric Tomlinson,NYJ,TE,4,22.94352
-335,Andre Roberts,BUF,WR,6,26.195999999999998
-336,Bobo Wilson,TB,WR,7,25.267199999999995
-337,Logan Paulsen,ATL,TE,9,22.08604
-338,Gehrig Dieter,KC,WR,12,24.78080000000001
-339,Jordan Leggett,TB,TE,7,21.588746666666662
-340,Brandon Zylstra,MIN,WR,12,24.28800000000001
-341,Andy Janovich,DEN,RB,10,23.063360000000003
-342,Ryan Switzer,PIT,WR,7,24.076800000000006
-343,Alex Erickson,CIN,WR,9,22.64184
-344,Chad Beebe,MIN,WR,12,22.405680000000004
-345,Kenjon Barner,ATL,RB,9,21.236176000000004
-346,Russell Gage,ATL,WR,9,21.625560000000004
-347,Dwayne Harris,OAK,WR,6,21.51424
-348,Blake Bell,KC,TE,12,18.029220000000002
-349,J.D. McKissic,SEA,RB,11,19.458720000000003
-350,Patrick DiMarco,BUF,RB,6,18.469644000000002
-351,Darius Jackson,DAL,RB,8,18.0224
-352,Jamize Olawale,DAL,RB,8,17.246405714285714
-353,Kenneth Farrow,MIA,RB,5,17.177439999999997
-354,Benny Cunningham,JAC,RB,10,16.78624
-355,Rico Gathers,DAL,TE,8,14.811720000000001
-356,Mark Walton,MIA,RB,5,16.1568
-357,T.J. Logan,ARI,RB,12,11.635800000000001
-358,Auden Tate,CIN,WR,9,12.0736
-359,Mike Boone,MIN,RB,12,11.088000000000003
-360,Roc Thomas,FA,RB,,10.996480000000004
-361,Noah Brown,DAL,WR,8,11.24956875
-362,David Fluellen,TEN,RB,11,9.68748
-363,J'Mon Moore,GB,WR,11,8.478800000000001
-364,Derek Watt,LAC,RB,12,7.635093750000001
-365,Marcus Kemp,KC,WR,12,7.884800000000002
-366,Justin Watson,TB,WR,7,5.6320000000000014
-367,Dontrell Hilliard,CLE,RB,7,4.723840000000001
-368,A.J. Brown,TEN,WR,11,0
-369,Alex Barnes,TEN,RB,11,0
-370,Alexander Mattison,MIN,RB,12,0
-371,Andy Isabella,ARI,WR,12,0
-372,Anthony Johnson,TB,WR,7,0
-373,Benny Snell Jr.,PIT,RB,7,0
-374,Boston Scott,PHI,RB,10,0
-375,Braxton Berrios,NE,WR,10,0
-376,Bruce Anderson,TB,RB,7,0
-377,Bryce Love,WAS,RB,10,0
-378,Byron Pringle,KC,WR,12,0
-379,C.J. Conrad,NYG,TE,11,0
-380,Charles Clay,ARI,TE,12,0
-381,Chris Warren III,OAK,RB,6,0
-382,CJ Ham,MIN,RB,12,0
-383,D.K. Metcalf,SEA,WR,11,0
-384,Damarea Crockett,HOU,RB,10,0
-385,DaMarkus Lodge,TB,WR,7,0
-386,Damien Harris,NE,RB,10,0
-387,Darius Slayton,NYG,WR,11,0
-388,Darrell Henderson,LAR,RB,9,0
-389,Darwin Thompson,KC,RB,12,0
-390,David Montgomery,CHI,RB,6,0
-391,David Sills,BUF,WR,6,0
-392,Dawson Knox,BUF,TE,6,0
-393,DeAndre Carter,HOU,WR,10,0
-394,DeAndre Hopkins,HOU,WR,10,0
-395,Deebo Samuel,SF,WR,4,0
-396,Demaryius Thomas,NE,WR,10,0
-397,Deon Cain,IND,WR,6,0
-398,Derrius Guice,WAS,RB,10,0
-399,Devin Singletary,BUF,RB,6,0
-400,Devine Ozigbo,NO,RB,9,0
-401,Dexter Williams,GB,RB,11,0
-402,Diontae Johnson,PIT,WR,7,0
-403,Drew Sample,CIN,TE,9,0
-404,Dwayne Allen,MIA,TE,5,0
-405,Dylan Cantrell,LAC,WR,12,0
-406,Elijah Holyfield,CAR,RB,7,0
-407,Emanuel Hall,CHI,WR,6,0
-408,Foster Moreau,OAK,TE,6,0
-409,Gary Jennings,SEA,WR,11,0
-410,Geremy Davis,LAC,WR,12,0
-411,Hakeem Butler,ARI,WR,12,0
-412,Hunter Renfrow,OAK,WR,6,0
-413,Irv Smith Jr.,MIN,TE,12,0
-414,J.J. Arcega-Whiteside,PHI,WR,10,0
-415,Jace Sternberger,GB,TE,11,0
-416,Jacob Hollister,SEA,TE,11,0
-417,Jaleel Scott,BAL,WR,8,0
-418,Jalen Hurd,SF,WR,4,0
-419,James Williams,FA,RB,,0
-420,Jonnu Smith,TEN,TE,11,0
-421,Jordan Lasley,BAL,WR,8,0
-422,Jordan Scarlett,CAR,RB,7,0
-423,Josh Jacobs,OAK,RB,6,0
-424,Josh Oliver,JAC,TE,10,0
-425,Joshua Perkins,PHI,TE,10,0
-426,Justice Hill,BAL,RB,8,0
-427,Juwann Winfree,DEN,WR,10,0
-428,Kahale Warring,HOU,TE,10,0
-429,Karan Higdon,HOU,RB,10,0
-430,KeeSean Johnson,ARI,WR,12,0
-431,Kelvin Harmon,WAS,WR,10,0
-432,Khadarel Hodge,LAR,WR,9,0
-433,Lil'Jordan Humphrey,NO,WR,9,0
-434,Marquise Brown,BAL,WR,8,0
-435,Mecole Hardman,KC,WR,12,0
-436,Mike Weber,DAL,RB,8,0
-437,Miles Boykin,BAL,WR,8,0
-438,Miles Sanders,PHI,RB,10,0
-439,Myles Gaskin,MIA,RB,5,0
-440,N'Keal Harry,NE,WR,10,0
-441,Noah Fant,DEN,TE,10,0
-442,Parris Campbell,IND,WR,6,0
-443,Preston Williams,MIA,WR,5,0
-444,Qadree Ollison,ATL,RB,9,0
-445,Riley Ridley,CHI,WR,6,0
-446,Rodney Anderson,CIN,RB,9,0
-447,Ryquell Armstead,JAC,RB,10,0
-448,Scott Miller,TB,WR,7,0
-449,Sony Michel,NE,RB,10,0
-450,T.J. Hockenson,DET,TE,5,0
-451,Terry McLaurin,WAS,WR,10,0
-452,Tommylee Lewis,DET,WR,5,0
-453,Tony Pollard,DAL,RB,8,0
-454,Travis Fulgham,DET,WR,5,0
-455,Travis Homer,SEA,RB,11,0
-456,Trayveon Williams,CIN,RB,9,0
-457,Trevon Wesco,NYJ,TE,4,0
-458,Tyler Kroft,BUF,TE,6,0
-459,Zach Gentry,PIT,TE,7,0
+Rank,Name,Team,Position,Bye,Point Prediction,Injury Report
+1,Todd Gurley,LAR,RB,9,304.39,Knee | Questionable for Week 1
+2,Saquon Barkley,NYG,RB,11,296.58,
+3,Melvin Gordon,LAC,RB,12,277.3,
+4,Alvin Kamara,NO,RB,9,277.18,
+5,Ezekiel Elliott,DAL,RB,8,268.34,
+6,Christian McCaffrey,CAR,RB,7,233.27,
+7,Antonio Brown,OAK,WR,6,237.44,
+8,Le'Veon Bell,NYJ,RB,4,232.56,
+9,Tyreek Hill,KC,WR,12,216.32,
+10,Davante Adams,GB,WR,11,214.1,
+11,Phillip Lindsay,DEN,RB,10,208.83,
+12,Leonard Fournette,JAC,RB,10,201.05,
+13,Travis Kelce,KC,TE,12,168.78,Ankle | Questionable for Week 1
+14,James Conner,PIT,RB,7,194.18,
+15,Julio Jones,ATL,WR,9,192.66,Foot | Questionable for Week 1
+16,Joe Mixon,CIN,RB,9,188.46,
+17,David Johnson,ARI,RB,12,187.16,
+18,Michael Thomas,NO,WR,9,187.15,
+19,Zach Ertz,PHI,TE,10,152.56,
+20,Adam Thielen,MIN,WR,12,182.53,
+21,Odell Beckham,CLE,WR,7,182.4,
+22,Nick Chubb,CLE,RB,7,177.16,
+23,Mike Evans,TB,WR,7,179.43,Hamstring | Questionable for Week 1
+24,JuJu Smith-Schuster,PIT,WR,7,176.08,
+25,Brandin Cooks,LAR,WR,9,175.45,
+26,Jordan Howard,PHI,RB,10,172.08,
+27,Mark Ingram,BAL,RB,8,167.44,
+28,Marlon Mack,IND,RB,6,164.82,
+29,Stefon Diggs,MIN,WR,12,166.47,
+30,Dalvin Cook,MIN,RB,12,161.36,
+31,Tevin Coleman,SF,RB,4,160.08,
+32,A.J. Green,CIN,WR,9,161.96,Toe | Questionable for Week 1
+33,Chris Carson,SEA,RB,11,158.91,Knee | Questionable for Week 1
+34,Lamar Miller,HOU,RB,10,158.57,
+35,James White,NE,RB,10,157.82,
+36,Aaron Jones,GB,RB,11,157.3,
+37,Kerryon Johnson,DET,RB,5,154.63,
+38,Keenan Allen,LAC,WR,12,157.36,
+39,Robert Woods,LAR,WR,9,155.94,
+40,T.Y. Hilton,IND,WR,6,154.99,Ankle | Questionable for Week 1
+41,Eric Ebron,IND,TE,6,127.9,Groin | Questionable for Week 1
+42,O.J. Howard,TB,TE,7,126.72,
+43,George Kittle,SF,TE,4,126.46,Hip | Questionable for Week 1
+44,Derrick Henry,TEN,RB,11,149.12,
+45,Calvin Ridley,ATL,WR,9,150.52,
+46,LeSean McCoy,BUF,RB,6,144.98,
+47,Cooper Kupp,LAR,WR,9,145.75,Knee - ACL | Questionable for Week 1
+48,Tarik Cohen,CHI,RB,6,137.34,
+49,Kenyan Drake,MIA,RB,5,135.04,
+50,Alshon Jeffery,PHI,WR,10,137.48,Ribs | Questionable for Week 1
+51,Tyler Lockett,SEA,WR,11,136.54,
+52,Jarvis Landry,CLE,WR,7,136.53,
+53,Will Fuller,HOU,WR,10,136.28,Knee - ACL | Questionable for Week 1
+54,Amari Cooper,DAL,WR,8,135.57,
+55,Evan Engram,NYG,TE,11,112.41,Hamstring | Questionable for Week 1
+56,Dante Pettis,SF,WR,4,134.72,
+57,Emmanuel Sanders,DEN,WR,10,134.6,Achilles | Questionable for Week 1
+58,Adrian Peterson,WAS,RB,10,131.78,
+59,Julian Edelman,NE,WR,10,131.84,Thumb | Questionable for Week 1
+60,Jared Cook,NO,TE,9,108.37,
+61,Austin Ekeler,LAC,RB,12,128.04,
+62,DeSean Jackson,PHI,WR,10,129.84,
+63,Latavius Murray,NO,RB,9,125.48,
+64,Larry Fitzgerald,ARI,WR,12,126.89,
+65,Tyler Boyd,CIN,WR,9,126.69,
+66,Kenny Golladay,DET,WR,5,125.46,Chest | Questionable for Week 1
+67,Marvin Jones,DET,WR,5,123.45,Knee | Questionable for Week 1
+68,Carlos Hyde,KC,RB,12,120.9,
+69,Robert Foster,BUF,WR,6,122.17,Foot | Questionable for Week 1
+70,Matt Breida,SF,RB,4,118.51,Pectoral | Questionable for Week 1
+71,Kareem Hunt,CLE,RB,7,118.26,Suspension | Suspended until Week 10
+72,Albert Wilson,MIA,WR,5,119.0,Hip - Labrum | Questionable for Week 1
+73,Sammy Watkins,KC,WR,12,117.25,
+74,Sterling Shepard,NYG,WR,11,115.86,
+75,Mohamed Sanu,ATL,WR,9,115.76,
+76,T.J. Yeldon,BUF,RB,6,113.33,
+77,Peyton Barber,TB,RB,7,113.21,
+78,Golden Tate,NYG,WR,11,114.12,
+79,Gus Edwards,BAL,RB,8,110.01,
+80,Kyle Rudolph,MIN,TE,12,93.01,
+81,Josh Gordon,NE,WR,10,111.91,
+82,C.J. Anderson,DET,RB,5,109.76,
+83,Bilal Powell,NYJ,RB,4,109.41,
+84,Jimmy Graham,GB,TE,11,92.53,
+85,Frank Gore,BUF,RB,6,108.91,Foot | Out for Week 1
+86,Hunter Henry,LAC,TE,12,90.11,
+87,Dion Lewis,TEN,RB,11,105.62,
+88,Chris Godwin,TB,WR,7,107.56,
+89,Doug Martin,OAK,RB,6,105.06,
+90,Jaylen Samuels,PIT,RB,7,105.06,
+91,Austin Hooper,ATL,TE,9,88.6,
+92,Tre'Quan Smith,NO,WR,9,106.55,
+93,Mike Williams,LAC,WR,12,106.06,
+94,David Njoku,CLE,TE,7,87.45,
+95,Robby Anderson,NYJ,WR,4,104.75,Undisclosed | Questionable for Week 1
+96,Devin Funchess,IND,WR,6,103.83,
+97,Elijah McGuire,NYJ,RB,4,101.48,
+98,Royce Freeman,DEN,RB,10,101.46,
+99,Christian Kirk,ARI,WR,12,103.31,
+100,Will Dissly,SEA,TE,11,84.71,Kneecap | Questionable for Week 1
+101,Devonta Freeman,ATL,RB,9,99.62,
+102,Greg Olsen,CAR,TE,7,84.09,
+103,David Moore,SEA,WR,11,100.81,
+104,Trey Burton,CHI,TE,6,83.62,Sports Hernia | Questionable for Week 1
+105,D.J. Moore,CAR,WR,7,100.47,
+106,Dede Westbrook,JAC,WR,10,100.11,
+107,Cameron Brate,TB,TE,7,83.11,
+108,Anthony Miller,CHI,WR,6,99.57,Shoulder | Questionable for Week 1
+109,Tyrell Williams,OAK,WR,6,99.17,
+110,Chris Hogan,CAR,WR,7,98.5,
+111,John Brown,BUF,WR,6,98.41,
+112,Antonio Callaway,CLE,WR,7,98.35,
+113,Adam Humphries,TEN,WR,11,98.27,
+114,Jamaal Williams,GB,RB,11,96.43,
+115,Allen Robinson,CHI,WR,6,98.13,
+116,Spencer Ware,IND,RB,6,96.3,
+117,Dontrelle Inman,NE,WR,10,97.98,
+118,Curtis Samuel,CAR,WR,7,97.48,
+119,Kenny Stills,MIA,WR,5,96.66,Undisclosed | Questionable for Week 1
+120,Damien Williams,KC,RB,12,94.7,
+121,Vance McDonald,PIT,TE,7,79.39,
+122,Duke Johnson,CLE,RB,7,93.7,
+123,Nyheim Hines,IND,RB,6,93.46,
+124,Nelson Agholor,PHI,WR,10,95.06,Leg | Questionable for Week 1
+125,Courtland Sutton,DEN,WR,10,94.97,
+126,Ted Ginn,NO,WR,9,94.66,
+127,Zach Zenner,DET,RB,5,92.92,
+128,Mike Davis,CHI,RB,6,92.56,
+129,Darren Sproles,PHI,RB,10,92.28,
+130,Jordan Reed,WAS,TE,10,77.77,Foot | Questionable for Week 1
+131,Justin Jackson,LAC,RB,12,91.36,
+132,Jerick McKinnon,SF,RB,4,90.96,Knee - ACL | Questionable for Week 1
+133,Delanie Walker,TEN,TE,11,76.73,
+134,Josh Adams,PHI,RB,10,90.21,Shoulder | Questionable for Week 1
+135,Jamison Crowder,NYJ,WR,4,91.26,
+136,Marqise Lee,JAC,WR,10,90.64,Knee - ACL | Questionable for Week 1
+137,Corey Davis,TEN,WR,11,90.52,
+138,Kenneth Dixon,BAL,RB,8,88.42,
+139,Dallas Goedert,PHI,TE,10,74.68,
+140,Wendell Smallwood,PHI,RB,10,88.23,
+141,Vernon Davis,WAS,TE,10,74.47,
+142,Jack Doyle,IND,TE,6,74.44,Hip | Questionable for Week 1
+143,Donte Moncrief,PIT,WR,7,88.88,
+144,Jeremy Sprinkle,WAS,TE,10,73.38,
+145,Zay Jones,BUF,WR,6,88.19,Undisclosed | Questionable for Week 1
+146,Marquise Goodwin,SF,WR,4,87.77,
+147,Terrelle Pryor,JAC,WR,10,87.4,
+148,Taylor Gabriel,CHI,WR,6,86.26,
+149,Josh Reynolds,LAR,WR,9,85.95,
+150,Giovani Bernard,CIN,RB,9,83.81,
+151,Chris Thompson,WAS,RB,10,83.53,
+152,Keke Coutee,HOU,WR,10,84.11,
+153,Javorius Allen,NO,RB,9,82.32,
+154,Ty Montgomery,NYJ,RB,4,82.08,
+155,Ito Smith,ATL,RB,9,81.88,
+156,Jason Witten,DAL,TE,8,68.59,
+157,Theo Riddick,DET,RB,5,80.84,
+158,Marquez Valdes-Scantling,GB,WR,11,82.21,
+159,Jalen Richard,OAK,RB,6,79.83,
+160,Geronimo Allison,GB,WR,11,80.76,
+161,Demetrius Harris,CLE,TE,7,66.81,
+162,Mark Andrews,BAL,TE,8,66.26,
+163,Paul Richardson,WAS,WR,10,79.34,Shoulder | Questionable for Week 1
+164,Tyler Eifert,CIN,TE,9,65.6,Ankle | Questionable for Week 1
+165,Rob Gronkowski,FA,TE,,65.54,
+166,Garrett Celek,SF,TE,4,65.51,Back | Questionable for Week 1
+167,DaeSean Hamilton,DEN,WR,10,78.86,
+168,Rex Burkhead,NE,RB,10,77.17,
+169,DeVante Parker,MIA,WR,5,78.56,
+170,Keelan Cole,JAC,WR,10,76.62,
+171,Trey Quinn,WAS,WR,10,76.6,
+172,D'Onta Foreman,HOU,RB,10,74.89,
+173,Rashard Higgins,CLE,WR,7,75.78,
+174,Josh Doctson,WAS,WR,10,75.63,
+175,Jaron Brown,SEA,WR,11,75.46,
+176,Rashaad Penny,SEA,RB,11,73.87,
+177,Randall Cobb,DAL,WR,8,75.14,
+178,Jordan Thomas,HOU,TE,10,61.89,
+179,Willie Snead,BAL,WR,8,74.44,
+180,Cole Beasley,BUF,WR,6,74.08,Abdomen | Questionable for Week 1
+181,Quincy Enunwa,NYJ,WR,4,73.55,
+182,Ricky Seals-Jones,ARI,TE,12,61.05,
+183,Alfred Blue,JAC,RB,10,70.49,
+184,Ian Thomas,CAR,TE,7,59.64,Leg | Questionable for Week 1
+185,Blake Jarwin,DAL,TE,8,59.58,
+186,Ed Dickson,SEA,TE,11,59.49,
+187,Aldrick Robinson,CAR,WR,7,71.34,Hamstring | Questionable for Week 1
+188,Jesse James,DET,TE,5,59.15,
+189,Mo Alie-Cox,IND,TE,6,59.08,
+190,Corey Clement,PHI,RB,10,69.68,Knee | Questionable for Week 1
+191,C.J. Uzomah,CIN,TE,9,58.58,
+192,Kendrick Bourne,SF,WR,4,69.85,
+193,Breshad Perriman,TB,WR,7,69.0,
+194,Danny Amendola,DET,WR,5,68.52,
+195,Cameron Artis-Payne,CAR,RB,7,66.94,
+196,Torrey Smith,CAR,WR,7,68.01,Knee | Questionable for Week 1
+197,Jeff Wilson,SF,RB,4,66.69,
+198,Cordarrelle Patterson,CHI,WR,6,67.59,
+199,Michael Gallup,DAL,WR,8,67.58,
+200,Dan Arnold,NO,TE,9,55.37,
+201,Vyncint Smith,HOU,WR,10,66.13,
+202,Jake Kumerow,GB,WR,11,66.13,
+203,Jay Ajayi,FA,RB,,64.37,
+204,Cameron Meredith,NO,WR,9,65.22,Knee | Questionable for Week 1
+205,Cody Latimer,NYG,WR,11,64.98,
+206,Phillip Dorsett,NE,WR,10,64.78,
+207,Seth Roberts,BAL,WR,8,64.66,
+208,Chris Herndon,NYJ,TE,4,53.29,Suspension | Suspended until Week 6
+209,Tim Patrick,DEN,WR,10,64.14,
+210,Keith Kirkwood,NO,WR,9,63.97,Undisclosed | Questionable for Week 1
+211,Nick O'Leary,MIA,TE,5,52.91,
+212,Gerald Everett,LAR,TE,9,52.78,
+213,Anthony Firkser,TEN,TE,11,52.58,Undisclosed | Questionable for Week 1
+214,Devontae Booker,DEN,RB,10,61.94,
+215,Jermaine Kearse,DET,WR,5,62.97,
+216,Allen Hurns,DAL,WR,8,62.5,
+217,Jordan Matthews,SF,WR,4,62.36,
+218,Jeff Heuerman,DEN,TE,10,50.4,
+219,Darren Fells,HOU,TE,10,50.18,
+220,Russell Shepard,NYG,WR,11,59.99,
+221,Trent Sherfield,ARI,WR,12,59.88,
+222,Tajae Sharpe,TEN,WR,11,59.7,
+223,Tavon Austin,DAL,WR,8,59.51,Undisclosed | Questionable for Week 1
+224,Alex Collins,FA,RB,,57.42,Leg | Out for Week 1
+225,Chester Rogers,IND,WR,6,57.92,
+226,Adam Shaheen,CHI,TE,6,47.19,
+227,Dez Bryant,FA,WR,,56.4,
+228,Seth DeValve,CLE,TE,7,46.82,
+229,John Ross,CIN,WR,9,55.76,
+230,Chris Conley,JAC,WR,10,55.31,
+231,Jordan Wilkins,IND,RB,6,53.7,
+232,Darrel Williams,KC,RB,12,53.69,
+233,Lee Smith,BUF,TE,6,45.34,
+234,Brandon Powell,DET,WR,5,54.28,
+235,Demarcus Robinson,KC,WR,12,54.06,
+236,Travis Benjamin,LAC,WR,12,54.0,
+237,Taywan Taylor,TEN,WR,11,53.23,
+238,Tyler Higbee,LAR,TE,9,44.08,
+239,Rhett Ellison,NYG,TE,11,44.07,
+240,Andre Ellington,TB,RB,7,52.04,
+241,Scott Simonson,NYG,TE,11,43.99,
+242,Justin Hardy,ATL,WR,9,52.9,
+243,Benjamin Watson,NE,TE,10,43.74,Suspension | Suspended until Week 5
+244,Richie James,SF,WR,4,52.19,
+245,James Washington,PIT,WR,7,52.17,
+246,Raheem Mostert,SF,RB,4,51.12,Forearm | Questionable for Week 1
+247,Matt LaCosse,NE,TE,10,42.74,
+248,Brice Butler,MIA,WR,5,51.35,Leg | Questionable for Week 1
+249,Michael Crabtree,FA,WR,,50.97,
+250,Hayden Hurst,BAL,TE,8,42.33,
+251,Geoff Swaim,JAC,TE,10,41.91,
+252,Zach Pascal,IND,WR,6,49.95,
+253,Jakeem Grant,MIA,WR,5,49.93,Achilles | Questionable for Week 1
+254,Virgil Green,LAC,TE,12,41.31,
+255,Marcell Ateman,OAK,WR,6,48.95,
+256,Wayne Gallman,NYG,RB,11,47.9,
+257,Maurice Harris,NE,WR,10,48.64,
+258,Deontay Burnett,NYJ,WR,4,48.59,
+259,Austin Carr,NO,WR,9,48.31,
+260,Levine Toilolo,SF,TE,4,39.86,
+261,Ryan Grant,OAK,WR,6,47.98,
+262,LeGarrette Blount,FA,RB,,47.08,
+263,Dwayne Washington,NO,RB,9,46.55,
+264,Jarius Wright,CAR,WR,7,47.4,
+265,Isaiah McKenzie,BUF,WR,6,46.72,
+266,Cody Core,CIN,WR,9,46.49,
+267,Bennie Fowler,NYG,WR,11,46.47,
+268,Nick Vannett,SEA,TE,11,38.45,
+269,Equanimeous St. Brown,GB,WR,11,45.25,
+270,Rishard Matthews,NO,WR,9,44.83,
+271,Darren Waller,OAK,TE,6,36.54,
+272,Trenton Cannon,NYJ,RB,4,43.12,
+273,Damion Ratley,CLE,WR,7,43.83,
+274,Brian Hill,ATL,RB,9,42.89,Undisclosed | Questionable for Week 1
+275,Derrick Willies,CLE,WR,7,43.3,Collarbone | Questionable for Week 1
+276,Malcolm Brown,LAR,RB,9,41.79,
+277,Derek Carrier,OAK,TE,6,35.32,
+278,Samaje Perine,WAS,RB,10,41.71,
+279,Corey Coleman,NYG,WR,11,42.44,
+280,Josh Hill,NO,TE,9,35.19,
+281,Stephen Anderson,NE,TE,10,34.09,
+282,Luke Stocker,ATL,TE,9,33.63,
+283,Chris Ivory,FA,RB,,39.58,
+284,Marvin Hall,CHI,WR,6,39.92,
+285,Trent Taylor,SF,WR,4,39.83,
+286,Andy Jones,DET,WR,5,39.42,
+287,Jordan Akins,HOU,TE,10,31.98,
+288,Eli Rogers,PIT,WR,7,38.28,
+289,Marcus Murphy,BUF,RB,6,37.5,Elbow | Questionable for Week 1
+290,J.J. Nelson,OAK,WR,6,38.06,
+291,Josh Bellamy,NYJ,WR,4,37.89,
+292,Alfred Morris,FA,RB,,36.92,
+293,Pierre Garcon,FA,WR,,37.53,
+294,Jason Croom,BUF,TE,6,31.14,Hamstring | Questionable for Week 1
+295,Kelvin Benjamin,FA,WR,,37.47,
+296,Chad Williams,ARI,WR,12,37.17,
+297,Chris Moore,BAL,WR,8,37.03,
+298,Chase Edmonds,ARI,RB,12,36.15,
+299,Ameer Abdullah,MIN,RB,12,35.91,
+300,Rod Smith,NYG,RB,11,35.61,
+301,Jake Butt,DEN,TE,10,29.78,Knee | Questionable for Week 1
+302,D.J. Chark,JAC,WR,10,35.8,
+303,Kyle Juszczyk,SF,RB,4,34.86,
+304,Paul Perkins,NYG,RB,11,34.67,
+305,James Develin,NE,RB,10,34.65,
+306,Maxx Williams,ARI,TE,12,29.03,
+307,Kevin White,ARI,WR,12,34.73,
+308,DeAndre Washington,OAK,RB,6,33.12,
+309,Laquon Treadwell,MIN,WR,12,33.43,
+310,John Kelly,LAR,RB,9,32.33,
+311,Kalen Ballage,MIA,RB,5,32.11,
+312,Luke Willson,OAK,TE,6,26.85,
+313,Austin Seferian-Jenkins,FA,TE,,26.49,
+314,James O'Shaughnessy,JAC,TE,10,26.37,
+315,Anthony Sherman,KC,RB,12,30.81,
+316,Logan Thomas,DET,TE,5,25.99,
+317,Nick Boyle,BAL,TE,8,25.91,
+318,Daniel Brown,NYJ,TE,4,25.79,
+319,Xavier Grimble,PIT,TE,7,25.4,
+320,Zach Line,NO,RB,9,29.83,
+321,Dalton Schultz,DAL,TE,8,25.19,
+322,Neal Sterling,KC,TE,12,25.11,
+323,Jacquizz Rodgers,FA,RB,,29.32,
+324,Ronald Jones,TB,RB,7,29.15,
+325,Ryan Griffin,FA,TE,,24.45,
+326,Mack Hollins,PHI,WR,10,29.41,Groin | Questionable for Week 1
+327,Elijhaa Penny,NYG,RB,11,28.48,
+328,Bruce Ellington,FA,WR,,28.94,
+329,Mike Gesicki,MIA,TE,5,23.61,
+330,Corey Grant,FA,RB,,27.66,
+331,Jordan Taylor,MIN,WR,12,28.01,
+332,Eric Tomlinson,NYJ,TE,4,22.94,
+333,C.J. Prosise,SEA,RB,11,27.06,Hamstring | Questionable for Week 1
+334,Logan Paulsen,ATL,TE,9,22.09,
+335,Andre Roberts,BUF,WR,6,26.2,
+336,Jordan Leggett,TB,TE,7,21.59,
+337,Jeremy Hill,FA,RB,,25.41,
+338,Bobo Wilson,TB,WR,7,25.27,Undisclosed | Questionable for Week 1
+339,Gehrig Dieter,KC,WR,12,24.78,
+340,Brandon Zylstra,MIN,WR,12,24.29,Undisclosed | Questionable for Week 1
+341,Ryan Switzer,PIT,WR,7,24.08,
+342,Andy Janovich,DEN,RB,10,23.06,
+343,Alex Erickson,CIN,WR,9,22.64,
+344,Chad Beebe,MIN,WR,12,22.41,
+345,Blake Bell,KC,TE,12,18.03,
+346,Kenjon Barner,ATL,RB,9,21.24,
+347,Russell Gage,ATL,WR,9,21.63,
+348,Dwayne Harris,OAK,WR,6,21.51,
+349,J.D. McKissic,SEA,RB,11,19.46,
+350,Patrick DiMarco,BUF,RB,6,18.47,
+351,Darius Jackson,DAL,RB,8,18.02,
+352,Rico Gathers,DAL,TE,8,14.81,Suspension | Suspended until Week 2
+353,Jamize Olawale,DAL,RB,8,17.25,
+354,Kenneth Farrow,MIA,RB,5,17.18,
+355,Benny Cunningham,JAC,RB,10,16.79,
+356,Mark Walton,MIA,RB,5,16.16,
+357,Auden Tate,CIN,WR,9,12.07,
+358,T.J. Logan,ARI,RB,12,11.64,
+359,Mike Boone,MIN,RB,12,11.09,
+360,Noah Brown,DAL,WR,8,11.25,Knee | Questionable for Week 1
+361,David Fluellen,TEN,RB,11,9.69,
+362,J'Mon Moore,GB,WR,11,8.48,
+363,Marcus Kemp,KC,WR,12,7.88,
+364,Derek Watt,LAC,RB,12,7.64,Shoulder | Questionable for Week 1
+365,Justin Watson,TB,WR,7,5.63,
+366,Roc Thomas,FA,RB,,5.5,
+367,Dontrell Hilliard,CLE,RB,7,4.72,
+368,A.J. Brown,TEN,WR,11,0,
+369,Alex Barnes,TEN,RB,11,0,
+370,Alexander Mattison,MIN,RB,12,0,
+371,Andy Isabella,ARI,WR,12,0,
+372,Anthony Johnson,TB,WR,7,0,
+373,Benny Snell Jr.,PIT,RB,7,0,
+374,Boston Scott,PHI,RB,10,0,
+375,Braxton Berrios,NE,WR,10,0,
+376,Bruce Anderson,TB,RB,7,0,
+377,Bryce Love,WAS,RB,10,0,Knee - ACL | Questionable for Week 1
+378,Byron Pringle,KC,WR,12,0,
+379,C.J. Conrad,NYG,TE,11,0,
+380,Charles Clay,ARI,TE,12,0,Knee | Physically Unable to Perform
+381,Chris Warren III,OAK,RB,6,0,
+382,CJ Ham,MIN,RB,12,0,
+383,D.K. Metcalf,SEA,WR,11,0,
+384,Damarea Crockett,HOU,RB,10,0,
+385,DaMarkus Lodge,TB,WR,7,0,
+386,Damien Harris,NE,RB,10,0,
+387,Darius Slayton,NYG,WR,11,0,
+388,Darrell Henderson,LAR,RB,9,0,
+389,Darwin Thompson,KC,RB,12,0,
+390,David Montgomery,CHI,RB,6,0,
+391,David Sills,BUF,WR,6,0,Hamstring | Questionable for Week 1
+392,Dawson Knox,BUF,TE,6,0,
+393,DeAndre Carter,HOU,WR,10,0,Undisclosed | Physically Unable to Perform
+394,DeAndre Hopkins,HOU,WR,10,0,Ankle | Physically Unable to Perform
+395,Deebo Samuel,SF,WR,4,0,
+396,Demaryius Thomas,NE,WR,10,0,Achilles | Physically Unable to Perform
+397,Deon Cain,IND,WR,6,0,Knee - ACL | Questionable for Week 1
+398,Derrius Guice,WAS,RB,10,0,Knee - ACL | Questionable for Week 1
+399,Devin Singletary,BUF,RB,6,0,
+400,Devine Ozigbo,NO,RB,9,0,
+401,Dexter Williams,GB,RB,11,0,
+402,Diontae Johnson,PIT,WR,7,0,
+403,Drew Sample,CIN,TE,9,0,
+404,Dwayne Allen,MIA,TE,5,0,Undisclosed | Physically Unable to Perform
+405,Dylan Cantrell,LAC,WR,12,0,
+406,Elijah Holyfield,CAR,RB,7,0,
+407,Emanuel Hall,CHI,WR,6,0,Sports Hernia | Questionable for Week 1
+408,Foster Moreau,OAK,TE,6,0,
+409,Gary Jennings,SEA,WR,11,0,
+410,Geremy Davis,LAC,WR,12,0,
+411,Hakeem Butler,ARI,WR,12,0,
+412,Hunter Renfrow,OAK,WR,6,0,
+413,Irv Smith Jr.,MIN,TE,12,0,
+414,J.J. Arcega-Whiteside,PHI,WR,10,0,
+415,Jace Sternberger,GB,TE,11,0,
+416,Jacob Hollister,SEA,TE,11,0,
+417,Jaleel Scott,BAL,WR,8,0,
+418,Jalen Hurd,SF,WR,4,0,Knee | Questionable for Week 1
+419,James Williams,FA,RB,,0.0,
+420,Jonnu Smith,TEN,TE,11,0,Knee - MCL | Physically Unable to Perform
+421,Jordan Lasley,BAL,WR,8,0,
+422,Jordan Scarlett,CAR,RB,7,0,
+423,Josh Jacobs,OAK,RB,6,0,
+424,Josh Oliver,JAC,TE,10,0,
+425,Joshua Perkins,PHI,TE,10,0,
+426,Justice Hill,BAL,RB,8,0,
+427,Juwann Winfree,DEN,WR,10,0,Calf | Questionable for Week 1
+428,Kahale Warring,HOU,TE,10,0,Undisclosed | Out for Week 1
+429,Karan Higdon,HOU,RB,10,0,
+430,KeeSean Johnson,ARI,WR,12,0,
+431,Kelvin Harmon,WAS,WR,10,0,
+432,Khadarel Hodge,LAR,WR,9,0,
+433,Lil'Jordan Humphrey,NO,WR,9,0,
+434,Marquise Brown,BAL,WR,8,0,Foot | Out for Week 1
+435,Mecole Hardman,KC,WR,12,0,
+436,Mike Weber,DAL,RB,8,0,
+437,Miles Boykin,BAL,WR,8,0,Hamstring | Questionable for Week 1
+438,Miles Sanders,PHI,RB,10,0,Hamstring | Questionable for Week 1
+439,Myles Gaskin,MIA,RB,5,0,
+440,N'Keal Harry,NE,WR,10,0,
+441,Noah Fant,DEN,TE,10,0,
+442,Parris Campbell,IND,WR,6,0,
+443,Preston Williams,MIA,WR,5,0,
+444,Qadree Ollison,ATL,RB,9,0,
+445,Riley Ridley,CHI,WR,6,0,
+446,Rodney Anderson,CIN,RB,9,0,Knee - ACL | Questionable for Week 1
+447,Ryquell Armstead,JAC,RB,10,0,Hamstring | Questionable for Week 1
+448,Scott Miller,TB,WR,7,0,
+449,Sony Michel,NE,RB,10,0,Knee | Physically Unable to Perform
+450,T.J. Hockenson,DET,TE,5,0,
+451,Terry McLaurin,WAS,WR,10,0,
+452,Tommylee Lewis,DET,WR,5,0,Undisclosed | Physically Unable to Perform
+453,Tony Pollard,DAL,RB,8,0,
+454,Travis Fulgham,DET,WR,5,0,
+455,Travis Homer,SEA,RB,11,0,
+456,Trayveon Williams,CIN,RB,9,0,
+457,Trevon Wesco,NYJ,TE,4,0,
+458,Tyler Kroft,BUF,TE,6,0,Foot | Physically Unable to Perform
+459,Zach Gentry,PIT,TE,7,0,
