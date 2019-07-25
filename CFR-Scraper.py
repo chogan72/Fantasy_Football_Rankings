@@ -79,7 +79,13 @@ for year in range(2016,2019):
                     FP_file = database_reader('Fantasy-Pros-Database.csv', FP_head)
                     for row in FP_file:
                         if row[0] == stats[0]:
-                            database('Rookies-Database', [stats[0],stats[1]])
+                            skip = 0
+                            FP_file = database_reader('Rookies-Database.csv', Rookie_head)
+                            for new_row in FP_file:
+                                if new_row[0] == row[0]:
+                                    skip = 1
+                            if skip == 0:
+                                database('Rookies-Database', [stats[0],stats[1]])
                 next_directory('/Database/College/')         
                 database(current_path, stats)
                 index = 0
