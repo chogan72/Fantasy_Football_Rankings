@@ -83,9 +83,42 @@ all_players = []
 
 #Players inside Fantasy Pros Database
 for player_name in FPD:
+    
+    #Rookie Check
+    rookie_check = 0
+    next_directory('/Database/')
+    rookie_db = database_reader('Rookies-Database.csv', ['Name','College'])
+    for row in rookie_db:
+        if player_name[0] == row[0]:
+            rookie_check = 1
+
+    #Rookies
+    if rookie_check == 1:
+        player_list = [player_name, ['Rookie'], [0], [0]]
+        next_directory('/Database/College/')
+        #Set CSV file
+        positions = [['QB','Passing',['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Rush Att','Rush Yds','Rush Avg','Rush TD']],
+                     ['RB','Rushing',['Player','School','Conf','G','Rush Att','Rush Yds','Rush Avg','Rush TD','Pass Rec','Pass Yds','Pass Avg','Pass TD','Plays','Yds','Avg','TD']],
+                     ['WR','Receiving',['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD']],
+                     ['K','Kicking',['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]]
+        for position in positions:
+            if position[0] == player_name[1]:
+                csv_file = 'College-Stats-' + position[1] +'-2018.csv'
+                rookie_stats = database_reader(csv_file, position[2])
+                for row in rookie_stats:
+                    if player_name[0] == row[0]:
+                        year = 0
+                        if player_name[1] == 'QB':
+                            year = (float(row[7])*.04)+(float(row[10])*4)+(float(row[11])*-4)+(float(row[14])*.1)+(float(row[16])*6)
+                        elif player_name[1] == 'RB' or player_name[1] == 'WR':
+                            year = (float(row[13])*.1)+(float(row[15])*6)
+                        elif player_name[1] == 'K':
+                            year = (float(row[7])*.04)
+                        player_list[3] = [year]
+        next_directory('/Database/Players/')
 
     #Defense
-    if player_name[1] == 'DST':
+    elif player_name[1] == 'DST':
         player_list = [player_name, [0], [0], [0]]
         next_directory('/Database/Position/')
         if player_name[0] == 'Los Angeles' or player_name[0] == 'New York':
@@ -263,6 +296,7 @@ for player_name in FPD:
     #Add Players to List
     all_players.append(player_list)
 
+
 #Write CSV file
 fp_head = ['1','2','3','4','5','6']
 next_directory('/Rankings/16-18-Five-Point/')
@@ -273,3 +307,4 @@ for players in all_players:
         if item == []:
             item = [0]
         database(file_name, item)
+
