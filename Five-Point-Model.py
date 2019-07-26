@@ -100,6 +100,7 @@ for player_name in FPD:
         positions = [['QB','Passing',['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Rush Att','Rush Yds','Rush Avg','Rush TD']],
                      ['RB','Rushing',['Player','School','Conf','G','Rush Att','Rush Yds','Rush Avg','Rush TD','Pass Rec','Pass Yds','Pass Avg','Pass TD','Plays','Yds','Avg','TD']],
                      ['WR','Receiving',['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD']],
+                     ['TE','Receiving',['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD']],
                      ['K','Kicking',['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]]
         for position in positions:
             if position[0] == player_name[1]:
@@ -110,10 +111,13 @@ for player_name in FPD:
                         year = 0
                         if player_name[1] == 'QB':
                             year = (float(row[7])*.04)+(float(row[10])*4)+(float(row[11])*-4)+(float(row[14])*.1)+(float(row[16])*6)
-                        elif player_name[1] == 'RB' or player_name[1] == 'WR':
+                        elif player_name[1] == 'RB' or player_name[1] == 'WR' or player_name[1] == 'TE':
                             year = (float(row[13])*.1)+(float(row[15])*6)
                         elif player_name[1] == 'K':
                             year = (float(row[7])*.04)
+                        else:
+                            year = 0
+                        year = year/float(row[3])
                         player_list[3] = [year]
         next_directory('/Database/Players/')
 

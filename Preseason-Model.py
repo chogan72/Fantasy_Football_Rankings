@@ -103,10 +103,34 @@ for item in all_players:
                     int(8):float(.94), int(7):float(.92), int(6):float(.9), int(5):float(.88),
                     int(4):float(.86), int(3):float(.84), int(2):float(.82), int(1):float(.8)}
 
-    #Creates Kicker Year Scores
-    if item[0][1] == 'K' or item[0][1] == 'DST':
+    #Creates Year Scores for Rookies
+    if len(item[1]) > 0 and 'Rookie' in item[1]:
+        current_score = 0
+        if len(item[0]) == len(item[3]):
+            current_score += float(item[3][0])
+        elif len(item[3]) == 0:
+            current_score = 0
+        elif len(item[0]) != len(item[3]):
+            current_score += float(item[3])
+
+        if item[0][1] == 'QB':
+            current_score = current_score * .39
+        elif item[0][1] == 'RB':
+            current_score = current_score * .32
+        elif item[0][1] == 'WR':
+            current_score = current_score * .35
+        elif item[0][1] == 'TE':
+            current_score = current_score * .39
+        elif item[0][1] == 'K':
+            current_score = current_score * 1
+
+        finals = [0,0,current_score]
+
+    #Creates Year Scores for K and DST
+    elif item[0][1] == 'K' or item[0][1] == 'DST':
         finals = [item[1],item[2],item[3]]
-        
+
+    #Creates Year Scores for Skill Players
     else:
         #2018
         if len(item[3]) >= 5:
