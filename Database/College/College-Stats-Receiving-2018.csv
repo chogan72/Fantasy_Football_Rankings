@@ -1,4 +1,4 @@
-Player,School,Conf,G,Rec,Yds,Avg,TD,Att,Yds,Avg,TD,Plays,Yds,Avg,TD
+Player,School,Conf,G,Pass Rec,Pass Yds,Pass Avg,Pass TD,Rush Att,Rush Yds,Rush Avg,Rush TD,Plays,Yds,Avg,TD
 Xavier Ubosi,UAB,CUSA,13,35,837,23.9,8,0,0,,0,35,837,23.9,8
 Emanuel Hall,Missouri,SEC,8,37,828,22.4,6,0,0,,0,37,828,22.4,6
 Hakeem Butler,Iowa State,Big 12,13,60,1318,22.0,9,0,0,,0,60,1318,22.0,9

@@ -35,9 +35,9 @@ def database_reader(current_file, head_list):
     return(database_players)
 
 #Player Stats Header
-stats_headings = [['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Att','Yds','Avg','TD'],
-                  ['Player','School','Conf','G','Att','Yds','Avg','TD','Rec','Yds','Avg','TD','Plays','Yds','Avg','TD'],
-                  ['Player','School','Conf','G','Rec','Yds','Avg','TD','Att','Yds','Avg','TD','Plays','Yds','Avg','TD'],
+stats_headings = [['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Rush Att','Rush Yds','Rush Avg','Rush TD'],
+                  ['Player','School','Conf','G','Rush Att','Rush Yds','Rush Avg','Rush TD','Pass Rec','Pass Yds','Pass Avg','Pass TD','Plays','Yds','Avg','TD'],
+                  ['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD'],
                   ['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]
 
 FP_head = ['Name','Position','Team','Bye']
