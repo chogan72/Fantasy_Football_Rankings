@@ -219,6 +219,7 @@ for player_name in FPD:
 
     #Skill Players
     else:
+        next_directory('/Database/Players/')
         player_list = [player_name, [], [], []]
         for file_name in os.listdir():
             #Checks player names with file names
@@ -292,6 +293,7 @@ for player_name in FPD:
                     player_list[2] = five_point
                 elif week[0] == '2018':
                     player_list[3] = five_point
+                
         
     #Add Players to List
     all_players.append(player_list)
