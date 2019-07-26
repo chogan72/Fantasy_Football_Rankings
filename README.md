@@ -16,11 +16,15 @@ I have just recently finished creating the preseson model. There are some slight
 * Fantasy Pros Scraper
   * This is used to scrape https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php to find all the current players in fantasy rankings. It also records there position, team, and bye week.
   * This is used to create Database/Fantasy-Pros-Database.csv
-* Pro Football Reference
+* Pro Football Reference Scraper
   * This is used to scrape https://www.pro-football-reference.com/years/2018/fantasy.htm to pull season long stats.
   * It also pulls stats form position specific pages to get more complete stats
   * This is used to create the files in Database/Position/
-* Player Game Logs
+* College Football Reference Scraper
+  * This is used to scrape https://www.sports-reference.com/cfb/years/2018-passing.html to pull season long stats.
+  * It also pulls stats form position specific pages to get Rookie Stats
+  * This is used to create the files in Database/College/
+* Player Game Logs API
   * This uses the nflgame api (https://github.com/derek-adair/nflgame) to pull player stats by games. 
   * This is used to create the files in Database/Players/
   
@@ -39,6 +43,8 @@ I have just recently finished creating the preseson model. There are some slight
 <img align="center" src="https://raw.githubusercontent.com/chogan72/Fantasy_Football_Rankings/master/RM-Files/Five-Point.JPG"></img>
 
 * These numbers are added to the Five Point CSV files.
+  * Rookies stats are determined by by there final year in college
+  * K and DST Use a modified version of the five point model
 
 ### Preseason Model
 
@@ -46,6 +52,19 @@ I have just recently finished creating the preseson model. There are some slight
 * Next, I took those 5 stats to create a weekly average using the formula below.
 
 <p align="center"> ((Ceiling - Low) * .1) + (High * .3) + (Mid * .2) + (Low * .3) + ((Floor - Low) * .1) </p>
+
+#### Rookie Weight
+
+* Each Rookies College stats are weighted based on position
+
+<table align="center"><thead>
+  <th>QB</th><th>RB</th><th>WR</th><th>TE</th><th>K</th>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td>0.39</td><td>.32</td><td>.35</td><td>.39</td><td>1.00</td>
+  </tr>
+ </tbody></table>
 
 #### Weight for weeks played
 * That Number is then multiplied by the proper weight based on the number of games played.
@@ -126,6 +145,6 @@ I have just recently finished creating the preseson model. There are some slight
 ## Issues
 
 * Preseason Model
-  * This does not include any Rookies
+  * Rookies are a work in progress. Some of the players are in the right place, but many are still very far off.
   * If players names are inconsistent between databases they are not ranked. Most players should be fixed.
 * In the Player-API.py file there are four players that cause the program to break. My work around is just to skip them since the only played a few games. I have tried updating the players file multiple times but the problem is still there. 
