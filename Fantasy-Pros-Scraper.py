@@ -36,7 +36,8 @@ players_skip ={
         'Devante Parker':'DeVante Parker',
         'Equanimeous S':'Equanimeous St. Brown',
         'Odell Beckham Jr.':'Odell Beckham',
-        'Chris Herndon IV':'Chris Herndon'
+        'Chris Herndon IV':'Chris Herndon',
+        'Josh Jacobs':'Joshua Jacobs'
         }
 
 #beautifulsoup4 link
