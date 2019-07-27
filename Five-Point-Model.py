@@ -66,6 +66,7 @@ player_heading = ['Year','Week','Player Name',
               ]
 K_head = ['Player','Tm','Age','Pos','G','GS','0-19 FGA','0-19 FGM','20-29 FGA','20-29 FGM','30-39 FGA','30-39 FGM','40-49 FGA','40-49 FGM','50+ FGA','50+ FGM','FGA','FGM','FG%','XPA','XPM','XP%','Pnt','Yds','Lng','Blck ','Y/P']
 DST_head = ['Tm','G','PF','Total Yds','Ply','Y/P','TO','FL','1stD','Cmp','Pass Att','Pass Yds','Pass TD','Int','NY/A','Pass 1stD','Rush Att','Rush Yds','Rush TD','Y/A','Rush 1stD','Pen','Pen Yds','1stPy','Sc%','TO%','EXP']
+conf = ['Big 12', 'Big Ten', 'SEC', 'ACC', 'Pac-12']
 
 #Stores old directory and changes current
 first_directory = os.getcwd()
@@ -94,7 +95,8 @@ for player_name in FPD:
 
     #Rookies
     if rookie_check == 1:
-        player_list = [player_name, ['Rookie'], [0], [0]]
+        player_name.append('Rookie')
+        player_list = [player_name, [0], [0], [0]]
         next_directory('/Database/College/')
         #Set CSV file
         positions = [['QB','Passing',['Player','School','Conf','G','Cmp','Att','Pct','Yds','Y/A','AY/A','TD','Int','Rate','Rush Att','Rush Yds','Rush Avg','Rush TD']],
@@ -102,23 +104,37 @@ for player_name in FPD:
                      ['WR','Receiving',['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD']],
                      ['TE','Receiving',['Player','School','Conf','G','Pass Rec','Pass Yds','Pass Avg','Pass TD','Rush Att','Rush Yds','Rush Avg','Rush TD','Plays','Yds','Avg','TD']],
                      ['K','Kicking',['Player','School','Conf','G','XPM','XPA','XP%','FGM','FGA','FG%','Pts']]]
-        for position in positions:
-            if position[0] == player_name[1]:
-                csv_file = 'College-Stats-' + position[1] +'-2018.csv'
-                rookie_stats = database_reader(csv_file, position[2])
-                for row in rookie_stats:
-                    if player_name[0] == row[0]:
-                        year = 0
-                        if player_name[1] == 'QB':
-                            year = (float(row[7])*.04)+(float(row[10])*4)+(float(row[11])*-4)+(float(row[14])*.1)+(float(row[16])*6)
-                        elif player_name[1] == 'RB' or player_name[1] == 'WR' or player_name[1] == 'TE':
-                            year = (float(row[13])*.1)+(float(row[15])*6)
-                        elif player_name[1] == 'K':
-                            year = (float(row[7])*.04)
-                        else:
+        for current_year in range(2016,2019):
+            for position in positions:
+                if position[0] == player_name[1]:
+                    csv_file = 'College-Stats-' + position[1] +'-' + str(current_year) + '.csv'
+                    rookie_stats = database_reader(csv_file, position[2])
+                    for row in rookie_stats:
+                        if player_name[0] == row[0]:
                             year = 0
-                        year = year/float(row[3])
-                        player_list[3] = [year]
+                            if player_name[1] == 'QB':
+                                year = (float(row[7])*.04)+(float(row[10])*4)+(float(row[11])*-4)+(float(row[14])*.1)+(float(row[16])*6)
+                            elif player_name[1] == 'RB' or player_name[1] == 'WR' or player_name[1] == 'TE':
+                                year = (float(row[13])*.1)+(float(row[15])*6)
+                            elif player_name[1] == 'K':
+                                year = float(row[10])
+                            else:
+                                year = 0
+                            year = year/float(row[3])
+                            
+                            skip = 0
+                            for power in conf:
+                                if row[2] == power:
+                                    skip = 1
+                            if skip == 0:
+                                year = year * .5
+                                
+                            if current_year == 2016:
+                                player_list[1] = [year]
+                            elif current_year == 2017:
+                                player_list[2] = [year]
+                            elif current_year == 2018:
+                                player_list[3] = [year]
         next_directory('/Database/Players/')
 
     #Defense

@@ -104,27 +104,22 @@ for item in all_players:
                     int(4):float(.86), int(3):float(.84), int(2):float(.82), int(1):float(.8)}
 
     #Creates Year Scores for Rookies
-    if len(item[1]) > 0 and 'Rookie' in item[1]:
-        current_score = 0
-        if len(item[0]) == len(item[3]):
-            current_score += float(item[3][0])
-        elif len(item[3]) == 0:
-            current_score = 0
-        elif len(item[0]) != len(item[3]):
-            current_score += float(item[3])
-
+    if 'Rookie' in item[0]:
+        for number in range(0,4):
+            if len(item[number]) == 0:
+                item[number] = [0]
+                
         if item[0][1] == 'QB':
-            current_score = current_score * .39
+            finals = [float(item[1][0]) * .39, float(item[2][0]) * .39, float(item[3][0]) * .39]
         elif item[0][1] == 'RB':
-            current_score = current_score * .32
+            finals = [float(item[1][0]) * .38, float(item[2][0]) * .38, float(item[3][0]) * .38]
         elif item[0][1] == 'WR':
-            current_score = current_score * .35
+            finals = [float(item[1][0]) * .42, float(item[2][0]) * .42, float(item[3][0]) * .42]
         elif item[0][1] == 'TE':
-            current_score = current_score * .39
+            finals = [float(item[1][0]) * .39, float(item[2][0]) * .39, float(item[3][0]) * .39]
         elif item[0][1] == 'K':
-            current_score = current_score * 1
-
-        finals = [0,0,current_score]
+            finals = [float(item[1][0]) * .45, float(item[2][0]) * .45, float(item[3][0]) * .45]
+        rank_print[2] = 'Rookie'
 
     #Creates Year Scores for K and DST
     elif item[0][1] == 'K' or item[0][1] == 'DST':
