@@ -119,7 +119,6 @@ for item in all_players:
             finals = [float(item[1][0]) * .39, float(item[2][0]) * .39, float(item[3][0]) * .39]
         elif item[0][1] == 'K':
             finals = [float(item[1][0]) * .45, float(item[2][0]) * .45, float(item[3][0]) * .45]
-        rank_print[2] = 'Rookie'
 
     #Creates Year Scores for K and DST
     elif item[0][1] == 'K' or item[0][1] == 'DST':
@@ -165,6 +164,19 @@ for item in all_players:
     #Free Agent
     if item[0][2] == 'FA':
         final = final * .5
+
+    #Rookie Weight
+    if 'Rookie' in item[0] and 'QB' not in item[0]:
+        if item[0][5] is None:
+            pass
+        elif int(item[0][5]) <= 10:
+            final = final * 1.4
+        elif int(item[0][5]) <= 30 and int(item[0][5]) > 10:
+            final = final * 1.25
+        elif int(item[0][5]) <= 60 and int(item[0][5]) > 30:
+            final = final * 1.1
+        elif int(item[0][5]) > 60:
+            final = final * 1
 
     #Injury Report
     next_directory('/Database/')

@@ -96,6 +96,14 @@ for player_name in FPD:
     #Rookies
     if rookie_check == 1:
         player_name.append('Rookie')
+        fp_rookie = database_reader('Fantasy-Pros-Rookies-Database.csv', fp_heading)
+        index = 1
+        for current_rookie in fp_rookie:
+            if current_rookie[0] == player_name[0]:
+                player_name.append(index)
+            else:
+                index += 1
+                
         player_list = [player_name, [0], [0], [0]]
         next_directory('/Database/College/')
         #Set CSV file
@@ -127,8 +135,8 @@ for player_name in FPD:
                                 if row[2] == power:
                                     skip = 1
                             if skip == 0:
-                                year = year * .5
-                                
+                                year = year * .75
+                            
                             if current_year == 2016:
                                 player_list[1] = [year]
                             elif current_year == 2017:
