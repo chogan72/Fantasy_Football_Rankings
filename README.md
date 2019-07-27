@@ -16,6 +16,7 @@ I have just recently finished creating the preseson model. There are some slight
 * Fantasy Pros Scraper
   * This is used to scrape https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php to find all the current players in fantasy rankings. It also records there position, team, and bye week.
   * This is used to create Database/Fantasy-Pros-Database.csv
+  * This pulls rookie rankings. This is used to create Database/Fantasy-Pros-Rookies-Database.csv
 * Pro Football Reference Scraper
   * This is used to scrape https://www.pro-football-reference.com/years/2018/fantasy.htm to pull season long stats.
   * It also pulls stats form position specific pages to get more complete stats
@@ -53,7 +54,7 @@ I have just recently finished creating the preseson model. There are some slight
 
 <p align="center"> ((Ceiling - Low) * .1) + (High * .3) + (Mid * .2) + (Low * .3) + ((Floor - Low) * .1) </p>
 
-#### Rookie Weight
+#### Rookie Position Weight
 
 * Each Rookies College stats are weighted based on position
 
@@ -62,7 +63,7 @@ I have just recently finished creating the preseson model. There are some slight
  </thead>
  <tbody>
   <tr align="center">
-   <td>0.39</td><td>.32</td><td>.35</td><td>.39</td><td>1.00</td>
+   <td>0.39</td><td>.38</td><td>.42</td><td>.39</td><td>.45</td>
   </tr>
  </tbody></table>
 
@@ -103,6 +104,19 @@ I have just recently finished creating the preseson model. There are some slight
  
 #### Free Agent
 * If the player is a Free Agent there prediction is multiplied by 50%.
+
+#### Rookie Fantasy Pros Weight
+
+* Weights Rookies based on there Fantasy Pros Ranking.
+
+<table align="center"><thead>
+  <th>1-10</th><th>11-30</th><th>31-60</th><th>61+</th>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td>1.40</td><td>1.25</td><td>1.10</td><td>1.00</td>
+  </tr>
+ </tbody></table>
  
 #### Injuries and Suspensions
 * Finally any Injuries and Suspensions are factored in. For example:
