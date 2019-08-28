@@ -1,97 +1,82 @@
 Rank,Name,Team,Position,Bye,Point Prediction,Injury Report
-1,Travis Kelce,KC,TE,12,168.78,Ankle | Questionable for Week 1
+1,Travis Kelce,KC,TE,12,180.03,
 2,Zach Ertz,PHI,TE,10,152.56,
-3,Eric Ebron,IND,TE,6,127.9,Groin | Questionable for Week 1
-4,O.J. Howard,TB,TE,7,126.72,
-5,George Kittle,SF,TE,4,126.46,Hip | Questionable for Week 1
-6,Evan Engram,NYG,TE,11,112.41,Hamstring | Questionable for Week 1
+3,Eric Ebron,IND,TE,6,136.43,
+4,George Kittle,SF,TE,4,134.89,
+5,O.J. Howard,TB,TE,7,126.72,
+6,Evan Engram,NYG,TE,11,119.91,
 7,Jared Cook,NO,TE,9,108.37,
-8,Jace Sternberger,GB,TE,11,94.78,
-9,Kyle Rudolph,MIN,TE,12,93.01,
-10,Jimmy Graham,GB,TE,11,92.53,
-11,Hunter Henry,LAC,TE,12,90.11,
+8,Kyle Rudolph,MIN,TE,12,93.01,
+9,Will Dissly,SEA,TE,11,90.36,
+10,Hunter Henry,LAC,TE,12,90.11,
+11,Jace Sternberger,GB,TE,11,88.85,Concussion | Questionable for Week 1
 12,Austin Hooper,ATL,TE,9,88.6,
 13,T.J. Hockenson,DET,TE,5,87.52,
 14,David Njoku,CLE,TE,7,87.45,
-15,Will Dissly,SEA,TE,11,84.71,Kneecap | Questionable for Week 1
+15,Jimmy Graham,GB,TE,11,86.75,Finger | Questionable for Week 1
 16,Greg Olsen,CAR,TE,7,84.09,
 17,Trey Burton,CHI,TE,6,83.62,Sports Hernia | Questionable for Week 1
 18,Cameron Brate,TB,TE,7,83.11,
-19,Vance McDonald,PIT,TE,7,79.39,
-20,Jordan Reed,WAS,TE,10,77.77,Foot | Questionable for Week 1
-21,Delanie Walker,TEN,TE,11,76.73,
-22,Dallas Goedert,PHI,TE,10,74.68,
+19,Jack Doyle,IND,TE,6,79.41,
+20,Vance McDonald,PIT,TE,7,79.39,
+21,Jordan Reed,WAS,TE,10,77.77,Concussion | Questionable for Week 1
+22,Delanie Walker,TEN,TE,11,76.73,
 23,Vernon Davis,WAS,TE,10,74.47,
-24,Jack Doyle,IND,TE,6,74.44,Hip | Questionable for Week 1
-25,Jeremy Sprinkle,WAS,TE,10,73.38,
-26,Noah Fant,DEN,TE,10,72.06,
+24,Noah Fant,DEN,TE,10,72.06,
+25,Dallas Goedert,PHI,TE,10,70.01,Calf | Questionable for Week 1
+26,Tyler Eifert,CIN,TE,9,69.97,
 27,Jason Witten,DAL,TE,8,68.59,
 28,Demetrius Harris,CLE,TE,7,66.81,
 29,Mark Andrews,BAL,TE,8,66.26,
-30,Tyler Eifert,CIN,TE,9,65.6,Ankle | Questionable for Week 1
-31,Garrett Celek,SF,TE,4,65.51,Back | Questionable for Week 1
-32,Jordan Thomas,HOU,TE,10,61.89,
-33,Ricky Seals-Jones,ARI,TE,12,61.05,
-34,Ian Thomas,CAR,TE,7,59.64,Leg | Questionable for Week 1
-35,Blake Jarwin,DAL,TE,8,59.58,
-36,Ed Dickson,SEA,TE,11,59.49,
-37,Jesse James,DET,TE,5,59.15,
-38,Mo Alie-Cox,IND,TE,6,59.08,
-39,C.J. Uzomah,CIN,TE,9,58.58,
-40,Dan Arnold,NO,TE,9,55.37,
-41,Chris Herndon,NYJ,TE,4,53.29,Suspension | Suspended until Week 6
-42,Nick O'Leary,MIA,TE,5,52.91,
-43,Gerald Everett,LAR,TE,9,52.78,
-44,Anthony Firkser,TEN,TE,11,52.58,Undisclosed | Questionable for Week 1
-45,Jeff Heuerman,DEN,TE,10,50.4,
-46,Darren Fells,HOU,TE,10,50.18,
-47,Ryan Griffin,NYJ,TE,4,48.9,
-48,Adam Shaheen,CHI,TE,6,47.19,
-49,Seth DeValve,CLE,TE,7,46.82,
-50,Lee Smith,BUF,TE,6,45.34,
-51,Tyler Higbee,LAR,TE,9,44.08,
-52,Rhett Ellison,NYG,TE,11,44.07,
-53,Scott Simonson,NYG,TE,11,43.99,
-54,Benjamin Watson,NE,TE,10,43.74,Suspension | Suspended until Week 5
-55,Matt LaCosse,NE,TE,10,42.74,
-56,Hayden Hurst,BAL,TE,8,42.33,
-57,Geoff Swaim,JAC,TE,10,41.91,
-58,Virgil Green,LAC,TE,12,41.31,
-59,Levine Toilolo,SF,TE,4,39.86,
-60,Nick Vannett,SEA,TE,11,38.45,
-61,Josh Oliver,JAC,TE,10,36.95,
-62,Darren Waller,OAK,TE,6,36.54,
-63,Zach Gentry,PIT,TE,7,36.26,
-64,Derek Carrier,OAK,TE,6,35.32,
-65,Josh Hill,NO,TE,9,35.19,
-66,Stephen Anderson,NE,TE,10,34.09,
-67,Luke Stocker,ATL,TE,9,33.63,
-68,Kahale Warring,HOU,TE,10,32.56,Undisclosed | Out for Week 1
-69,Jordan Akins,HOU,TE,10,31.98,
-70,Jason Croom,BUF,TE,6,31.14,Hamstring | Questionable for Week 1
-71,Jake Butt,DEN,TE,10,29.78,Knee | Questionable for Week 1
-72,Trevon Wesco,NYJ,TE,4,29.45,
-73,Maxx Williams,ARI,TE,12,29.03,
-74,Luke Willson,OAK,TE,6,26.85,
-75,Austin Seferian-Jenkins,FA,TE,,26.49,
-76,James O'Shaughnessy,JAC,TE,10,26.37,
-77,Logan Thomas,DET,TE,5,25.99,
-78,Nick Boyle,BAL,TE,8,25.91,
-79,Daniel Brown,NYJ,TE,4,25.79,
-80,Xavier Grimble,PIT,TE,7,25.4,
-81,Dalton Schultz,DAL,TE,8,25.19,
-82,Mike Gesicki,MIA,TE,5,23.61,
-83,Eric Tomlinson,NYJ,TE,4,22.94,
-84,Logan Paulsen,ATL,TE,9,22.09,
-85,Jordan Leggett,TB,TE,7,21.59,
-86,Blake Bell,KC,TE,12,18.03,
-87,Charles Clay,ARI,TE,12,0,Knee | Physically Unable to Perform
-88,Dawson Knox,BUF,TE,6,0,
-89,Drew Sample,CIN,TE,9,0,
-90,Dwayne Allen,MIA,TE,5,0,Undisclosed | Physically Unable to Perform
-91,Foster Moreau,OAK,TE,6,0,
-92,Irv Smith Jr.,MIN,TE,12,0,
-93,Jacob Hollister,SEA,TE,11,0,
-94,Jonnu Smith,TEN,TE,11,0,Knee - MCL | Physically Unable to Perform
-95,Joshua Perkins,PHI,TE,10,0,
-96,Tyler Kroft,BUF,TE,6,0,Foot | Physically Unable to Perform
+30,Ian Thomas,CAR,TE,7,63.62,
+31,Jordan Thomas,HOU,TE,10,61.89,
+32,Ricky Seals-Jones,ARI,TE,12,61.05,
+33,Jesse James,DET,TE,5,59.15,
+34,Mo Alie-Cox,IND,TE,6,59.08,
+35,C.J. Uzomah,CIN,TE,9,58.58,
+36,Blake Jarwin,DAL,TE,8,55.85,Foot | Questionable for Week 1
+37,Ed Dickson,SEA,TE,11,55.78,Knee | Out for Week 1
+38,Dan Arnold,NO,TE,9,55.37,
+39,Jonnu Smith,TEN,TE,11,54.63,Knee - MCL | Questionable for Week 1
+40,Chris Herndon,NYJ,TE,4,53.29,Suspension | Suspended until Week 6
+41,Nick O'Leary,MIA,TE,5,52.91,
+42,Gerald Everett,LAR,TE,9,52.78,
+43,Ryan Griffin,NYJ,TE,4,48.9,
+44,Jeff Heuerman,DEN,TE,10,47.25,Shoulder | Questionable for Week 1
+45,Adam Shaheen,CHI,TE,6,47.19,
+46,Seth DeValve,CLE,TE,7,46.82,
+47,Lee Smith,BUF,TE,6,45.34,
+48,Charles Clay,ARI,TE,12,44.66,
+49,Tyler Higbee,LAR,TE,9,44.08,
+50,Rhett Ellison,NYG,TE,11,44.07,
+51,Benjamin Watson,NE,TE,10,43.74,Suspension | Suspended until Week 5
+52,Matt LaCosse,NE,TE,10,42.74,
+53,Hayden Hurst,BAL,TE,8,42.33,
+54,Virgil Green,LAC,TE,12,41.31,
+55,Geoff Swaim,JAC,TE,10,39.29,Foot | Questionable for Week 1
+56,Nick Vannett,SEA,TE,11,38.45,
+57,Levine Toilolo,SF,TE,4,37.37,Shoulder | Questionable for Week 1
+58,Darren Waller,OAK,TE,6,36.54,
+59,Josh Hill,NO,TE,9,35.19,
+60,Josh Oliver,JAC,TE,10,34.64,Hamstring | Questionable for Week 1
+61,Jason Croom,BUF,TE,6,33.21,
+62,Kahale Warring,HOU,TE,10,32.56,Concussion | Questionable for Week 1
+63,Jordan Akins,HOU,TE,10,31.98,
+64,Jake Butt,DEN,TE,10,29.78,Knee | Out for Week 1
+65,Trevon Wesco,NYJ,TE,4,29.45,
+66,Maxx Williams,ARI,TE,12,29.03,
+67,Luke Willson,OAK,TE,6,26.85,
+68,Austin Seferian-Jenkins,FA,TE,,26.49,
+69,James O'Shaughnessy,JAC,TE,10,26.37,
+70,Nick Boyle,BAL,TE,8,25.91,
+71,Xavier Grimble,PIT,TE,7,25.4,
+72,Dwayne Allen,MIA,TE,5,24.41,
+73,Mike Gesicki,MIA,TE,5,23.61,
+74,Logan Paulsen,ATL,TE,9,22.09,
+75,Blake Bell,KC,TE,12,18.03,
+76,Dawson Knox,BUF,TE,6,0,
+77,Drew Sample,CIN,TE,9,0,
+78,Foster Moreau,OAK,TE,6,0,
+79,Garrett Celek,SF,TE,4,0,Back | Physically Unable to Perform
+80,Irv Smith Jr.,MIN,TE,12,0,
+81,Tyler Kroft,BUF,TE,6,0,Foot | Physically Unable to Perform

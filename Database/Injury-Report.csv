@@ -1,377 +1,476 @@
 Player,Position,Updated,Injury,Status
-Brooks Reed,LB,"Sat, Jul 20",Hip,Physically Unable to Perform
-Robert Nkemdiche,DT,"Sat, Jul 20",Knee - ACL,Physically Unable to Perform
-Charles Clay,TE,"Sat, Jul 20",Knee,Physically Unable to Perform
+Josh Shaw,CB,"Sun, Aug 25",Shoulder,IR. Injured Reserve
+Hakeem Butler,WR,"Sun, Aug 25",Hand,IR. Injured Reserve
+Robert Alford,CB,"Thu, Aug 15",Leg,Out for Week 1 vs. Detroit
+Vincent Valentine,DT,"Fri, Aug 9",Undisclosed,IR. Injured Reserve
+Haason Reddick,OLB,"Sat, Jul 27",Knee,Questionable for Week 1 vs. Detroit
 Max Garcia,G,"Sat, Jul 20",Knee - ACL,Physically Unable to Perform
-Brandon Williams,CB,"Sat, Jul 20",Back,Physically Unable to Perform
-Dante Booker,LB,"Thu, Jul 18",Undisclosed,Physically Unable to Perform
-D.J. Foster,RB,"Wed, May 29",Knee - ACL,Questionable for Week 1 vs. Detroit
 Patrick Peterson,CB,"Thu, May 16",Suspension,Suspended until Week 7 at N.Y. Giants
-D.J. Humphries,T,"Wed, Mar 27",Knee,Questionable for Week 1 vs. Detroit
-Korey Cunningham,T,"Mon, Feb 4",Foot,Questionable for Week 1 vs. Detroit
-Michael Bennett,DT,"Tue, Jul 23",Ankle,Out for Week 1 at Minnesota
-Brian Hill,RB,"Mon, Jul 22",Undisclosed,Questionable for Week 1 at Minnesota
-J.J. Wilcox,DB,"Mon, Jul 22",Knee - ACL,Out for Week 1 at Minnesota
+Ricky Ortiz,FB,"Sun, Aug 25",Ankle,Questionable for Week 1 at Minnesota
+Jaeden Graham,TE,"Thu, Aug 22",Knee,Questionable for Week 1 at Minnesota
+Matt Simms,QB,"Mon, Aug 19",Undisclosed,Questionable for Week 1 at Minnesota
+Kendall Sheffield,DB,"Sat, Aug 17",Hamstring,Questionable for Week 1 at Minnesota
+Russell Gage,WR,"Thu, Aug 15",Hip,Questionable for Week 1 at Minnesota
+Damontae Kazee,SS,"Thu, Aug 15",Ribs,Questionable for Week 1 at Minnesota
+Kurt Benkert,QB,"Tue, Aug 6",Toe,IR. Injured Reserve
+Foye Oluokun,LB,"Sun, Aug 4",Oblique,Questionable for Week 1 at Minnesota
+Michael Bennett,DT,"Fri, Jul 26",Ankle,IR. Injured Reserve
+J.J. Wilcox,DB,"Wed, Jul 24",Knee - ACL,IR. Injured Reserve
 Jeremy Langford,RB,"Wed, Jun 26",Undisclosed,Questionable for Week 1 at Minnesota
 Ra'Shede Hageman,DT,"Thu, Jun 20",Suspension,Suspended until Week 3 at Indianapolis
 Julio Jones,WR,"Mon, Jun 10",Foot,Questionable for Week 1 at Minnesota
 Deion Jones,LB,"Mon, Jun 10",Foot,Questionable for Week 1 at Minnesota
 Steven Means,DE,"Thu, May 23",Achilles,IR. Injured Reserve
-Keanu Neal,SS,"Mon, Feb 4",Knee - ACL,Questionable for Week 1 at Minnesota
-Ricardo Allen,FS,"Mon, Feb 4",Achilles,Questionable for Week 1 at Minnesota
-Wes Schweitzer,G,"Mon, Dec 31",Back,Questionable for Week 1 at Minnesota
-Alex Lewis,G,"Sat, Jul 20",Shoulder,Physically Unable to Perform
-Patrick Mekari,G,"Thu, Jul 18",Undisclosed,Physically Unable to Perform
-Marquise Brown,WR,"Thu, Jul 18",Foot,Out for Week 1 at Miami
+Jaylon Ferguson,LB,"Fri, Aug 23",Concussion,Questionable for Week 1 at Miami
+Jermaine Eluemunor,G,"Mon, Aug 19",Undisclosed,Questionable for Week 1 at Miami
+Marshal Yanda,G,"Sat, Aug 17",Foot,Questionable for Week 1 at Miami
+Tavon Young,CB,"Fri, Aug 16",Neck,Doubtful for Week 1 at Miami
+Robert Griffin III,QB,"Sat, Jul 27",Thumb,Questionable for Week 1 at Miami
 Alex Collins,RB,"Mon, Jul 15",Leg,Out for Week 1 at Miami
-Cyrus Jones,CB,"Tue, Jun 11",Illness,Questionable for Week 1 at Miami
-Tony Jefferson,SS,"Thu, May 23",Ankle,Questionable for Week 1 at Miami
-Miles Boykin,WR,"Fri, May 17",Hamstring,Questionable for Week 1 at Miami
 Jaelon Acklin,WR,"Wed, Sep 5",Undisclosed,Questionable for Week 1 at Miami
+Carrington Byndom,DB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Miami
 Aaron Bailey,WR,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Miami
 Daniel Henry,DB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Miami
-Carrington Byndom,DB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Miami
+Mike Love,DE,"Wed, Aug 28",Pectoral,IR. Injured Reserve
+De'Ondre Wesley,T,"Sun, Aug 25",Knee,Questionable for Week 1 at N.Y. Jets
+Senorise Perry,RB,"Sun, Aug 25",Quadriceps,Questionable for Week 1 at N.Y. Jets
+Kyle Carter,TE,"Sun, Aug 25",Knee,Questionable for Week 1 at N.Y. Jets
+Jerry Hughes,DE,"Sat, Aug 24",Wrist,Questionable for Week 1 at N.Y. Jets
+Quinton Spain,G,"Fri, Aug 23",Ankle,Questionable for Week 1 at N.Y. Jets
+Cam Lewis,CB,"Fri, Aug 16",Concussion,Questionable for Week 1 at N.Y. Jets
+Conor McDermott,T,"Fri, Aug 9",Concussion,Questionable for Week 1 at N.Y. Jets
+LaAdrian Waddle,T,"Tue, Aug 6",Quadriceps,IR. Injured Reserve
+Mitch Morse,C,"Wed, Jul 31",Concussion,Questionable for Week 1 at N.Y. Jets
 Tyler Kroft,TE,"Mon, Jul 22",Foot,Physically Unable to Perform
-Robert Foster,WR,"Tue, Jun 11",Foot,Questionable for Week 1 at N.Y. Jets
-Ty Nsekhe,T,"Tue, Jun 4",Undisclosed,Questionable for Week 1 at N.Y. Jets
-Zay Jones,WR,"Tue, Jun 4",Undisclosed,Questionable for Week 1 at N.Y. Jets
-Jason Croom,TE,"Tue, May 28",Hamstring,Questionable for Week 1 at N.Y. Jets
-Quinton Spain,G,"Tue, May 28",Thumb,Questionable for Week 1 at N.Y. Jets
-Cole Beasley,WR,"Tue, May 21",Abdomen,Questionable for Week 1 at N.Y. Jets
-David Sills,WR,"Tue, May 21",Hamstring,Questionable for Week 1 at N.Y. Jets
-Marcus Murphy,RB,"Tue, Feb 5",Elbow,Questionable for Week 1 at N.Y. Jets
-Russell Bodine,C,"Tue, Feb 5",Lower Leg,Questionable for Week 1 at N.Y. Jets
-Cory Carter,P,"Tue, Feb 5",Knee - ACL,Questionable for Week 1 at N.Y. Jets
 Aaron Green,RB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at N.Y. Jets
-Torrey Smith,WR,"Wed, Jun 19",Knee,Questionable for Week 1 vs. L.A. Rams
+Bruce Irvin,DE,"Tue, Aug 27",Hamstring,Questionable for Week 1 vs. L.A. Rams
+Graham Gano,K,"Tue, Aug 27",Leg,Questionable for Week 1 vs. L.A. Rams
+Cam Newton,QB,"Fri, Aug 23",Foot,Questionable for Week 1 vs. L.A. Rams
+Greg Little,T,"Fri, Aug 23",Head,Questionable for Week 1 vs. L.A. Rams
+Norman Price,T,"Mon, Aug 19",Lower Leg,IR. Injured Reserve
+Jonathan Celestin,LB,"Mon, Aug 19",Undisclosed,IR. Injured Reserve
+Brandon Greene,T,"Fri, Aug 16",Undisclosed,Questionable for Week 1 vs. L.A. Rams
+Dillon Gordon,T,"Sat, Aug 10",Shoulder,IR. Injured Reserve
+Kevon Seymour,CB,"Mon, Aug 5",Hamstring,Questionable for Week 1 vs. L.A. Rams
 Mose Frazier,WR,"Wed, Jun 12",Arm,Questionable for Week 1 vs. L.A. Rams
-Jermaine Carter,LB,"Wed, Jun 12",Hamstring,Questionable for Week 1 vs. L.A. Rams
-Aldrick Robinson,WR,"Wed, Jun 12",Hamstring,Questionable for Week 1 vs. L.A. Rams
-Ian Thomas,TE,"Wed, May 22",Leg,Questionable for Week 1 vs. L.A. Rams
-Daryl Williams,T,"Thu, Mar 14",Knee - MCL,Questionable for Week 1 vs. L.A. Rams
-Matt Paradis,C,"Thu, Mar 14",Lower Leg,Questionable for Week 1 vs. L.A. Rams
-Elijah Hood,RB,"Mon, Feb 25",Knee - ACL,Questionable for Week 1 vs. L.A. Rams
-Cam Newton,QB,"Mon, Dec 31",Shoulder,Questionable for Week 1 vs. L.A. Rams
-T.J. Clemmings,T,"Tue, Jul 23",Knee - ACL,Physically Unable to Perform
-Jonathan Harris,DE,"Mon, Jul 22",Hamstring,Physically Unable to Perform
-Ha Ha Clinton-Dix,SS,"Mon, Jul 22",Knee,Physically Unable to Perform
+T.J. Clemmings,T,"Wed, Aug 28",Quadriceps,IR. Injured Reserve
+Rashaad Coward,T,"Fri, Aug 16",Elbow,Questionable for Week 1 vs. Green Bay
+Cody Whitehair,C,"Wed, Aug 14",Finger,Questionable for Week 1 vs. Green Bay
+Aaron Lynch,OLB,"Sun, Aug 11",Shoulder,Questionable for Week 1 vs. Green Bay
+Anthony Miller,WR,"Sun, Aug 11",Ankle,Questionable for Week 1 vs. Green Bay
+Josh Simmons,DB,"Mon, Aug 5",Undisclosed,IR. Injured Reserve
+Ha Ha Clinton-Dix,SS,"Tue, Jul 30",Knee,Questionable for Week 1 vs. Green Bay
 Jomon Dotson,DB,"Mon, Jul 1",Undisclosed,Questionable for Week 1 vs. Green Bay
-Emanuel Hall,WR,"Wed, Jun 5",Sports Hernia,Questionable for Week 1 vs. Green Bay
 Bobby Massie,T,"Wed, May 29",Neck,Questionable for Week 1 vs. Green Bay
 Trey Burton,TE,"Wed, May 29",Sports Hernia,Questionable for Week 1 vs. Green Bay
 Rashard Fant,DB,"Tue, May 7",Undisclosed,Physically Unable to Perform
 Alex Bars,T,"Mon, May 6",Knee - ACL + MCL,Questionable for Week 1 vs. Green Bay
-Anthony Miller,WR,"Mon, Jan 14",Shoulder,Questionable for Week 1 vs. Green Bay
-Shaq Roland,WR,"Sat, Aug 25",Undisclosed,Questionable for Week 1 vs. Green Bay
-Jonah Williams,T,"Tue, Jun 25",Shoulder - Labrum,Out for Week 1 at Seattle
-Rodney Anderson,RB,"Wed, May 29",Knee - ACL,Questionable for Week 1 at Seattle
+Auden Tate,WR,"Thu, Aug 22",Knee,Questionable for Week 1 at Seattle
+Cordy Glenn,T,"Mon, Aug 19",Concussion,Questionable for Week 1 at Seattle
+Hunter Sharp,WR,"Fri, Aug 16",Undisclosed,Questionable for Week 1 at Seattle
+Trayveon Williams,RB,"Thu, Aug 15",Foot,Questionable for Week 1 at Seattle
+Christian Ringo,DE,"Sat, Aug 10",Thumb,Questionable for Week 1 at Seattle
+Clayton Fejedelem,DB,"Sat, Aug 10",Ankle,Questionable for Week 1 at Seattle
+Niles Scott,NT,"Thu, Aug 8",Undisclosed,IR. Injured Reserve
+A.J. Green,WR,"Tue, Jul 30",Ankle,Doubtful for Week 1 at Seattle
+John Ross,WR,"Sun, Jul 28",Hamstring,Questionable for Week 1 at Seattle
+Darqueze Dennard,DB,"Fri, Jul 26",Knee,Physically Unable to Perform
+Jonah Williams,T,"Fri, Jul 26",Shoulder - Labrum,Physically Unable to Perform
 Alex Redmond,G,"Tue, May 28",Suspension,Suspended until Week 5 vs. Arizona
-Darqueze Dennard,DB,"Wed, May 8",Knee,Questionable for Week 1 at Seattle
-A.J. Green,WR,"Tue, Feb 5",Toe,Questionable for Week 1 at Seattle
 Dre Kirkpatrick,CB,"Tue, Feb 5",Shoulder,Questionable for Week 1 at Seattle
-Tyler Eifert,TE,"Tue, Feb 5",Ankle,Questionable for Week 1 at Seattle
-Carl Lawson,DE,"Tue, Feb 5",Knee - ACL,Questionable for Week 1 at Seattle
-Ryan Glasgow,DT,"Tue, Feb 5",Knee - ACL,Questionable for Week 1 at Seattle
-Geno Atkins,DT,"Sun, Jan 27",Undisclosed,Questionable for Week 1 at Seattle
-Brandon Wilson,DB,"Sun, Dec 30",Chest,Questionable for Week 1 at Seattle
-T.J. Carrie,DB,"Thu, Jun 6",Leg,Questionable for Week 1 vs. Tennessee
-Kareem Hunt,RB,"Wed, Jun 5",Suspension,Suspended until Week 10 vs. Buffalo
-E.J. Gaines,CB,"Tue, Jun 4",Undisclosed,Questionable for Week 1 at N.Y. Jets
-Donnie Lewis,CB,"Sat, Apr 27",Foot,Questionable for Week 1 vs. Tennessee
-Marcus Martin,C,"Tue, Feb 5",Toe,Questionable for Week 1 vs. Cincinnati
-Derrick Willies,WR,"Tue, Feb 5",Collarbone,Questionable for Week 1 vs. Tennessee
+Jermaine Whitehead,DB,"Sat, Aug 24",Groin,Questionable for Week 1 vs. Tennessee
+Joe Kerridge,FB,"Wed, Aug 21",Concussion,Questionable for Week 1 vs. Tennessee
+Sione Takitaki,LB,"Wed, Aug 21",Hamstring,Questionable for Week 1 vs. Tennessee
+D.J. Montgomery,WR,"Wed, Aug 21",Hamstring,IR. Injured Reserve
+Odell Beckham,WR,"Wed, Aug 14",Hip,Questionable for Week 1 vs. Tennessee
+Antonio Callaway,WR,"Sat, Aug 10",Suspension,Suspended until Week 5 at San Francisco
+Kyle Kalis,C,"Thu, Aug 8",Concussion,Questionable for Week 1 vs. Tennessee
+Brian Price,DT,"Sat, Aug 3",Concussion,Questionable for Week 1 vs. Tennessee
+Lo Falemaka,C,"Mon, Jul 29",Shoulder,IR. Injured Reserve
 Rico Gathers,TE,"Sat, Jun 15",Suspension,Suspended until Week 2 at Washington
-Noah Brown,WR,"Thu, Jun 13",Knee,Questionable for Week 1 vs. N.Y. Giants
-Taco Charlton,DE,"Wed, Jun 12",Ankle,Questionable for Week 1 vs. N.Y. Giants
+Kareem Hunt,RB,"Wed, Jun 5",Suspension,Suspended until Week 10 vs. Buffalo
+La'el Collins,T,"Wed, Aug 28",Shoulder,Questionable for Week 1 vs. N.Y. Giants
+Daniel Ross,DT,"Mon, Aug 26",Hand,Questionable for Week 1 vs. N.Y. Giants
+George Iloka,SS,"Mon, Aug 26",Shoulder,Questionable for Week 1 vs. N.Y. Giants
+Byron Jones,CB,"Mon, Aug 26",Hip,Questionable for Week 1 vs. N.Y. Giants
+Taco Charlton,DE,"Sat, Aug 24",Ankle,Questionable for Week 1 vs. N.Y. Giants
+Sean Lee,OLB,"Sat, Aug 24",Knee,Questionable for Week 1 vs. N.Y. Giants
+Chris Covington,LB,"Thu, Aug 22",Neck,Questionable for Week 1 vs. N.Y. Giants
+Demarcus Lawrence,DE,"Wed, Aug 21",Shoulder - Labrum,Questionable for Week 1 vs. N.Y. Giants
+Tyrone Crawford,DT,"Wed, Aug 21",Hip,Questionable for Week 1 vs. N.Y. Giants
+Darian Thompson,DB,"Tue, Aug 20",Ankle,Questionable for Week 1 vs. N.Y. Giants
+Mike Jackson,CB,"Mon, Aug 19",Hamstring,Questionable for Week 1 vs. N.Y. Giants
+Tyron Smith,T,"Fri, Aug 16",Back,Questionable for Week 1 vs. N.Y. Giants
+Dalton Schultz,TE,"Mon, Aug 12",Ankle,Questionable for Week 1 vs. N.Y. Giants
+Blake Jarwin,TE,"Mon, Aug 12",Foot,Questionable for Week 1 vs. N.Y. Giants
+Luke Gifford,LB,"Sat, Aug 10",Ankle,Questionable for Week 1 vs. N.Y. Giants
+Lance Lenoir,WR,"Fri, Aug 9",Knee,IR. Injured Reserve
+Derrick Puni,T,"Fri, Aug 9",Undisclosed,IR. Injured Reserve
+Robert Quinn,DE,"Thu, Aug 8",Suspension,Suspended until Week 3 vs. Miami
+Zack Martin,G,"Sun, Aug 4",Back,Questionable for Week 1 vs. N.Y. Giants
+Amari Cooper,WR,"Sat, Aug 3",Heel,Questionable for Week 1 vs. N.Y. Giants
+Cody Wichmann,G,"Sat, Aug 3",Calf,Questionable for Week 1 vs. N.Y. Giants
+Noah Brown,WR,"Fri, Jul 26",Knee,Physically Unable to Perform
 Connor McGovern,G,"Tue, Jun 11",Pectoral,Questionable for Week 1 vs. N.Y. Giants
-Chidobe Awuzie,CB,"Wed, May 29",Hamstring,Questionable for Week 1 vs. N.Y. Giants
-Kavon Frazier,FS,"Wed, May 29",Knee,Questionable for Week 1 vs. N.Y. Giants
-Tavon Austin,WR,"Thu, May 23",Undisclosed,Questionable for Week 1 vs. N.Y. Giants
-Christian Covington,DE,"Thu, May 23",Calf,Questionable for Week 1 vs. N.Y. Giants
-Leighton Vander Esch,OLB,"Wed, May 22",Pelvis,Questionable for Week 1 vs. N.Y. Giants
-Cameron Fleming,T,"Wed, May 22",Shin,Questionable for Week 1 vs. N.Y. Giants
-Travis Frederick,C,"Wed, May 15",Shoulder,Questionable for Week 1 vs. N.Y. Giants
-La'el Collins,T,"Thu, Apr 11",Shoulder,Questionable for Week 1 vs. N.Y. Giants
-Demarcus Lawrence,DE,"Wed, Apr 10",Shoulder - Labrum,Questionable for Week 1 vs. N.Y. Giants
-Byron Jones,CB,"Fri, Mar 29",Hip,Questionable for Week 1 vs. N.Y. Giants
-Jameill Showers,DB,"Tue, Feb 5",Knee - ACL,Questionable for Week 1 vs. N.Y. Giants
-Zack Martin,G,"Fri, Jan 18",Knee,Questionable for Week 1 vs. N.Y. Giants
-Antwaun Woods,DT,"Thu, Jan 17",Shoulder - Labrum,Questionable for Week 1 vs. N.Y. Giants
-Kasey Redfern,P,"Sat, Aug 25",Knee - ACL + MCL,Questionable for Week 1 vs. N.Y. Giants
-Juwann Winfree,WR,"Mon, Jul 22",Calf,Questionable for Week 1 at Oakland
-Justin Hollins,LB,"Sun, Jul 21",Hamstring,Questionable for Week 1 at Oakland
-Jake Butt,TE,"Sun, Jul 21",Knee,Questionable for Week 1 at Oakland
-River Cracraft,WR,"Sat, Jul 20",Oblique,Questionable for Week 1 at Oakland
+Jake Butt,TE,"Wed, Aug 28",Knee,Out for Week 1 at Oakland
+Dymonte Thomas,DB,"Mon, Aug 26",Undisclosed,Questionable for Week 1 at Oakland
+Ronald Leary,G,"Thu, Aug 22",Knee,Questionable for Week 1 at Oakland
+Jeff Heuerman,TE,"Thu, Aug 22",Shoulder,Questionable for Week 1 at Oakland
+Drew Lock,QB,"Wed, Aug 21",Thumb,Doubtful for Week 1 at Oakland
+Bug Howard,TE,"Wed, Aug 21",Undisclosed,IR. Injured Reserve
+Horace Richardson,CB,"Wed, Aug 21",Back,IR. Injured Reserve
+Joe Dineen,LB,"Mon, Aug 19",Hand,Questionable for Week 1 at Oakland
+Von Miller,OLB,"Sat, Aug 17",Knee,Questionable for Week 1 at Oakland
+Su'a Cravens,DB,"Thu, Aug 15",Illness,Questionable for Week 1 at Oakland
+Malik Reed,LB,"Thu, Aug 15",Hamstring,Questionable for Week 1 at Oakland
+Will Parks,SS,"Thu, Aug 15",Hamstring,Questionable for Week 1 at Oakland
+Theo Riddick,RB,"Sun, Aug 11",Shoulder,Doubtful for Week 1 at Oakland
+Austin Fort,TE,"Fri, Aug 9",Knee - ACL,IR. Injured Reserve
+Andy Janovich,FB,"Fri, Aug 9",Pectoral,Out for Week 1 at Oakland
+Joe Jones,LB,"Wed, Aug 7",Triceps,Doubtful for Week 1 at Oakland
+Billy Winn,DT,"Sun, Aug 4",Triceps,IR. Injured Reserve
+Alijah Holder,CB,"Thu, Aug 1",Shoulder,Questionable for Week 1 at Oakland
 Todd Davis,ILB,"Fri, Jul 19",Calf,Questionable for Week 1 at Oakland
 Nico Falah,C,"Tue, May 14",Achilles,IR. Injured Reserve
-Emmanuel Sanders,WR,"Thu, Feb 7",Achilles,Questionable for Week 1 at Oakland
 Andre Holmes,WR,"Thu, Jan 24",Ankle,Questionable for Week 1 at Oakland
-Billy Winn,DT,"Sat, Aug 25",Knee - ACL,Questionable for Week 1 at Oakland
-Tommylee Lewis,WR,"Tue, Jul 23",Undisclosed,Physically Unable to Perform
-Steve Longa,LB,"Mon, Jul 22",Knee,Physically Unable to Perform
-Trey Flowers,DE,"Mon, Jul 22",Shoulder,Physically Unable to Perform
-Isaac Nauta,TE,"Mon, Jun 17",Undisclosed,Questionable for Week 1 at Arizona
-Christian Jones,OLB,"Thu, Jun 13",Undisclosed,Questionable for Week 1 at Arizona
-Marvin Jones,WR,"Fri, Mar 1",Knee,Questionable for Week 1 at Arizona
-Nick Bawden,RB,"Thu, Feb 7",Knee - ACL,Questionable for Week 1 at Arizona
-Kenny Golladay,WR,"Mon, Dec 31",Chest,Questionable for Week 1 at Arizona
+Frank Ragnow,G,"Sat, Aug 24",Ankle,Questionable for Week 1 at Arizona
+Jarrad Davis,MLB,"Sat, Aug 24",Ankle,Doubtful for Week 1 at Arizona
+Tre Lamar,LB,"Mon, Aug 12",Undisclosed,IR. Injured Reserve
+Darius Kilgo,NT,"Mon, Aug 12",Undisclosed,IR. Injured Reserve
+Jermaine Kearse,WR,"Sat, Aug 10",Leg,IR. Injured Reserve
+Tom Savage,QB,"Fri, Aug 9",Concussion,Questionable for Week 1 at Arizona
+Tyrell Crosby,G,"Thu, Aug 8",Concussion,Questionable for Week 1 at Arizona
+Da'Shawn Hand,DE,"Tue, Aug 6",Elbow,Questionable for Week 1 at Arizona
+Teez Tabor,CB,"Sun, Aug 4",Undisclosed,Questionable for Week 1 at Arizona
+Austin Bryant,DE,"Sun, Jul 28",Arm,Questionable for Week 1 at Arizona
 Stefan McClure,DB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Arizona
-Brandon Barnes,TE,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Arizona
-Greg Roberts,LB,"Mon, Jul 22",Undisclosed,Physically Unable to Perform
-Darnell Savage,DB,"Mon, Jul 22",Undisclosed,Out for Week 1 at Chicago
-Jason Spriggs,T,"Wed, Jun 12",Elbow,Questionable for Week 1 at Chicago
-Kevin King,CB,"Wed, Jun 12",Hamstring,Questionable for Week 1 at Chicago
-Javien Hamilton,DB,"Wed, Jun 12",Undisclosed,Questionable for Week 1 at Chicago
-Josh Jones,DB,"Tue, Jun 11",Hamstring,Questionable for Week 1 at Chicago
-Ty Summers,LB,"Wed, May 29",Hamstring,Questionable for Week 1 at Chicago
-Mike Daniels,DE,"Tue, May 28",Foot,Questionable for Week 1 at Chicago
-Tra Carson,RB,"Wed, May 22",Ribs,Questionable for Week 1 at Chicago
-Jawill Davis,WR,"Fri, Feb 8",Kneecap,Questionable for Week 1 at Chicago
-David Bakhtiari,T,"Sun, Dec 30",Hip,Questionable for Week 1 at Chicago
-Lane Taylor,G,"Sun, Dec 23",Knee,Questionable for Week 1 at Chicago
-J.J. Watt,DE,"Mon, Jul 22",Knee,Physically Unable to Perform
-DeAndre Hopkins,WR,"Mon, Jul 22",Ankle,Physically Unable to Perform
-Kahale Warring,TE,"Sun, Jul 21",Undisclosed,Out for Week 1 at New Orleans
-Jamal Davis,LB,"Sun, Jul 21",Undisclosed,Out for Week 1 at New Orleans
-Walter Palmore,DT,"Sun, Jul 21",Undisclosed,Out for Week 1 at New Orleans
-DeAndre Carter,WR,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
+Mike Tyson,DB,"Tue, Aug 27",Undisclosed,IR. Injured Reserve
+Rashan Gary,LB,"Mon, Aug 26",Neck,Questionable for Week 1 at Chicago
+Allen Lazard,WR,"Sun, Aug 25",Concussion,Questionable for Week 1 at Chicago
+Ka'Dar Hollman,CB,"Sun, Aug 25",Neck,Questionable for Week 1 at Chicago
+Greg Roberts,LB,"Sun, Aug 25",Abdomen,Physically Unable to Perform
+Equanimeous St. Brown,WR,"Fri, Aug 23",Ankle,Out for Week 1 at Chicago
+Curtis Bolton,LB,"Thu, Aug 22",Knee,Questionable for Week 1 at Chicago
+Jace Sternberger,TE,"Tue, Aug 20",Concussion,Questionable for Week 1 at Chicago
+Jimmy Graham,TE,"Sun, Aug 18",Finger,Questionable for Week 1 at Chicago
+Reggie Gilbert,LB,"Sun, Aug 18",Knee,Questionable for Week 1 at Chicago
+Kabion Ento,CB,"Sun, Aug 11",Hamstring,Questionable for Week 1 at Chicago
+Danny Vitale,FB,"Sat, Aug 10",Calf,Questionable for Week 1 at Chicago
+Oren Burks,ILB,"Sat, Aug 10",Pectoral,Questionable for Week 1 at Chicago
+Ibraheim Campbell,DB,"Thu, Aug 8",Knee - ACL,Physically Unable to Perform
+Jason Spriggs,T,"Wed, Aug 7",Back,IR. Injured Reserve
+Kevin King,CB,"Sun, Aug 4",Hamstring,Questionable for Week 1 at Chicago
+Lamar Miller,RB,"Mon, Aug 26",Knee - ACL,IR. Injured Reserve
+David Steinmetz,T,"Mon, Aug 26",Ankle,IR. Injured Reserve
+Senio Kelemete,G,"Sun, Aug 25",Undisclosed,Questionable for Week 1 at New Orleans
+Zach Fulton,G,"Sat, Aug 24",Toe,Questionable for Week 1 at New Orleans
+Will Fuller,WR,"Thu, Aug 22",Undisclosed,Questionable for Week 1 at New Orleans
+Tashaun Gipson,FS,"Tue, Aug 20",Undisclosed,Questionable for Week 1 at New Orleans
+Justin Reid,SS,"Tue, Aug 20",Undisclosed,Questionable for Week 1 at New Orleans
+Xavier Crawford,DB,"Mon, Aug 19",Hamstring,Questionable for Week 1 at New Orleans
+A.J. Moore,DB,"Sun, Aug 18",Concussion,Questionable for Week 1 at New Orleans
+Kahale Warring,TE,"Wed, Aug 14",Concussion,Questionable for Week 1 at New Orleans
+Chris Landrum,LB,"Mon, Aug 12",Undisclosed,IR. Injured Reserve
+Ira Savage-Lewis,DT,"Fri, Aug 9",Undisclosed,Questionable for Week 1 at New Orleans
+Keke Coutee,WR,"Thu, Aug 8",Ankle,Questionable for Week 1 at New Orleans
+AJ McCarron,QB,"Wed, Aug 7",Thumb,Questionable for Week 1 at New Orleans
+Isaac Whitney,WR,"Sun, Jul 28",Wrist,IR. Injured Reserve
 Jadeveon Clowney,OLB,"Thu, Jul 11",Contract Dispute,Questionable for Week 1 at New Orleans
 Duke Ejiofor,LB,"Fri, May 10",Achilles,IR. Injured Reserve
-Matt Kalil,T,"Tue, Apr 16",Knee,Questionable for Week 1 at New Orleans
-Will Fuller,WR,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at New Orleans
-Frank Gore,RB,"Mon, Jul 22",Foot,Out for Week 1 at N.Y. Jets
-Reece Fountain,WR,"Mon, Jul 22",Undisclosed,Out for Week 1 at L.A. Chargers
-Quincy Wilson,CB,"Thu, Jun 13",Thumb,Questionable for Week 1 at L.A. Chargers
+Kenny Moore,CB,"Mon, Aug 26",Thumb,Questionable for Week 1 at L.A. Chargers
+Tyquan Lewis,DE,"Thu, Aug 22",Knee,Questionable for Week 1 at L.A. Chargers
+Daurice Fountain,WR,"Mon, Aug 19",Ankle,IR. Injured Reserve
+Jonathan Williams,RB,"Sun, Aug 18",Ribs,Questionable for Week 1 at L.A. Chargers
+Jake Eldrenkamp,G,"Sat, Aug 17",Eye,Questionable for Week 1 at L.A. Chargers
+Jordan Wilkins,RB,"Sat, Aug 10",Foot,Questionable for Week 1 at L.A. Chargers
+Steve Ishmael,WR,"Wed, Aug 7",Knee,IR. Injured Reserve
+Billy Brown,TE,"Tue, Aug 6",Undisclosed,IR. Injured Reserve
+Spencer Ware,RB,"Sat, Aug 3",Ankle,Physically Unable to Perform
+Jabaal Sheard,DE,"Sun, Jul 28",Knee,Questionable for Week 1 at L.A. Chargers
+Parris Campbell,WR,"Sun, Jul 28",Hamstring,Questionable for Week 1 at L.A. Chargers
 Antonio Garcia,T,"Tue, Jun 11",Suspension,Suspended until Week 5 at Kansas City
 Javon Patterson,C,"Tue, Jun 4",Knee - ACL,IR. Injured Reserve
 Chad Kelly,QB,"Mon, Jun 3",Suspension,Suspended until Week 3 vs. Atlanta
-Clayton Geathers,SS,"Wed, May 29",Knee,Questionable for Week 1 at L.A. Chargers
-Darius Leonard,OLB,"Tue, May 14",Ankle,Questionable for Week 1 at L.A. Chargers
-Eric Ebron,TE,"Tue, May 14",Groin,Questionable for Week 1 at L.A. Chargers
-Jack Doyle,TE,"Wed, Feb 27",Hip,Questionable for Week 1 at L.A. Chargers
-Ross Travis,TE,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at L.A. Chargers
-Deon Cain,WR,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at L.A. Chargers
-Ryan Kelly,C,"Sat, Jan 12",Knee,Questionable for Week 1 at L.A. Chargers
-T.Y. Hilton,WR,"Sat, Jan 12",Ankle,Questionable for Week 1 at L.A. Chargers
 Kolby Listenbee,WR,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at L.A. Chargers
 Michael Cirino,DB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at L.A. Chargers
 Harvey Binford,WR,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at L.A. Chargers
+Quincy Williams,LB,"Tue, Aug 27",Knee - Meniscus,Questionable for Week 1 vs. Kansas City
+Geoff Swaim,TE,"Mon, Aug 26",Foot,Questionable for Week 1 vs. Kansas City
+Lerentee McCray,DE,"Sun, Aug 25",Undisclosed,Questionable for Week 1 vs. Kansas City
+Leonard Wester,T,"Sun, Aug 25",Undisclosed,Questionable for Week 1 vs. Kansas City
+Davis Tull,OLB,"Sun, Aug 25",Leg,Questionable for Week 1 vs. Kansas City
+D.J. Chark,WR,"Thu, Aug 22",Concussion,Questionable for Week 1 vs. Kansas City
+Cedric Ogbuehi,T,"Thu, Aug 22",Hamstring,Questionable for Week 1 vs. Kansas City
+Terrelle Pryor,WR,"Thu, Aug 22",Hamstring,Questionable for Week 1 vs. Kansas City
+Marqise Lee,WR,"Tue, Aug 20",Knee,Questionable for Week 1 vs. Kansas City
+Marcell Dareus,DT,"Mon, Aug 19",Elbow,Questionable for Week 1 vs. Kansas City
+Alfred Blue,RB,"Thu, Aug 15",Ankle,Questionable for Week 1 vs. Kansas City
+Marcus Simms,WR,"Mon, Aug 12",Concussion,IR. Injured Reserve
+James Onwualu,LB,"Mon, Aug 12",Knee,IR. Injured Reserve
+Josh Oliver,TE,"Fri, Aug 2",Hamstring,Questionable for Week 1 vs. Kansas City
+Taj McGowan,RB,"Fri, Aug 2",Knee,IR. Injured Reserve
+Jake Ryan,LB,"Tue, Jul 23",Knee,Out for Week 1 vs. Kansas City
 Dredrick Snelson,WR,"Mon, Jul 22",Undisclosed,Questionable for Week 1 vs. Kansas City
-Andrew Norwell,G,"Thu, Jun 13",Undisclosed,Questionable for Week 1 vs. Kansas City
-Ryquell Armstead,RB,"Thu, Jun 6",Hamstring,Questionable for Week 1 vs. Kansas City
-Roderick Young,DT,"Tue, Jun 4",Undisclosed,Questionable for Week 1 vs. Kansas City
-Josh Allen,DE,"Thu, May 23",Knee,Questionable for Week 1 vs. Kansas City
 Cody Brown,DB,"Tue, May 14",Undisclosed,IR. Injured Reserve
-Saivion Smith,DB,"Mon, May 13",Ankle,Questionable for Week 1 vs. Kansas City
-Telvin Smith,OLB,"Thu, May 9",Personal,Out for Week 1 vs. Kansas City
-Jawaan Taylor,T,"Fri, Apr 26",Knee - Meniscus,Questionable for Week 1 vs. Kansas City
-Brandon Linder,C,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Kansas City
-Jake Ryan,LB,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Kansas City
-Marqise Lee,WR,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Kansas City
-Cam Robinson,T,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Kansas City
-Datone Jones,DE,"Tue, Feb 5",Hamstring,Questionable for Week 1 vs. Kansas City
-A.J. Bouye,CB,"Mon, Dec 31",Toe,Questionable for Week 1 vs. Kansas City
-Zach Conque,TE,"Wed, Nov 14",Undisclosed,Questionable for Week 1 vs. Kansas City
 Manase Hungalu,LB,"Thu, Sep 6",Undisclosed,Questionable for Week 1 vs. Kansas City
 Bryan Walters,WR,"Sat, Aug 25",Foot,Questionable for Week 1 vs. Kansas City
-Deon Yelder,TE,"Sun, Jul 14",Hamstring,Questionable for Week 1 at Jacksonville
-Juan Thornhill,CB,"Fri, Jul 12",Calf,Questionable for Week 1 at Jacksonville
-James Murray,C,"Tue, Jun 11",Leg,Questionable for Week 1 at Jacksonville
-Cameron Erving,G,"Thu, May 23",Shoulder,Questionable for Week 1 at Jacksonville
+John Lovett,QB,"Tue, Aug 27",Shoulder,IR. Injured Reserve
+Chad Henne,QB,"Mon, Aug 26",Ankle,Out for Week 1 at Jacksonville
+Breeland Speaks,OLB,"Mon, Aug 26",Knee - MCL,Out for Week 1 at Jacksonville
+Darron Lee,ILB,"Sat, Aug 24",Chest,Questionable for Week 1 at Jacksonville
+Marcus Kemp,WR,"Wed, Aug 21",Knee,IR. Injured Reserve
+Davon Grayson,WR,"Wed, Aug 21",Knee,IR. Injured Reserve
+Michael Hunter,CB,"Tue, Aug 20",Groin,Questionable for Week 1 at Jacksonville
+Tyrann Mathieu,FS,"Sat, Aug 17",Shoulder,Questionable for Week 1 at Jacksonville
+Deon Yelder,TE,"Sat, Aug 17",Ankle,Questionable for Week 1 at Jacksonville
+David Wells,TE,"Mon, Aug 12",Undisclosed,IR. Injured Reserve
+Keith Reaser,CB,"Thu, Aug 8",Achilles,IR. Injured Reserve
+Morris Claiborne,CB,"Thu, Aug 8",Suspension,Suspended until Week 5 vs. Indianapolis
+Gehrig Dieter,WR,"Tue, Jul 30",Undisclosed,Questionable for Week 1 at Jacksonville
+Darius Harris,LB,"Thu, Jul 25",Undisclosed,Out for Week 1 at Jacksonville
 Jamire Jordan,WR,"Sat, May 18",Undisclosed,Questionable for Week 1 at Jacksonville
-Felton Davis,WR,"Mon, May 6",Achilles,Questionable for Week 1 at Jacksonville
-Travis Kelce,TE,"Sat, Mar 2",Ankle,Questionable for Week 1 at Jacksonville
-Armani Watts,DB,"Fri, Feb 8",Abdomen,Questionable for Week 1 at Jacksonville
+Roderic Teamer,DB,"Mon, Aug 26",Hamstring,Questionable for Week 1 vs. Indianapolis
+Uchenna Nwosu,LB,"Tue, Aug 20",Abdomen,Questionable for Week 1 vs. Indianapolis
+Derwin James,FS,"Sat, Aug 17",Foot,Out for Week 1 vs. Indianapolis
+Andrew Vollert,TE,"Wed, Aug 14",Knee - ACL,IR. Injured Reserve
+Trevor Williams,CB,"Mon, Aug 12",Undisclosed,Questionable for Week 1 vs. Indianapolis
+Blake Camper,T,"Mon, Aug 12",Undisclosed,Questionable for Week 1 vs. Indianapolis
+Tre'Von Johnson,LB,"Mon, Aug 5",Undisclosed,IR. Injured Reserve
+Nasir Adderley,DB,"Tue, Jul 30",Hamstring,Questionable for Week 1 vs. Indianapolis
+Dylan Cantrell,WR,"Mon, Jul 29",Shoulder,IR. Injured Reserve
+Russell Okung,T,"Thu, Jul 25",Illness,Out for Week 1 vs. Indianapolis
 Koda Martin,G,"Wed, Jul 3",Undisclosed,IR. Injured Reserve
-Russell Okung,T,"Tue, Jun 11",Undisclosed,Questionable for Week 1 vs. Indianapolis
 Trevion Thompson,WR,"Mon, Jun 10",Undisclosed,Questionable for Week 1 vs. Indianapolis
-Derek Watt,FB,"Mon, Jun 3",Shoulder,Questionable for Week 1 vs. Indianapolis
-Nasir Adderley,DB,"Mon, Jun 3",Undisclosed,Questionable for Week 1 vs. Indianapolis
-Jerry Tillery,DT,"Thu, Apr 25",Shoulder - Labrum,Questionable for Week 1 vs. Indianapolis
-Kyzir White,OLB,"Wed, Apr 3",Knee,Questionable for Week 1 vs. Indianapolis
-Jaylen Watkins,DB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Indianapolis
-Denzel Perryman,MLB,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Indianapolis
-Adrian Phillips,DB,"Mon, Jan 14",Arm,Questionable for Week 1 vs. Indianapolis
 Brock Hekking,LB,"Sat, Aug 25",Foot,Questionable for Week 1 vs. Indianapolis
 Dillon DeBoer,C,"Sat, Aug 25",Undisclosed,Questionable for Week 1 vs. Indianapolis
+Josh Carraway,LB,"Sun, Aug 25",Achilles,Out for Week 1 at Carolina
+Cooper Kupp,WR,"Sun, Aug 18",Knee,Questionable for Week 1 at Carolina
+Micah Kiser,LB,"Sun, Aug 18",Pectoral,Questionable for Week 1 at Carolina
+Justin Lawler,DE,"Tue, Aug 6",Foot,Questionable for Week 1 at Carolina
 Aaron Neary,C,"Sat, Jun 29",Suspension,Suspended until Week 5 at Seattle
-Morgan Fox,DE,"Mon, Apr 15",Knee - ACL,Questionable for Week 1 at Carolina
 Samson Ebukam,OLB,"Fri, Mar 22",Knee,Questionable for Week 1 at Carolina
-Kevin Peterson,CB,"Tue, Mar 12",Knee,Questionable for Week 1 at Carolina
-Todd Gurley,RB,"Fri, Mar 1",Knee,Questionable for Week 1 at Carolina
-Cooper Kupp,WR,"Mon, Feb 4",Knee - ACL,Questionable for Week 1 at Carolina
+Kenny Stills,WR,"Tue, Aug 27",Leg,Questionable for Week 1 vs. Baltimore
+Jakeem Grant,WR,"Thu, Aug 15",Hamstring,Questionable for Week 1 vs. Baltimore
+Jonathan Woodard,DE,"Tue, Aug 13",Undisclosed,IR. Injured Reserve
+Robert Nkemdiche,DT,"Thu, Aug 8",Knee - ACL,Physically Unable to Perform
+Mike Hull,LB,"Mon, Aug 5",Undisclosed,Physically Unable to Perform
+Raekwon McMillan,MLB,"Sat, Aug 3",Undisclosed,Questionable for Week 1 vs. Baltimore
+Kiko Alonso,OLB,"Tue, Jul 30",Undisclosed,Questionable for Week 1 vs. Baltimore
 Cordrea Tankersley,CB,"Sun, Jul 21",Knee - ACL,Physically Unable to Perform
-Mike Hull,LB,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
-Dwayne Allen,TE,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
 Connor Hilland,C,"Sat, Jul 6",Undisclosed,Questionable for Week 1 vs. Baltimore
-Isaac Asiata,G,"Thu, Jun 6",Undisclosed,Questionable for Week 1 vs. Baltimore
-Brice Butler,WR,"Tue, Jun 4",Leg,Questionable for Week 1 vs. Baltimore
-Kenny Stills,WR,"Tue, Jun 4",Undisclosed,Questionable for Week 1 vs. Baltimore
-Charles Harris,DE,"Sat, Jun 1",Wrist,Questionable for Week 1 vs. Baltimore
 Ricardo Louis,WR,"Sat, May 18",Knee,IR. Injured Reserve
-Chase Allen,OLB,"Tue, Apr 16",Undisclosed,Questionable for Week 1 vs. Baltimore
-Albert Wilson,WR,"Sun, Mar 10",Hip - Labrum,Questionable for Week 1 vs. Baltimore
-Jakeem Grant,WR,"Fri, Feb 8",Achilles,Questionable for Week 1 vs. Baltimore
-Daniel Kilgore,C,"Fri, Feb 8",Triceps,Questionable for Week 1 vs. Baltimore
 Rashawn Scott,WR,"Thu, Sep 6",Ankle,Questionable for Week 1 vs. Baltimore
-Jeremiah Sirles,T,"Tue, Jul 23",Undisclosed,IR. Injured Reserve
-David Morgan,TE,"Fri, Jun 14",Knee,Questionable for Week 1 vs. Atlanta
-Brandon Zylstra,WR,"Wed, Jun 12",Undisclosed,Questionable for Week 1 vs. Atlanta
-Holton Hill,DB,"Wed, Jun 5",Suspension,Suspended until Week 5 at N.Y. Giants
-Linval Joseph,DT,"Wed, May 22",Undisclosed,Questionable for Week 1 vs. Atlanta
-Brian O'Neill,T,"Wed, May 22",Undisclosed,Questionable for Week 1 vs. Atlanta
-Tashawn Bower,DE,"Tue, Apr 16",Foot,Questionable for Week 1 vs. Atlanta
-Mike Hughes,CB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Atlanta
+Mike Hughes,CB,"Mon, Aug 26",Knee - ACL,Questionable for Week 1 vs. Atlanta
+Harrison Smith,FS,"Sat, Aug 24",Undisclosed,Questionable for Week 1 vs. Atlanta
+Adam Thielen,WR,"Sat, Aug 24",General Soreness,Questionable for Week 1 vs. Atlanta
+Matt Wile,P,"Mon, Aug 12",Finger,Questionable for Week 1 vs. Atlanta
+Jaleel Johnson,DT,"Mon, Aug 12",Undisclosed,Questionable for Week 1 vs. Atlanta
+Brian O'Neill,T,"Wed, Aug 7",Arm,Questionable for Week 1 vs. Atlanta
+Aviante Collins,T,"Mon, Aug 5",Leg,Questionable for Week 1 vs. Atlanta
+Jeff Badet,WR,"Wed, Jul 31",Groin,Questionable for Week 1 vs. Atlanta
+Tashawn Bower,DE,"Fri, Jul 26",Achilles,Out for Week 1 vs. Atlanta
+David Morgan,TE,"Fri, Jul 26",Knee,Physically Unable to Perform
+Linval Joseph,DT,"Fri, Jul 26",Upper Body,Questionable for Week 1 vs. Atlanta
+Holton Hill,DB,"Wed, Jul 24",Suspension,Suspended until Week 9 at Kansas City
 Ade Aruna,DE,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Atlanta
 Johnny Stanton,RB,"Fri, Jan 25",Lower Leg,Questionable for Week 1 vs. Atlanta
-C.J. Ham,FB,"Mon, Dec 31",Elbow,Questionable for Week 1 vs. Atlanta
-Julian Edelman,WR,"Mon, Jul 22",Thumb,Questionable for Week 1 vs. Pittsburgh
-Sony Michel,RB,"Sun, Jul 21",Knee,Physically Unable to Perform
-Cole Croston,T,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
-Deatrich Wise,DE,"Sun, Jul 21",Ankle,Physically Unable to Perform
+David Andrews,C,"Mon, Aug 26",Illness,Doubtful for Week 1 vs. Pittsburgh
+Keionta Davis,DE,"Mon, Aug 26",Undisclosed,IR. Injured Reserve
+Lance Kendricks,TE,"Sun, Aug 25",Suspension,Suspended until Week 2 at Miami
+Brandon King,LB,"Sun, Aug 25",Quadriceps,IR. Injured Reserve
+Demaryius Thomas,WR,"Tue, Aug 20",Achilles,Questionable for Week 1 vs. Pittsburgh
+D'Angelo Ross,CB,"Tue, Aug 13",Undisclosed,IR. Injured Reserve
+Stephen Anderson,TE,"Mon, Aug 12",Undisclosed,Questionable for Week 1 vs. Pittsburgh
+N'Keal Harry,WR,"Fri, Aug 9",Leg,Questionable for Week 1 vs. Pittsburgh
+Cameron Meredith,WR,"Fri, Aug 2",Undisclosed,Physically Unable to Perform
 Yodny Cajuste,T,"Sun, Jul 21",Quadriceps,Out for Week 1 vs. Pittsburgh
-Demaryius Thomas,WR,"Sun, Jul 21",Achilles,Physically Unable to Perform
-Nate Ebner,DB,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
-Ken Webster,DB,"Sun, Jul 21",Undisclosed,Physically Unable to Perform
 Benjamin Watson,TE,"Tue, May 28",Suspension,Suspended until Week 5 at Washington
-Shilique Calhoun,LB,"Fri, Feb 8",Neck,Questionable for Week 1 vs. Pittsburgh
 Patrick Chung,SS,"Wed, Feb 6",Forearm,Questionable for Week 1 vs. Pittsburgh
-Isaiah Wynn,T,"Mon, Feb 4",Achilles,Questionable for Week 1 vs. Pittsburgh
+Sheldon Rankins,DT,"Wed, Aug 28",Achilles,Doubtful for Week 1 vs. Houston
+Latavius Murray,RB,"Mon, Aug 26",Undisclosed,Questionable for Week 1 vs. Houston
+Garrett Griffin,TE,"Mon, Aug 26",Undisclosed,IR. Injured Reserve
+Dwayne Washington,RB,"Sat, Aug 24",Concussion,Questionable for Week 1 vs. Houston
+Craig Robertson,LB,"Wed, Aug 21",Undisclosed,Questionable for Week 1 vs. Houston
+Teddy Bridgewater,QB,"Sun, Aug 18",Illness,Questionable for Week 1 vs. Houston
+Keith Kirkwood,WR,"Sun, Aug 11",Undisclosed,Questionable for Week 1 vs. Houston
+Javorius Allen,RB,"Fri, Aug 9",Undisclosed,Questionable for Week 1 vs. Houston
+Matt Dayes,RB,"Fri, Aug 9",Undisclosed,IR. Injured Reserve
 David Onyemata,DT,"Sat, Jun 29",Suspension,Suspended until Week 2 at L.A. Rams
-Keith Kirkwood,WR,"Wed, Jun 19",Undisclosed,Questionable for Week 1 vs. Houston
-Larry Warford,G,"Thu, May 30",Undisclosed,Questionable for Week 1 vs. Houston
 Marcus Davenport,DE,"Thu, May 23",Foot,Questionable for Week 1 vs. Houston
 Chris Banjo,DB,"Thu, May 23",Knee,Questionable for Week 1 vs. Houston
-Cameron Meredith,WR,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Houston
-Sheldon Rankins,DT,"Fri, Feb 8",Achilles,Questionable for Week 1 vs. Houston
+Josh Martin,LB,"Fri, Feb 8",Concussion,Questionable for Week 1 vs. Houston
 Shane Vereen,RB,"Thu, Sep 6",Undisclosed,Questionable for Week 1 vs. Houston
-Jacob Thieneman,DB,"Thu, Jun 13",Knee,Questionable for Week 1 at Dallas
-Evan Engram,TE,"Tue, Jun 11",Hamstring,Questionable for Week 1 at Dallas
-Eric Dungey,QB,"Fri, Jun 7",Undisclosed,Questionable for Week 1 at Dallas
+Garrett Dickerson,TE,"Mon, Aug 26",Quadriceps,Questionable for Week 1 at Dallas
+Darius Slayton,WR,"Mon, Aug 26",Hamstring,Questionable for Week 1 at Dallas
+Kenny Ladler,DB,"Sun, Aug 25",Undisclosed,Questionable for Week 1 at Dallas
+Rod Smith,RB,"Thu, Aug 22",Groin,Questionable for Week 1 at Dallas
+Tae Davis,LB,"Mon, Aug 19",Illness,Questionable for Week 1 at Dallas
+Antonio Hamilton,CB,"Fri, Aug 16",Groin,Questionable for Week 1 at Dallas
+Isaiah Searight,TE,"Wed, Aug 14",Hamstring,IR. Injured Reserve
+Alec Ogletree,OLB,"Fri, Aug 9",Calf,Questionable for Week 1 at Dallas
+Mark McLaurin,LB,"Sat, Aug 3",Foot,IR. Injured Reserve
+George Asafo-Adjei,T,"Sun, Jul 28",Concussion,Questionable for Week 1 at Dallas
+Golden Tate,WR,"Sun, Jul 28",Suspension,Suspended until Week 5 vs. Minnesota
+Sam Beal,DB,"Sun, Jul 28",Hamstring,Questionable for Week 1 at Dallas
+Corey Coleman,WR,"Sat, Jul 27",Knee - ACL,IR. Injured Reserve
+Sterling Shepard,WR,"Thu, Jul 25",Thumb,Questionable for Week 1 at Dallas
 Jeremiah Harris,DE,"Thu, Jun 6",Undisclosed,Questionable for Week 1 at Dallas
-Nate Solder,T,"Fri, May 17",Ankle,Questionable for Week 1 at Dallas
 Nate Harvey,DE,"Mon, May 6",Knee,IR. Injured Reserve
-Mike Remmers,G,"Wed, Apr 17",Back,Questionable for Week 1 at Dallas
-Kyle Lauletta,QB,"Mon, Mar 4",Knee,Questionable for Week 1 at Dallas
 Nick Becton,T,"Wed, Sep 5",Ankle,Questionable for Week 1 at Dallas
 Uani' Unga,LB,"Sat, Aug 25",Undisclosed,Questionable for Week 1 at Dallas
-Blessuan Austin,DB,"Mon, Jul 22",Knee,Out for Week 1 vs. Buffalo
-Marcus Maye,FS,"Mon, Jul 22",Shoulder,Physically Unable to Perform
-Brandon Bryant,DB,"Mon, Jul 22",Undisclosed,Physically Unable to Perform
+Robby Anderson,WR,"Tue, Aug 27",Calf,Questionable for Week 1 vs. Buffalo
+Brandon Bryant,DB,"Sat, Aug 24",Head,Questionable for Week 1 vs. Buffalo
+Blessuan Austin,DB,"Thu, Aug 22",Knee - ACL,Out for Week 1 vs. Buffalo
+Brandon Copeland,OLB,"Wed, Aug 21",Suspension,Suspended until Week 6 vs. Dallas
+Blake Cashman,LB,"Sun, Aug 18",Leg,Questionable for Week 1 vs. Buffalo
+Avery Williamson,ILB,"Sat, Aug 17",Knee - ACL,IR. Injured Reserve
+Jamey Mosley,LB,"Fri, Aug 16",Knee,Questionable for Week 1 vs. Buffalo
+Kelechi Osemele,G,"Mon, Aug 12",Pectoral,Questionable for Week 1 vs. Buffalo
+Trumaine Johnson,CB,"Sun, Aug 11",Hamstring,Questionable for Week 1 vs. Buffalo
+Brian Winters,G,"Thu, Aug 8",Shoulder,Questionable for Week 1 vs. Buffalo
+Temuchin Hodges,TE,"Mon, Aug 5",Undisclosed,IR. Injured Reserve
+Jeremy Clark,CB,"Mon, Aug 5",Undisclosed,IR. Injured Reserve
+Brent Qvale,T,"Sun, Jul 28",Knee,Questionable for Week 1 vs. Buffalo
 Chris Herndon,TE,"Sat, Jul 13",Suspension,Suspended until Week 6 vs. Dallas
-Jordan Jenkins,OLB,"Thu, Jun 27",Shoulder,Questionable for Week 1 vs. Buffalo
-Robby Anderson,WR,"Thu, Jun 13",Undisclosed,Questionable for Week 1 vs. Buffalo
-Tom Compton,G,"Tue, Jun 4",Undisclosed,Questionable for Week 1 vs. Buffalo
-Jachai Polite,DE,"Fri, Apr 26",Hamstring,Questionable for Week 1 vs. Buffalo
 Quinton Patton,WR,"Sat, Aug 25",Foot,Questionable for Week 1 vs. Buffalo
+Paul Butler,TE,"Mon, Aug 26",Undisclosed,Questionable for Week 1 vs. Denver
+Justin Ellis,DT,"Sun, Aug 25",Knee,Questionable for Week 1 vs. Denver
+Doug Martin,RB,"Sun, Aug 25",Shoulder,IR. Injured Reserve
+Josh Mauro,DE,"Sun, Aug 18",Hamstring,Questionable for Week 1 vs. Denver
+Tyrell Williams,WR,"Sun, Aug 18",Undisclosed,Questionable for Week 1 vs. Denver
+J.J. Nelson,WR,"Thu, Aug 15",Ankle,Questionable for Week 1 vs. Denver
+Maxx Crosby,DE,"Sun, Aug 11",Hand,Questionable for Week 1 vs. Denver
+Dylan Mabin,DB,"Sat, Aug 10",Hamstring,Questionable for Week 1 vs. Denver
+Isaiah Johnson,CB,"Sat, Aug 10",Concussion,Questionable for Week 1 vs. Denver
+Kyle Wilber,LB,"Thu, Aug 8",Back,Questionable for Week 1 vs. Denver
+Gabe Jackson,G,"Thu, Aug 8",Knee,Out for Week 1 vs. Denver
+Nevin Lawson,CB,"Tue, Aug 6",Suspension,Suspended until Week 5 vs. Chicago
+Eddie Vanderdoes,DT,"Fri, Aug 2",Concussion,Questionable for Week 1 vs. Denver
+Trayvon Mullen,CB,"Mon, Jul 29",Wrist,Questionable for Week 1 vs. Denver
 Richie Incognito,C,"Sat, Jul 13",Suspension,Suspended until Week 3 at Minnesota
-Ryan Yurachek,RB,"Thu, Jun 6",Undisclosed,Questionable for Week 1 vs. Denver
 Isaiah Crowell,RB,"Fri, May 3",Achilles,IR. Injured Reserve
-Daryl Worley,CB,"Fri, Feb 8",Shoulder - Labrum,Questionable for Week 1 vs. Denver
-Gabe Jackson,G,"Fri, Feb 8",Elbow,Questionable for Week 1 vs. Denver
-Jordan Devey,G,"Fri, Feb 8",Pectoral,Questionable for Week 1 vs. Denver
-Andrew DePaola,LS,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Denver
-Jonathan Cooper,G,"Fri, Feb 8",Biceps,Questionable for Week 1 vs. Denver
-Maurice Hurst,DT,"Mon, Dec 31",Ankle,Questionable for Week 1 vs. Denver
 Griff Whalen,WR,"Thu, Aug 30",Toe,Questionable for Week 1 vs. Denver
+Charles D. Johnson,WR,"Wed, Aug 28",Ankle,IR. Injured Reserve
+Jordan Mailata,T,"Tue, Aug 27",Back,Questionable for Week 1 vs. Washington
+DeSean Jackson,WR,"Tue, Aug 27",Finger,Questionable for Week 1 vs. Washington
+Richard Rodgers,TE,"Thu, Aug 22",Foot,Doubtful for Week 1 vs. Washington
+Dallas Goedert,TE,"Sat, Aug 10",Calf,Questionable for Week 1 vs. Washington
+Nate Sudfeld,QB,"Thu, Aug 8",Wrist,Out for Week 1 vs. Washington
+Joe Ostman,DE,"Tue, Aug 6",Knee - ACL,IR. Injured Reserve
+Kamu Grugier-Hill,OLB,"Mon, Aug 5",Knee - MCL,Doubtful for Week 1 vs. Washington
+Nigel Bradham,OLB,"Tue, Jul 30",Hand,Questionable for Week 1 vs. Washington
+Cre'von LeBlanc,CB,"Sat, Jul 27",Foot,Questionable for Week 1 vs. Washington
+Jalen Mills,CB,"Thu, Jul 25",Foot,Physically Unable to Perform
 Devin Ross,CB,"Tue, Jul 16",Undisclosed,Questionable for Week 1 vs. Washington
-Shelton Gibson,WR,"Sun, Jun 23",Undisclosed,Questionable for Week 1 vs. Washington
-Nelson Agholor,WR,"Wed, Jun 12",Leg,Questionable for Week 1 vs. Washington
-Miles Sanders,RB,"Wed, May 29",Hamstring,Questionable for Week 1 vs. Washington
-Josh Adams,RB,"Mon, Apr 15",Shoulder,Questionable for Week 1 vs. Washington
-Jalen Mills,CB,"Tue, Mar 26",Foot,Questionable for Week 1 vs. Washington
 Ronald Darby,CB,"Tue, Mar 19",Knee - ACL,Questionable for Week 1 vs. Washington
-Jordan Mailata,T,"Fri, Feb 8",Back,Questionable for Week 1 vs. Washington
-Rodney McLeod,FS,"Fri, Feb 8",Knee - ACL + MCL,Questionable for Week 1 vs. Washington
-Paul Worrilow,LB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 vs. Washington
-Mack Hollins,WR,"Fri, Feb 8",Groin,Questionable for Week 1 vs. Washington
-Corey Clement,RB,"Fri, Feb 8",Knee,Questionable for Week 1 vs. Washington
 Brandon Brooks,G,"Fri, Feb 8",Achilles,Questionable for Week 1 vs. Washington
 Derek Barnett,DE,"Thu, Feb 7",Shoulder,Questionable for Week 1 vs. Washington
-Josh Sweat,DE,"Thu, Feb 7",Ankle,Questionable for Week 1 vs. Washington
 Fletcher Cox,DT,"Tue, Jan 15",Foot,Questionable for Week 1 vs. Washington
-Jason Peters,T,"Sun, Jan 13",Back,Questionable for Week 1 vs. Washington
-Alshon Jeffery,WR,"Sun, Jan 13",Ribs,Questionable for Week 1 vs. Washington
 Adam Zaruba,TE,"Tue, Sep 4",Undisclosed,Questionable for Week 1 vs. Washington
-Ryan Shazier,LB,"Mon, Apr 29",Spine,Physically Unable to Perform
+Joe Haden,CB,"Tue, Aug 27",Ankle,Questionable for Week 1 at New England
+Sean Davis,FS,"Tue, Aug 27",Ankle,Questionable for Week 1 at New England
+Bud Dupree,OLB,"Sun, Aug 25",Hand,Questionable for Week 1 at New England
+Lavon Hooks,DE,"Sat, Aug 24",Achilles,IR. Injured Reserve
+Anthony Chickillo,LB,"Sun, Aug 18",Chest,Questionable for Week 1 at New England
+Ola Adeniyi,LB,"Fri, Aug 16",Knee - Meniscus,Doubtful for Week 1 at New England
+Maurkice Pouncey,C,"Mon, Aug 5",Lower Back,Questionable for Week 1 at New England
+Ryan Shazier,LB,"Mon, Jul 29",Spine,Physically Unable to Perform
 David DeCastro,G,"Sun, Jan 27",Undisclosed,Questionable for Week 1 at New England
-Joe Staley,T,"Thu, Jun 13",Pectoral,Questionable for Week 1 at Tampa Bay
-George Kittle,TE,"Wed, Jun 12",Hip,Questionable for Week 1 at Tampa Bay
-Garrett Celek,TE,"Tue, Jun 11",Back,Questionable for Week 1 at Tampa Bay
+Kentavius Street,DE,"Wed, Aug 28",Knee,Out for Week 1 at Tampa Bay
+Weston Richburg,C,"Mon, Aug 26",Knee,Questionable for Week 1 at Tampa Bay
+Dante Pettis,WR,"Mon, Aug 26",Groin,Questionable for Week 1 at Tampa Bay
+Tim Harris,CB,"Mon, Aug 26",Groin,IR. Injured Reserve
+Kyle Juszczyk,FB,"Sun, Aug 25",Hand,Questionable for Week 1 at Tampa Bay
+Jalen Hurd,WR,"Sat, Aug 24",Back,Questionable for Week 1 at Tampa Bay
+Shawn Poindexter,WR,"Thu, Aug 22",Knee,IR. Injured Reserve
+Adrian Colbert,FS,"Mon, Aug 19",Hamstring,Questionable for Week 1 at Tampa Bay
+Ronald Blair,DE,"Mon, Aug 19",Groin,Questionable for Week 1 at Tampa Bay
+D.J. Jones,DT,"Mon, Aug 19",Knee,Questionable for Week 1 at Tampa Bay
+Damontre Moore,DE,"Mon, Aug 19",Thumb,Questionable for Week 1 at Tampa Bay
+Mike Person,G,"Fri, Aug 16",Foot,Questionable for Week 1 at Tampa Bay
+Trent Taylor,WR,"Fri, Aug 16",Foot,Doubtful for Week 1 at Tampa Bay
+Levine Toilolo,TE,"Wed, Aug 14",Shoulder,Questionable for Week 1 at Tampa Bay
+Najee Toran,G,"Sun, Aug 11",Hand,Questionable for Week 1 at Tampa Bay
+Elijah Lee,OLB,"Sun, Aug 11",Thumb,Questionable for Week 1 at Tampa Bay
+Shon Coleman,T,"Sun, Aug 11",Ankle,IR. Injured Reserve
+Jason Verrett,DB,"Wed, Aug 7",Ankle,Questionable for Week 1 at Tampa Bay
+Nick Bosa,DE,"Wed, Aug 7",Ankle,Questionable for Week 1 at Tampa Bay
+Jerick McKinnon,RB,"Tue, Aug 6",Knee - ACL,Questionable for Week 1 at Tampa Bay
+Jamell Garcia-Williams,DE,"Tue, Aug 6",Concussion,Questionable for Week 1 at Tampa Bay
+K'Waun Williams,DB,"Tue, Aug 6",Knee,Questionable for Week 1 at Tampa Bay
+Garrett Celek,TE,"Fri, Jul 26",Back,Physically Unable to Perform
 Kyle Nelson,LS,"Wed, Jun 5",Suspension,Suspended until Week 8 vs. Carolina
-Shawn Poindexter,WR,"Tue, Jun 4",Undisclosed,Questionable for Week 1 at Tampa Bay
-Jimmie Ward,CB,"Thu, May 23",Collarbone,Questionable for Week 1 at Tampa Bay
-Malcolm Smith,OLB,"Wed, May 22",Achilles,Questionable for Week 1 at Tampa Bay
-Matt Breida,RB,"Tue, May 21",Pectoral,Questionable for Week 1 at Tampa Bay
-Fred Warner,MLB,"Tue, May 21",Knee,Questionable for Week 1 at Tampa Bay
 Azeez Al-Shaair,LB,"Mon, May 6",Knee - ACL,Questionable for Week 1 at Tampa Bay
-Jalen Hurd,WR,"Fri, Apr 26",Knee,Questionable for Week 1 at Tampa Bay
-Jason Verrett,DB,"Thu, Feb 28",Achilles,Questionable for Week 1 at Tampa Bay
-David Mayo,OLB,"Wed, Feb 20",Sports Hernia,Questionable for Week 1 at Tampa Bay
-Raheem Mostert,RB,"Fri, Feb 8",Forearm,Questionable for Week 1 at Tampa Bay
-Kwon Alexander,MLB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at Tampa Bay
-Jimmy Garoppolo,QB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at Tampa Bay
-Jerick McKinnon,RB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at Tampa Bay
-Weston Richburg,C,"Thu, Jan 24",Knee,Questionable for Week 1 at Tampa Bay
-D.J. Reed,FS,"Thu, Jan 24",Shoulder - Labrum,Questionable for Week 1 at Tampa Bay
 JP Flynn,G,"Thu, Jan 17",Knee,Questionable for Week 1 at Tampa Bay
 Laken Tomlinson,G,"Sun, Dec 30",Knee,Questionable for Week 1 at Tampa Bay
+Joey Hunt,C,"Wed, Aug 28",Ankle,Questionable for Week 1 vs. Cincinnati
+David Moore,WR,"Tue, Aug 27",Shoulder,Doubtful for Week 1 vs. Cincinnati
+Kalan Reed,DB,"Tue, Aug 27",Neck,IR. Injured Reserve
+Nazair Jones,DT,"Tue, Aug 27",Knee,IR. Injured Reserve
+D.K. Metcalf,WR,"Fri, Aug 23",Knee,Questionable for Week 1 vs. Cincinnati
+Ed Dickson,TE,"Fri, Aug 23",Knee,Out for Week 1 vs. Cincinnati
+Jamarco Jones,T,"Fri, Aug 23",Hip,Questionable for Week 1 vs. Cincinnati
+Demetrius Knox,G,"Wed, Aug 21",Knee,IR. Injured Reserve
+Marquise Blair,DB,"Sun, Aug 18",Back,Questionable for Week 1 vs. Cincinnati
+Shaquem Griffin,OLB,"Sun, Aug 18",Knee,Questionable for Week 1 vs. Cincinnati
+Jordan Simmons,G,"Fri, Aug 16",Knee,Questionable for Week 1 vs. Cincinnati
+Bo Scarbrough,RB,"Thu, Aug 15",Hand,Questionable for Week 1 vs. Cincinnati
+George Fant,T,"Sun, Aug 11",Ankle,Questionable for Week 1 vs. Cincinnati
+Justin Johnson,TE,"Sun, Aug 4",Achilles,IR. Injured Reserve
+L.J. Collier,DE,"Tue, Jul 30",Ankle,Questionable for Week 1 vs. Cincinnati
+Emmanuel Ellerbee,LB,"Sat, Jul 27",Undisclosed,IR. Injured Reserve
+Demarcus Christmas,DT,"Thu, Jul 25",Back,Physically Unable to Perform
+Phil Haynes,G,"Thu, Jul 25",Sports Hernia,Physically Unable to Perform
 Jarran Reed,DT,"Mon, Jul 22",Suspension,Suspended until Week 7 vs. Baltimore
-Phil Haynes,G,"Wed, Jul 17",Undisclosed,Physically Unable to Perform
-Marquise Blair,DB,"Wed, Jul 17",Hamstring,Physically Unable to Perform
-Demarcus Christmas,DT,"Wed, Jul 17",Undisclosed,Physically Unable to Perform
-Ben Burr-Kirven,LB,"Wed, Jul 17",Sports Hernia,Physically Unable to Perform
-C.J. Prosise,RB,"Thu, Jun 13",Hamstring,Questionable for Week 1 vs. Cincinnati
 Mike Iupati,G,"Tue, Jun 11",Foot,Questionable for Week 1 vs. Cincinnati
 Adam Choice,RB,"Thu, May 30",Undisclosed,IR. Injured Reserve
 Bradley McDougald,SS,"Wed, May 22",Knee,Questionable for Week 1 vs. Cincinnati
-Chris Carson,RB,"Tue, May 21",Knee,Questionable for Week 1 vs. Cincinnati
 Ezekiel Ansah,DE,"Thu, May 9",Shoulder - Labrum,Questionable for Week 1 vs. Cincinnati
-Simeon Thomas,DB,"Mon, May 6",Groin,Questionable for Week 1 vs. Cincinnati
-Delano Hill,DB,"Fri, Feb 8",Hip,Questionable for Week 1 vs. Cincinnati
-Jamarco Jones,T,"Fri, Feb 8",Ankle,Questionable for Week 1 vs. Cincinnati
-Will Dissly,TE,"Fri, Feb 8",Kneecap,Questionable for Week 1 vs. Cincinnati
-Mychal Kendricks,LB,"Fri, Feb 8",Lower Leg,Questionable for Week 1 vs. Cincinnati
+Marcus Martin,G,"Tue, Feb 5",Toe,Questionable for Week 1 vs. Cincinnati
 Erik Walden,LB,"Fri, Sep 7",Hip,Questionable for Week 1 vs. Cincinnati
-Xavier Ubosi,WR,"Mon, Jul 22",Undisclosed,Physically Unable to Perform
-Jack Cichy,LB,"Mon, Jul 22",Knee - ACL,Physically Unable to Perform
-Justin Evans,SS,"Mon, Jul 22",Heel,Physically Unable to Perform
+Anthony Nelson,DE,"Mon, Aug 26",Knee - MCL,Questionable for Week 1 vs. San Francisco
+Kahzin Daniels,LB,"Mon, Aug 26",Knee,IR. Injured Reserve
+Devante Bond,LB,"Sun, Aug 25",Undisclosed,Questionable for Week 1 vs. San Francisco
+Blaine Gabbert,QB,"Fri, Aug 23",Shoulder,Questionable for Week 1 vs. San Francisco
+Deone Bucannon,OLB,"Fri, Aug 23",Knee,Questionable for Week 1 vs. San Francisco
+Kentrell Brice,SS,"Fri, Aug 23",Shoulder,Questionable for Week 1 vs. San Francisco
+Antony Auclair,TE,"Fri, Aug 23",Calf,Questionable for Week 1 vs. San Francisco
+Mike Evans,WR,"Mon, Aug 19",Quadriceps,Questionable for Week 1 vs. San Francisco
+Jeremiah Ledbetter,DE,"Wed, Aug 14",Ankle,Questionable for Week 1 vs. San Francisco
+Bryant Mitchell,WR,"Mon, Aug 12",Achilles,IR. Injured Reserve
+Mike Edwards,SAF,"Sun, Aug 11",Hamstring,Questionable for Week 1 vs. San Francisco
+D'Cota Dixon,DB,"Thu, Aug 8",Undisclosed,IR. Injured Reserve
+Vita Vea,DT,"Wed, Aug 7",Knee,Questionable for Week 1 vs. San Francisco
+Michael Liedtke,G,"Wed, Aug 7",Shoulder,IR. Injured Reserve
+Lavonte David,OLB,"Mon, Aug 5",Knee - Meniscus,Questionable for Week 1 vs. San Francisco
+Orion Stewart,DB,"Fri, Aug 2",Knee - ACL,IR. Injured Reserve
+Jason Pierre-Paul,DE,"Wed, Jul 24",Neck,Out for Week 1 vs. San Francisco
 Nick Fitzgerald,QB,"Mon, Jul 22",Hamstring,Out for Week 1 vs. San Francisco
-David Kenney,LB,"Mon, Jul 22",Undisclosed,Physically Unable to Perform
 Ryan Smith,CB,"Thu, Jul 11",Suspension,Suspended until Week 5 at New Orleans
-Jason Pierre-Paul,DE,"Fri, Jun 7",Neck,Doubtful for Week 1 vs. San Francisco
-Mike Evans,WR,"Thu, Jun 6",Hamstring,Questionable for Week 1 vs. San Francisco
-Ryan Jensen,C,"Tue, Jun 4",Back,Questionable for Week 1 vs. San Francisco
-Bobo Wilson,WR,"Tue, Jun 4",Undisclosed,Questionable for Week 1 vs. San Francisco
-Isaiah Searight,TE,"Wed, May 22",Hamstring,Questionable for Week 1 vs. San Francisco
-Zack Bailey,G,"Mon, May 13",Lower Leg,Questionable for Week 1 vs. San Francisco
-Evan Smith,C,"Fri, Feb 8",Hip - Labrum,Questionable for Week 1 vs. San Francisco
-Carl Nassib,LB,"Mon, Dec 31",Shoulder,Questionable for Week 1 vs. San Francisco
-Caleb Benenoch,G,"Sun, Dec 30",Illness,Questionable for Week 1 vs. San Francisco
-Jurrell Casey,DE,"Tue, Jul 23",Knee,Physically Unable to Perform
-Ryan Succop,K,"Mon, Jul 22",Undisclosed,Physically Unable to Perform
-Jonnu Smith,TE,"Mon, Jul 22",Knee - MCL,Physically Unable to Perform
+Emanuel Hall,WR,"Wed, Jun 5",Sports Hernia,Questionable for Week 1 vs. San Francisco
+David Fluellen,RB,"Thu, Aug 22",Knee,Questionable for Week 1 at Cleveland
+Jonnu Smith,TE,"Mon, Aug 19",Knee - MCL,Questionable for Week 1 at Cleveland
+Jordan Williams,LB,"Tue, Aug 13",Undisclosed,IR. Injured Reserve
+D'Andre Walker,OLB,"Sat, Aug 10",Groin,IR. Injured Reserve
+Cameron Batson,WR,"Wed, Jul 31",Undisclosed,IR. Injured Reserve
+Derrick Henry,RB,"Tue, Jul 30",Calf,Questionable for Week 1 at Cleveland
+Taylor Lewan,T,"Thu, Jul 25",Suspension,Suspended until Week 5 vs. Buffalo
 Jeffery Simmons,DT,"Mon, Jul 22",Knee - ACL,Out for Week 1 at Cleveland
-Anthony Firkser,TE,"Sat, Jun 22",Undisclosed,Questionable for Week 1 at Cleveland
-Jack Conklin,T,"Thu, May 30",Knee,Questionable for Week 1 at Cleveland
-Adoree' Jackson,CB,"Tue, May 21",Foot,Questionable for Week 1 at Cleveland
-Hamp Cheevers,DB,"Sat, May 18",Undisclosed,Questionable for Week 1 at Cleveland
-D'Andre Walker,OLB,"Sat, Apr 27",Groin,Questionable for Week 1 at Cleveland
-Logan Ryan,CB,"Fri, Feb 8",Lower Leg,Questionable for Week 1 at Cleveland
-Adonis Alexander,DB,"Thu, Jun 6",Groin,Questionable for Week 1 at Philadelphia
-Geron Christian,T,"Wed, May 29",Knee - MCL,Questionable for Week 1 at Philadelphia
-Danny Johnson,DB,"Wed, May 29",Finger,Questionable for Week 1 at Philadelphia
-Tyler Catalina,G,"Wed, May 29",Shoulder,Questionable for Week 1 at Philadelphia
+Jordan Reed,TE,"Tue, Aug 27",Concussion,Questionable for Week 1 at Philadelphia
+Matt Flanagan,TE,"Sun, Aug 25",Undisclosed,Questionable for Week 1 at Philadelphia
+Marquis Flowers,LB,"Thu, Aug 22",Achilles,Questionable for Week 1 at Philadelphia
+Shaun Wilson,RB,"Tue, Aug 20",Ankle,Doubtful for Week 1 at Philadelphia
+Trey Quinn,WR,"Tue, Aug 20",Thumb,Questionable for Week 1 at Philadelphia
+Myles Humphrey,LB,"Mon, Aug 19",Knee,IR. Injured Reserve
+Fabian Moreau,CB,"Sun, Aug 18",Ankle,Questionable for Week 1 at Philadelphia
+Colt McCoy,QB,"Thu, Aug 15",Lower Leg,Questionable for Week 1 at Philadelphia
+Tim Settle,DT,"Thu, Aug 15",Knee,Questionable for Week 1 at Philadelphia
+Josh Woodrum,QB,"Mon, Aug 12",Pectoral,IR. Injured Reserve
+Shaun Dion Hamilton,LB,"Thu, Aug 8",Chest,Questionable for Week 1 at Philadelphia
+Caleb Brantley,DT,"Sun, Aug 4",Foot,Questionable for Week 1 at Philadelphia
+Casey Dunn,C,"Thu, Aug 1",Undisclosed,IR. Injured Reserve
+Adonis Alexander,DB,"Wed, Jul 31",Quadriceps,Questionable for Week 1 at Philadelphia
+Danny Johnson,DB,"Wed, Jul 24",Knee,Physically Unable to Perform
+Alex Smith,QB,"Wed, Jul 24",Lower Leg,Physically Unable to Perform
+Bryce Love,RB,"Wed, Jul 24",Knee - ACL,Out for Week 1 at Philadelphia
 Reuben Foster,OLB,"Wed, May 22",Knee - ACL,IR. Injured Reserve
-Nick Sundberg,LS,"Tue, May 14",Lower Back,Questionable for Week 1 at Philadelphia
-Bryce Love,RB,"Sat, Apr 27",Knee - ACL,Questionable for Week 1 at Philadelphia
-Paul Richardson,WR,"Thu, Apr 18",Shoulder,Questionable for Week 1 at Philadelphia
-Trent Williams,T,"Mon, Apr 1",Head,Questionable for Week 1 at Philadelphia
-Colt McCoy,QB,"Mon, Mar 25",Lower Leg,Questionable for Week 1 at Philadelphia
-Robert Davis,WR,"Fri, Feb 8",Knee,Questionable for Week 1 at Philadelphia
-Derrius Guice,RB,"Fri, Feb 8",Knee - ACL,Questionable for Week 1 at Philadelphia
-Cassanova McKinzy,LB,"Fri, Feb 8",Pectoral,Questionable for Week 1 at Philadelphia
-Brandon Scherff,G,"Fri, Feb 8",Pectoral,Questionable for Week 1 at Philadelphia
-Jordan Reed,TE,"Fri, Feb 8",Foot,Questionable for Week 1 at Philadelphia
-Alex Smith,QB,"Fri, Feb 8",Lower Leg,Out for Week 1 at Philadelphia
-Zac Kerin,G,"Mon, Dec 31",Knee,Questionable for Week 1 at Philadelphia
